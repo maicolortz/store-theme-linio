@@ -1,21 +1,24 @@
 {
-
   "flex-layout.row#home__section--global": {
     "title": "Desktop col with text",
     "children": [
-      
       "image#home__image"
-    ]
+    ],
+    "props":{
+      "horizontalAlign": "center",
+    
+      "blockClass":"home__section-global"
+    }
   },
   "image#home__image": {
     "title": "imagen de home",
     "props": {
-      "src": "assets/img/linio-images057.jpeg",
+      "src": "assets/img/home/linio-images057.jpeg",
       "title": "verano",
       "blockClass": "home__image"
     }
   },
-  "flex-layout.row#home__section-3": {
+  "flex-layout.row#home__section-ofertas": {
     "title": "Desktop col with text",
     "children": [
       "slider-layout#home__slider--children"
@@ -42,17 +45,17 @@
   },
   "image#home__slider--one": {
     "props": {
-      "src": "assets/img/linio-slider-02.jpg"
+      "src": "assets/img/home/slider-01/linio-slider-02.jpg"
     }
   },
   "image#home__slider--two": {
     "props": {
-      "src": "assets/img/linio-slider-03.jpg"
+      "src": "assets/img/home/slider-01/linio-slider-03.jpg"
     }
   },
   "image#home__slider--three": {
     "props": {
-      "src": "assets/img/linio-slider-04.jpg"
+      "src": "assets/img/home/slider-01/linio-slider-04.jpg"
     }
   }
 }

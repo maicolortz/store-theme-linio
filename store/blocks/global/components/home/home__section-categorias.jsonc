@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#home__section-categorias": {
+        "title": "Desktop col with text",
+        "children": [
+            "slider-layout#home__section-categorias--children"
+        ]
+    },
+    "slider-layout#home__section-categorias--children": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 6,
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infinite": true,
+            "blockClass": "home__slider",
+            "autoplay": {
+                "timeout": 3000
+            }
+        },
+        "children": [
+            "image#home__section-categorias--children--one",
+            "image#home__section-categorias--children--two",
+            "image#home__section-categorias--children--three",
+            "image#home__section-categorias--children--four",
+            "image#home__section-categorias--children--five",
+            "image#home__section-categorias--children--six"
+        ]
+    },
+    "image#home__section-categorias--children--one": {
+        "props": {
+            "src": "assets/img/home/slider-02/linio-images062.jpg"
+        }
+    },
+    "image#home__section-categorias--children--two": {
+        "props": {
+            "src": "assets/img/home/slider-02/linio-images063.jpg"
+        }
+    },
+    "image#home__section-categorias--children--three": {
+        "props": {
+            "src": "assets/img/home/slider-02/linio-images064.jpg"
+        }
+    },
+    "image#home__section-categorias--children--four": {
+        "props": {
+            "src": "assets/img/home/slider-02/linio-images065.jpg"
+        }
+    },
+    "image#home__section-categorias--children--five": {
+        "props": {
+            "src": "assets/img/home/slider-02/linio-images066.jpg"
+        }
+    },
+    "image#home__section-categorias--children--six":{
+        "props": {
+            "src": "assets/img/home/slider-02/linio-images067.jpeg"
+        }
+    }
+}

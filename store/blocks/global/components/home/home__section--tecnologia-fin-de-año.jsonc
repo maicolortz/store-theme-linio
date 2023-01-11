@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#home__section--tecnologia-fin-de-año": {
+        "children": [
+            "flex-layout.col#home__section--tecnologia-fin-de-año"
+            
+        ]
+       
+    },
+    "flex-layout.col#home__section--tecnologia-fin-de-año":{
+        "children": [ "flex-layout.row#home__section__slide--text","flex-layout.row#home__slide--tecnologia-fin-de-año"]
+    },
+    "flex-layout.row#home__section__slide--text":{
+        "title": "row title tecnologia",
+        "children": [
+            "rich-text#section__2--title"
+        ],
+        "props": {
+            "rowGap": 6,
+            "colGap": 2,
+            "width": "70%",
+            "marginTop": 8
+          }
+    },
+  
+    "rich-text#section__2--title": {
+        "title": "title tecnologia ",
+        "props": {
+            "text": "#### TECNOLOGIA PARA INICIO DE AÑO",
+            "blockClass": "section__2--title"        }
+    },
+    "flex-layout.row#home__slide--tecnologia-fin-de-año": {
+        "children": [
+            "image#home__section--tecnologia-fin-de-año--one",
+            "image#home__section--tecnologia-fin-de-año--two",
+            "image#home__section--tecnologia-fin-de-año--three"
+        ]
+        
+    },
+    "image#home__section--tecnologia-fin-de-año--one": {
+        "props": {
+            "src": "assets/img/home/list-images-01/linio-images087.jpeg"
+        }
+    },
+    "image#home__section--tecnologia-fin-de-año--two": {
+        "props": {
+            "src": "assets/img/home/list-images-01/linio-images088.jpeg"
+        }
+    },
+    "image#home__section--tecnologia-fin-de-año--three": {
+        "props": {
+            "src": "assets/img/home/list-images-01/linio-images089.jpeg"
+        }
+    }
+   
+}

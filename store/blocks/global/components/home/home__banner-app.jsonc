@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#home__banner-app": {
+        "children": [
+            "flex-layout.col#home__banner-app"
+        ],
+        "props": {
+            "rowGap": 6,
+            "colGap": 4,
+            "width": "70%",
+            "marginTop": 8
+        }
+    },
+    "flex-layout.col#home__banner-app": {
+        "children": [
+            "flex-layout.row#home__section__banner-app--text",
+            "image#home__banner-app"
+        ]
+    },
+    "flex-layout.row#home__section__banner-app--text": {
+        "title": "row title banner app",
+        "children": [
+            "rich-text#home__banner-app--title"
+        ]
+    },
+    "rich-text#home__banner-app--title": {
+        "title": "title app ",
+        "props": {
+            "text": "## Descarga la app",
+            "blockClass": "section__2--title"
+        }
+    },
+    "image#home__banner-app": {
+        "props": {
+            "src": "assets/img/home/banner/linio-images162.jpg"
+        }
+    }
+}

@@ -7,58 +7,5 @@
       "info-card#button-left"
     ]
   }, */
-  "flex-layout.row#desktop__home--slider-main": {
-    "title": "Desktop col with text",
-    "children": [
-      "image#home__image"
-    ]
-  },
-  "image#home__image": {
-    "title": "imagen de home",
-    "props": {
-      "src": "assets/img/linio-images057.jpeg",
-      "title": "verano",
-      "blockClass": "home__image"
-    }
-  },
-  "flex-layout.row#home__section-3": {
-    "title": "Desktop col with text",
-    "children": [
-      "slider-layout#home__slider--children"
-    ]
-  },
-  "slider-layout#home__slider--children": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "mobile": 1
-      },
-      "infinite": true,
-      "blockClass": "home__slider",
-      "autoplay": {
-        "timeout": 3000
-      }
-    },
-    "children": [
-      "image#home__slider--one",
-      "image#home__slider--two",
-      "image#home__slider--three"
-    ]
-  },
-  "image#home__slider--one": {
-    "props": {
-      "src": "assets/img/linio-slider-02.jpg"
-    }
-  },
-  "image#home__slider--two": {
-    "props": {
-      "src": "assets/img/linio-slider-03.jpg"
-    }
-  },
-  "image#home__slider--three": {
-    "props": {
-      "src": "assets/img/linio-slider-04.jpg"
-    }
-  }
+  
 }
