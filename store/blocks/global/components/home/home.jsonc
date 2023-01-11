@@ -6,7 +6,8 @@
     ],
     "props":{
       "horizontalAlign": "center",
-    
+      "marginTop":2,
+      "marginBottom":5,
       "blockClass":"home__section-global"
     }
   },
@@ -16,7 +17,14 @@
       "src": "assets/img/home/linio-images057.jpeg",
       "title": "verano",
       "blockClass": "home__image"
+     
     }
+    /* "props": {
+      "rowGap": 6,
+      "colGap": 2,
+      "width": "70%",
+      "marginTop": 8
+    } */
   },
   "flex-layout.row#home__section-ofertas": {
     "title": "Desktop col with text",
