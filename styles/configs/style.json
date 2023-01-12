@@ -222,7 +222,7 @@
     },
     "on": {
       "base": "#3f3f40",
-      "base--inverted": "#ffffff",
+      "base--inverted": "#0d080e",
       "action-primary": "#ffffff",
       "action-secondary": "#0F3E99",
       "emphasis": "#ffffff",
