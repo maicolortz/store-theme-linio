@@ -1,0 +1,42 @@
+{
+    "flex-layout.row#home__banner-falabella": {
+        "children": [
+            "flex-layout.col#home__banner-falabella"
+        ],
+        "props": {
+            "rowGap": 6,
+            "colGap": 4,
+            "width": "70%",
+            "marginTop": 8
+        }
+    },
+    "flex-layout.col#home__banner-falabella": {
+        "children": [
+            "flex-layout.row#home__section__banner--text",
+            "image#home__banner-falabella"
+        ],
+        "props": {
+            "blockClass":"home__banner-falabella"
+
+        }
+    },
+    "flex-layout.row#home__section__banner--text": {
+        "title": "row title banner falabella",
+        "children": [
+            "rich-text#home__banner--title"
+        ]
+    },
+    
+    "rich-text#home__banner--title": {
+        "title": "title falabella ",
+        "props": {
+            "text": "## Banco falabella",
+            "blockClass": "section__2--title"        }
+    },
+    "image#home__banner-falabella": {
+        "props": {
+            "src": "assets/img/home/banner/linio-images163.jpg",
+            "blockClass": "home__banner-falabella"
+        }
+    }
+}

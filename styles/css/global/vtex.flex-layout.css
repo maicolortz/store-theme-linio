@@ -1,0 +1,33 @@
+/*banner de crm falabella*/
+
+.flexRow--home__section-global{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    overflow: hidden;
+}
+
+.flexRowContent--home__section-global {
+
+    width: 1180px;
+    height: 100px;
+    flex: none;
+ 
+ }
+
+.flexRowContent--flex-layout-header{
+    background-color:#3d3d3d;
+}
+
+.flexCol--home__global{
+ 
+    margin: 0px auto;
+    max-width: 1180px;
+
+
+}
+
+.flexColChild--home__global{
+height: 80%;
+}

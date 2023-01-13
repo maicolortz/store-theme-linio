@@ -1,25 +1,72 @@
 {
   "flex-layout.row#home__section--global": {
-    "title": "Global Row with text example",
+    "title": "Desktop col with text",
     "children": [
-      "rich-text#home__section--global"
+      "image#home__image"
     ],
-    "props": {
-      "marginTop": 10,
-      "border": ["all"],
-      "borderWidth": 1,
-      "borderColor": "success"
+    "props":{
+      "horizontalAlign": "center",
+      "marginTop":2,
+      "marginBottom":5,
+      "blockClass":"home__section-global"
     }
   },
-
-  "rich-text#home__section--global": {
-    "title": "Text Favorites",
+  "image#home__image": {
+    "title": "imagen de home",
     "props": {
-      "blockClass": "",
-      "text": "Soy un texto que vive en Desktop, Tablet y Phone :D",
-      "font": "t-heading-1",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "src": "assets/img/home/linio-images057.jpeg",
+      "title": "verano",
+      "blockClass": "home__image"
+     
+    }
+  },
+  "flex-layout.row#home__section-ofertas": {
+    "title": "seccion ofertas",
+    "children": [
+      "slider-layout#home__slider--children"
+    ]
+  },
+  "slider-layout#home__slider--children": {
+    "title": "slider seccion ofertas",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+
+      },
+     "fullWidth": true,
+      "infinite": true,
+      "blockClass": "home__slider--ofertas",
+      "autoplay": {
+        "timeout": 3000
+      }
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+  "image#home__slider--one": {
+    "title": "home__slider--ofertas -imagen1",
+    "props": {
+      "src": "assets/img/home/slider-01/linio-slider-02.jpg",
+      "blockClass":"slider-imagen__categorias"
+    }
+  },
+  "image#home__slider--two": {
+    "title": "home__slider--ofertas -imagen2",
+    "props": {
+      "src": "assets/img/home/slider-01/linio-slider-03.jpg",
+      "blockClass":"slider-imagen__categorias"
+    }
+  },
+  "image#home__slider--three": {
+    "title": "home__slider--ofertas -imagen3",
+    "props": {
+      "src": "assets/img/home/slider-01/linio-slider-04.jpg",
+      "blockClass":"slider-imagen__categorias"
     }
   }
 }
