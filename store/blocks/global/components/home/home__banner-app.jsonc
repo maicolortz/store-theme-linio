@@ -14,7 +14,11 @@
         "children": [
             "flex-layout.row#home__section__banner-app--text",
             "image#home__banner-app"
-        ]
+        ],
+        "props": {
+            "blockClass":"home__banner-app"
+
+        }
     },
     "flex-layout.row#home__section__banner-app--text": {
         "title": "row title banner app",
@@ -31,7 +35,8 @@
     },
     "image#home__banner-app": {
         "props": {
-            "src": "assets/img/home/banner/linio-images162.jpg"
+            "src": "assets/img/home/banner/linio-images162.jpg",
+            "blockClass": "home__banner-app"
         }
     }
 }

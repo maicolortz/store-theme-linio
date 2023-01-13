@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#home__section-belleza-salud": {
+        "title": "desktop section belleza-salud ",
+        "children": [
+            "flex-layout.col#home__belleza-salud"
+        ],
+        "props": {
+            "rowGap": 2,
+            "colGap": 2,
+            "width": "70%",
+            "marginTop": 2
+        }
+    },
+    "flex-layout.col#home__belleza-salud": {
+        "title": "desktop col section belleza-salud",
+        "children": [
+            "flex-layout.row#home__section__belleza-salud--text",
+            "flex-layout.row#home__section__belleza-salud--Container-images"
+        ],
+        "props": {
+            "blockClass": "home__belleza-salud"
+        }
+    },
+    "flex-layout.row#home__section__belleza-salud--text": {
+        "title": "row title belleza-salud",
+        "children": [
+            "rich-text#section__belleza-salud-titulo"
+        ],
+        "props": {
+            "rowGap": 6,
+            "colGap": 2,
+            "marginTop": 8
+        }
+    },
+    "rich-text#section__belleza-salud-titulo": {
+        "title": "title belleza-salud ",
+        "props": {
+            "text": "#### BELLEZA-SALUD Y BIENESTAR",
+            "blockClass": "titulo-belleza-salud"
+        }
+    },
+    "flex-layout.row#home__section__belleza-salud--Container-images": {
+        "title": "section belleza-salud container imagenes",
+        "children": [
+            "flex-layout.row#home__section__belleza-salud--images",
+            "flex-layout.row#home__section__belleza-salud--images_dos"
+        ],
+        "props": {
+            "blockClass": "home__section__belleza-salud--Container-images"
+        }
+    },
+    "flex-layout.row#home__section__belleza-salud--images": {
+        "title": "Container images belleza-salud one",
+        "children": [
+            "image#home__section--belleza-salud-one"
+        ]
+    },
+    "image#home__section--belleza-salud-one": {
+        "title": "imagen belleza-salud one",
+        "props": {
+            "src": "assets/img/home/belleza-salud/belleza-salud1.jpeg",
+            "blockClass": "home__section--belleza-salud-one"
+        }
+    },
+    "flex-layout.row#home__section__belleza-salud--images_dos": {
+        "title": "Container images belleza-salud dos",
+        "children": [
+            "image#home__section--belleza-salud-two",
+            "image#home__section--belleza-salud-three"
+        ],
+        "props": {
+            "blockClass": "home__section__belleza-salud--images_dos"
+        }
+    },
+    "image#home__section--belleza-salud-two": {
+        "title": "imagen belleza-salud one",
+        "props": {
+            "src": "assets/img/home/belleza-salud/belleza-salud2.jpeg",
+            "blockClass": "home__section--belleza-salud-one"
+        }
+    },
+    "image#home__section--belleza-salud-three": {
+        "title": "imagen belleza-salud one",
+        "props": {
+            "src": "assets/img/home/belleza-salud/belleza-salud3.jpeg",
+            "blockClass": "home__section--belleza-salud-one"
+        }
+    }
+}

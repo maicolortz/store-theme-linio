@@ -14,7 +14,11 @@
         "children": [
             "flex-layout.row#home__section__banner--text",
             "image#home__banner-falabella"
-        ]
+        ],
+        "props": {
+            "blockClass":"home__banner-falabella"
+
+        }
     },
     "flex-layout.row#home__section__banner--text": {
         "title": "row title banner falabella",
@@ -31,7 +35,8 @@
     },
     "image#home__banner-falabella": {
         "props": {
-            "src": "assets/img/home/banner/linio-images163.jpg"
+            "src": "assets/img/home/banner/linio-images163.jpg",
+            "blockClass": "home__banner-falabella"
         }
     }
 }

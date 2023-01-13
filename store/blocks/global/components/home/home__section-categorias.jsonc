@@ -9,10 +9,10 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 6,
-                "tablet": 1,
-                "mobile": 1
+                "tablet": 4,
+                "phone": 2
             },
-            "infinite": true,
+            "navigationStep": 1,
             "blockClass": "home__slider",
             "autoplay": {
                 "timeout": 3000

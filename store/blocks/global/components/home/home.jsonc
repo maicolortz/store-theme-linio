@@ -19,28 +19,25 @@
       "blockClass": "home__image"
      
     }
-    /* "props": {
-      "rowGap": 6,
-      "colGap": 2,
-      "width": "70%",
-      "marginTop": 8
-    } */
   },
   "flex-layout.row#home__section-ofertas": {
-    "title": "Desktop col with text",
+    "title": "seccion ofertas",
     "children": [
       "slider-layout#home__slider--children"
     ]
   },
   "slider-layout#home__slider--children": {
+    "title": "slider seccion ofertas",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
         "mobile": 1
+
       },
+     "fullWidth": true,
       "infinite": true,
-      "blockClass": "home__slider",
+      "blockClass": "home__slider--ofertas",
       "autoplay": {
         "timeout": 3000
       }
@@ -52,18 +49,24 @@
     ]
   },
   "image#home__slider--one": {
+    "title": "home__slider--ofertas -imagen1",
     "props": {
-      "src": "assets/img/home/slider-01/linio-slider-02.jpg"
+      "src": "assets/img/home/slider-01/linio-slider-02.jpg",
+      "blockClass":"slider-imagen__categorias"
     }
   },
   "image#home__slider--two": {
+    "title": "home__slider--ofertas -imagen2",
     "props": {
-      "src": "assets/img/home/slider-01/linio-slider-03.jpg"
+      "src": "assets/img/home/slider-01/linio-slider-03.jpg",
+      "blockClass":"slider-imagen__categorias"
     }
   },
   "image#home__slider--three": {
+    "title": "home__slider--ofertas -imagen3",
     "props": {
-      "src": "assets/img/home/slider-01/linio-slider-04.jpg"
+      "src": "assets/img/home/slider-01/linio-slider-04.jpg",
+      "blockClass":"slider-imagen__categorias"
     }
   }
 }
