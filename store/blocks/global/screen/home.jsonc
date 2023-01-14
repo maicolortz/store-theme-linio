@@ -26,7 +26,8 @@
       "flex-layout.row#home__section-tienda-oficial",
       "flex-layout.row#home__section-belleza-salud",
       "flex-layout.row#home__banner-falabella",
-      "flex-layout.row#home__banner-app"
+      "flex-layout.row#home__banner-app",
+      "flex-layout.row#home__section_informacion-linio"
     ],
     "props": {
       "blockClass":"home__global"

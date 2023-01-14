@@ -5,8 +5,7 @@
         ],
         "props": {
             "rowGap": 6,
-            "colGap": 4,
-            "width": "70%",
+            "colGap": 2,
             "marginTop": 8
         }
     },
@@ -30,7 +29,8 @@
     "rich-text#home__banner--title": {
         "title": "title falabella ",
         "props": {
-            "text": "## Banco falabella",
+            "text": "**BANCO FALABELLA**",
+            "font": "t-heading-6",
             "blockClass": "section__2--title"        }
     },
     "image#home__banner-falabella": {
