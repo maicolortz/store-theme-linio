@@ -222,7 +222,7 @@
     },
     "on": {
       "base": "#3f3f40",
-      "base--inverted": "#ffffff",
+      "base--inverted": "#0d080e",
       "action-primary": "#ffffff",
       "action-secondary": "#0F3E99",
       "emphasis": "#ffffff",
@@ -367,7 +367,7 @@
       },
       "body": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "normal",
+        "fontWeight": "500",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"

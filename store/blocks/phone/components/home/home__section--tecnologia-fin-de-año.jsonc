@@ -1,0 +1,75 @@
+{
+    "flex-layout.row#home__section-tecnologia-fin": {
+        "title": "desktop section tecnologia ",
+        "children": [
+            "flex-layout.col#home__tecnologia-fin"
+        ],
+        "props": {
+            "rowGap": 2,
+            "colGap": 2,
+            "width": "70%",
+            "marginTop": 2
+        }
+    },
+    "flex-layout.col#home__tecnologia-fin": {
+        "title": "desktop col section tecnologia",
+        "children": [
+            "flex-layout.row#home__section__tecnologia--text",
+            "flex-layout.row#home__section__tecnologia--Container-images"
+           
+
+        ],
+        "props": {
+            "blockClass": "home__tecnologia-fin"
+        }
+    },
+    "flex-layout.row#home__section__tecnologia--text": {
+        "title": "row title tecnologia",
+        "children": [
+            "rich-text#section__tecnologia-titulo"
+        ],
+        "props": {
+            "rowGap": 6,
+            "colGap": 2,
+            "marginTop": 8
+        }
+    },
+    "rich-text#section__tecnologia-titulo": {
+        "title": "title tecnologia ",
+        "props": {
+            "text": "#### TECNOLOGIA PARA INICIO DE AÑO",
+            "blockClass": "titulo-tecnologia"
+        }
+    },
+    "flex-layout.row#home__section__tecnologia--Container-images":{
+        "title": "section tecnologia container imagenes",
+        "children": [ "flex-layout.row#home__section__tecnologia--images",
+        "flex-layout.row#home__section__tecnologia--images_dos"],
+        "props": {"blockClass": "home__section__tecnologia--Container-images"}
+    },
+    "flex-layout.row#home__section__tecnologia--images":{
+        "title": "Container images tecnologia one",
+        "children": ["image#home__section--tecnologia-one"]
+    },
+    "image#home__section--tecnologia-one":{
+        "title": "imagen tecnologia one",
+        "props": {"src": "assets/img/home/list-images-01/linio-images087.jpeg",
+        "blockClass":"home__section--tecnologia-one"}
+    },
+    "flex-layout.row#home__section__tecnologia--images_dos":{
+        "title": "Container images tecnologia dos",
+        "children": ["image#home__section--tecnologia-two","image#home__section--tecnologia-three"],
+        "props": {"blockClass": "home__section__tecnologia--images_dos"}
+    },
+    "image#home__section--tecnologia-two":{
+        "title": "imagen tecnologia one",
+        "props": {"src": "assets/img/home/list-images-01/linio-images088.jpeg",
+        "blockClass":"home__section--tecnologia-one"}
+    },
+    "image#home__section--tecnologia-three":{
+        "title": "imagen tecnologia one",
+        "props": {"src": "assets/img/home/list-images-01/linio-images089.jpeg",
+        "blockClass":"home__section--tecnologia-one"}
+    }
+    
+}

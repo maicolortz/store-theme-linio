@@ -1,0 +1,84 @@
+{
+    "flex-layout.row#home__section-tienda-oficial": {
+        "title": "seccion tienda-oficial",
+        "children": [
+            "flex-layout.col#home_columna-tienda-oficial"
+        ]
+    },
+    "flex-layout.col#home_columna-tienda-oficial": {
+        "children": [
+            "flex-layout.row#home__section__tiendas--text",
+            "slider-layout#home__slider--tienda"
+        ]
+    },
+    "flex-layout.row#home__section__tiendas--text": {
+        "title": "row title tiendas oficiales",
+        "children": [
+            "rich-text#section__tienda-oficial-titulo"
+        ],
+        "props": {
+            "rowGap": 6,
+            "colGap": 2,
+            "marginTop": 8
+        }
+    },
+    "rich-text#section__tienda-oficial-titulo": {
+        "title": "title tienda-oficial ",
+        "props": {
+            "text": "##### TIENDAS OFICIALES",
+            "blockClass": "titulo-tiendas-oficiales",
+            "font": "t-heading-5"
+           
+        }
+    },
+    "slider-layout#home__slider--tienda": {
+        "title": "slider seccion tienda-oficial",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "mobile": 2
+            },
+            "fullWidth": true,
+            "infinite": true,
+            "blockClass": "home__slider--tienda-oficial",
+            "autoplay": {
+                "timeout": 3000
+            }
+        },
+        "children": [
+            "image#home__slider--tienda-one",
+            "image#home__slider--tienda-two",
+            "image#home__slider--tienda-three",
+            "image#home__slider--tienda-four"
+        ]
+    },
+    "image#home__slider--tienda-one": {
+        "title": "home__slider--tienda-oficial -imagen1",
+        "props": {
+            "src": "assets/img/home/tienda_oficial/tienda_oficial1.jpeg",
+            "blockClass": "slider-tiendas-oficiales"
+        }
+    },
+    "image#home__slider--tienda-two": {
+        "title": "home__slider--tienda-oficial -imagen2",
+        "props": {
+            "src": "assets/img/home/tienda_oficial/tienda_oficial2.jpeg",
+            "blockClass": "slider-tiendas-oficiales"
+        }
+    },
+    "image#home__slider--tienda-three": {
+        "title": "home__slider--tienda-oficial -imagen3",
+        "props": {
+            "src": "assets/img/home/tienda_oficial/tienda_oficial3.png",
+            "blockClass": "slider-tiendas-oficiales"
+        }
+    },
+    "image#home__slider--tienda-four": {
+        "title": "home__slider--tienda-oficial -imagen4",
+        "props": {
+            "src": "assets/img/home/tienda_oficial/tienda_oficial4.jpeg",
+            "blockClass": "slider-tiendas-oficiales"
+        }
+    }
+}
