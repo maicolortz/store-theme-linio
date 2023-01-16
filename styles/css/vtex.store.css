@@ -93,29 +93,35 @@ display: flex;
   
   margin: 0 auto;
 }
+/*logo mobile */
 :global(.vtex-store-drawer-0-x-openIconContainer--header__mobile-menu){
   color: #ffff;
 }
-:global(.vtex-menu-2-x-menuItem--isOpen){
-  display: flex;
-  flex-direction: row;
-}
-:global(.vtex-menu-2-x-menuItem--isClosed){
-  display: flex;
-flex-direction: row;
-}
- :global(.vtex-menu-2-x-menuContainer ){
-
-  display: flex;
-  flex-direction: column;
- }
  :global(.vtex-menu-2-x-styledLinkContent--submenu-departament-tiendas-oficiales){
   display: flex;
-
-  top: 0;
-  background-color: #e56a54;
+  
  }
  :global(.vtex-menu-2-x-styledLinkContent):hover{
 background-color: orangered;
 color: #ffff;
+ }
+ :global(.vtex-store-drawer-0-x-openIconContainer){
+color:#ffff;
+
+ }
+ /*logo movil*/
+ :global(.vtex-store-components-3-x-logoContainer){
+margin-right: 40px;
+padding: 0%;  
+  
+  
+ }
+/*megamenu  centrado*/
+ :global(.vtex-mega-menu-2-x-menuContainerNav){
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 280px;
+  max-width: 1180px;
+  margin: 0px auto
  }

@@ -17,12 +17,31 @@
     "submenu.accordion#departament-tiendas-oficiales":{
         "children":["menu#departament-tiendas-oficiales"]
     },
+   
     "menu#departament-tiendas-oficiales":{
-        "children":["menu-item#category__one","menu-item#category__two","menu-item#category__three"]
+       /*  "children":[modal-layout#], */
+       
+        "children":["menu-item#oportunidad-cmr","menu-item#category__tecnologia","menu-item#category__hogar","menu-item#category__deportes","menu-item#category__juguetes-niños-bebes","menu-item#category__moda","menu-item#category__salud-belleza","menu-item#category__varios"]
     },
-    "menu-item#category__one":{
+    "menu-item#oportunidad-cmr":{
         "props": {
-            "id": "category-one",
+            "id": "category-oportunidad-cmr",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "OPORTUNIDAD-CMR",
+                "text": "Oportunidad CMR"
+                
+       
+            },
+            "blockClass":"submenu-departament-tiendas-oficiales"
+        }
+    },
+    "menu-item#category__tecnologia":{
+        "props": {
+            "id": "category-tecnologia",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
@@ -35,9 +54,9 @@
             },
             "blockClass":"submenu-departament-tiendas-oficiales"
         }
-    },"menu-item#category__two":{
+    },"menu-item#category__hogar":{
         "props": {
-            "id": "category-two",
+            "id": "category-hogar",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
@@ -47,9 +66,9 @@
                 "text": "Hogar"
             }
         }
-    },"menu-item#category__three":{
+    },"menu-item#category__deportes":{
         "props": {
-            "id": "category-three",
+            "id": "category-deportes",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
@@ -57,6 +76,56 @@
                 "noFollow": true,
                 "tagTitle": "DEPORTES",
                 "text": "Deportes"
+            }
+        }
+    },
+    "menu-item#category__juguetes-niños-bebes":{
+        "props":{
+            "id":"category-juguetes-niños-bebes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "JUGUETES-NIÑOS-BEBES",
+                "text": "Juguetes, Niños y Bebes"
+            }
+        }
+    },"menu-item#category__moda":{
+        "props":{
+            "id":"category-moda",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "MODA",
+                "text": "Moda"
+            }
+            
+        }
+    },"menu-item#category__salud-belleza":{
+        "props":{
+            "id":"category-salud-belleza",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "SALUD-BELLEZA",
+                "text": "Salud y Belleza"
+            }
+        }
+    },"menu-item#category__varios":{
+        "props":{
+            "id":"category-varios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "VARIOS",
+                "text": "Varios"
             }
         }
     }

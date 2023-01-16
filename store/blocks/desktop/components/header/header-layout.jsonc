@@ -3,7 +3,9 @@
   "header-row#1-desktop__section-main": {
     "title": "flex header desktop",
     "children": [
-      "drawer#header__mobile-menu",
+      "flex-layout.row#mega-menu",
+      "flex-layout.row#4-desktop",
+      /* "drawer#header__mobile-menu", */
       "logo#desktop",
       "header-spacer",
       "search-bar",
@@ -44,5 +46,4 @@
       "height":50
     }
   }
-  
 }

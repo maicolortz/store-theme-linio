@@ -2,8 +2,8 @@
     "header-layout.desktop": {
         "title": "container header desktop",
         "children": [
-          "header-row#1-desktop__section-main",
-          "header-row#2-desktop__section-links_"
+          "header-row#1-desktop__section-main"
+        /*   "header-row#2-desktop__section-links_" */
         ]
       }
 }

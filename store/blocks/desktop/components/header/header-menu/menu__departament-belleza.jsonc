@@ -1,7 +1,7 @@
 {
 
-    "menu-item#departament-belleza":{
-         
+    
+    "menu-item#departament-belleza": {
         "props": {
             "id": "departament-belleza",
             "type": "custom",
@@ -13,7 +13,13 @@
                 "text": "Belleza"
             }
         },
-        "blocks": ["submenu.accordion#departament-tiendas-oficiales"]
+        "blocks": [
+            "submenu#departament-tiendas-oficiales"
+        ]
+    },
+    "submenu#departament-tiendas-oficiales": {
+        "children": [
+            "menu#departament-tiendas-oficiales"
+        ]
     }
-    
 }

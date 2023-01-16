@@ -1,10 +1,42 @@
 {
+  
+    // ...
+  
+  
+    "flex-layout.row#4-desktop": {
+      "children": [
+        "flex-layout.col#trigger-mega-menu"
+        // ...
+      ]
+    },
+  
+    "flex-layout.row#mega-menu": {
+      "children": ["mega-menu#desktop"]
+    },
+    "mega-menu#desktop": {
+      "props": {
+        "openOnly": "horizontal"
+      }
+    },
+    "flex-layout.col#trigger-mega-menu": {
+      "props": {
+        "verticalAlign": "middle"
+      },
+      "children": ["mega-menu-trigger-btn"]
+    },
+    "mega-menu-trigger-btn": {
+      "props": {
+        "Drawer": "drawer"
+      }
+    },
+  
+
   "drawer#header__mobile-menu": {
     "children": [
       "menu#header__menu"
     ],
     "props": {
-      "blockClass": "header__mobile-menu"
+      "blockClass": "header__desktop-menu"
     }
     /* ,
         "blocks": [
@@ -44,8 +76,8 @@
       "menu-item#departament-mas",
       "menu-item#departament-grupo-falabella"
     ],
-    "props": {
+  "props": {
       "orientation": "vertical"
-    }
+    } 
   }
 }
