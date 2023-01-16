@@ -81,3 +81,41 @@ display: flex;
   flex-direction: row;
 }
 
+:global(.vtex-store-header-2-x-headerRowBackground--flex-layout-header){
+  
+  background-color:   #3d3d3d;
+} 
+:global(.vtex-store-header-2-x-headerRowContainer--flex-layout-header){
+  
+  max-width: 1180px;
+  border: 1px solid #e56a54;
+  
+  
+  margin: 0 auto;
+}
+:global(.vtex-store-drawer-0-x-openIconContainer--header__mobile-menu){
+  color: #ffff;
+}
+:global(.vtex-menu-2-x-menuItem--isOpen){
+  display: flex;
+  flex-direction: row;
+}
+:global(.vtex-menu-2-x-menuItem--isClosed){
+  display: flex;
+flex-direction: row;
+}
+ :global(.vtex-menu-2-x-menuContainer ){
+
+  display: flex;
+  flex-direction: column;
+ }
+ :global(.vtex-menu-2-x-styledLinkContent--submenu-departament-tiendas-oficiales){
+  display: flex;
+
+  top: 0;
+  background-color: #e56a54;
+ }
+ :global(.vtex-menu-2-x-styledLinkContent):hover{
+background-color: orangered;
+color: #ffff;
+ }

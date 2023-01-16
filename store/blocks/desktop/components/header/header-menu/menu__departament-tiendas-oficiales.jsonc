@@ -1,0 +1,63 @@
+{
+    "menu-item#departament-tiendas-oficiales": {
+        
+        "props": {
+            "id": "departament-tiendas-oficiales",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "TIENDAS OFICIALES",
+                "text": "Tiendas Oficiales"
+            }
+        },
+        "blocks": ["submenu.accordion#departament-tiendas-oficiales"]
+    },
+    "submenu.accordion#departament-tiendas-oficiales":{
+        "children":["menu#departament-tiendas-oficiales"]
+    },
+    "menu#departament-tiendas-oficiales":{
+        "children":["menu-item#category__one","menu-item#category__two","menu-item#category__three"]
+    },
+    "menu-item#category__one":{
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "TECNOLOGIA",
+                "text": "Tecnologia"
+                
+       
+            },
+            "blockClass":"submenu-departament-tiendas-oficiales"
+        }
+    },"menu-item#category__two":{
+        "props": {
+            "id": "category-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "HOGAR",
+                "text": "Hogar"
+            }
+        }
+    },"menu-item#category__three":{
+        "props": {
+            "id": "category-three",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "DEPORTES",
+                "text": "Deportes"
+            }
+        }
+    }
+}
