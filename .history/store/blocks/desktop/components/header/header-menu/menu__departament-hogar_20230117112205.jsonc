@@ -1,0 +1,19 @@
+{
+
+    "menu-item#departament-hogar":{
+         
+        "props": {
+            "id": "departament-hogar",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "HOGAR",
+                "text": "Hogar"
+            }
+        },
+        "blocks": ["submenu#departament-tiendas-oficiales"]
+    }
+    
+}

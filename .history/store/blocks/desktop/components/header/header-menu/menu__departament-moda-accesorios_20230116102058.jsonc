@@ -1,0 +1,19 @@
+{
+
+    "menu-item#departament-moda-accesorios":{
+        "title": "departamento moda-accesorios",
+        "props": {
+            "id": "departament-moda-accesorios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "MODA-ACCESORIOS",
+                "text": "Moda y Accesorios"
+            }
+        },
+        "blocks": ["submenu.accordion#departament-tiendas-oficiales"]
+    }
+    
+}

@@ -1,0 +1,19 @@
+{
+
+    "menu-item#departament-celulares-accesorios":{
+         
+        "props": {
+            "id": "departament-celulares-accesorios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "CELULARES-ACCESORIOS",
+                "text": "Celulares y Accesorios"
+            }
+        },
+        "blocks": ["submenu#departament-tiendas-oficiales"]
+    }
+    
+}

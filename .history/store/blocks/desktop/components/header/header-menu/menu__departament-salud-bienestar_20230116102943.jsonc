@@ -1,0 +1,19 @@
+{
+
+    "menu-item#departament-salud-bienestar":{
+         
+        "props": {
+            "id": "departament-salud-bienestar",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "SALUD-BIENESTAR",
+                "text": "Salud y Bienestar"
+            }
+        },
+        "blocks": ["submenu.accordion#departament-tiendas-oficiales"]
+    }
+    
+}

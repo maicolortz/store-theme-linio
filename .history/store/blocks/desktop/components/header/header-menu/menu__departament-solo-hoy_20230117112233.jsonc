@@ -1,0 +1,17 @@
+{
+    "menu-item#departament-solo-hoy": {
+        "props": {
+            "id": "departament-solo.hoy",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "SOLO-HOY",
+                "text": "Solo Hoy"
+            }
+        },
+        "blocks": ["submenu#departament-tiendas-oficiales"]
+    }
+    
+}

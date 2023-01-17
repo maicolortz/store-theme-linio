@@ -1,0 +1,19 @@
+{
+
+    "menu-item#departament-deportes":{
+         
+        "props": {
+            "id": "departament-deportes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "DEPORTES",
+                "text": "Deportes"
+            }
+        },
+        "blocks": ["submenu#departament-tiendas-oficiales"]
+    }
+    
+}
