@@ -1,0 +1,30 @@
+{
+  "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+     "rich-text#test"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "search-result-layout.mobile":{
+    "children":[ "flex-layout.row#home__result--filter","flex-layout.row#home__result--search"]
+    
+  },
+  "search-not-found-layout":{
+
+  }
+}
