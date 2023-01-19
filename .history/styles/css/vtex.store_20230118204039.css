@@ -101,17 +101,12 @@ display: flex;
   display: flex;
   
  }
- 
  /*          menu items   */
- :global(.vtex-menu-2-x-styledLinkContent){
-  padding-top: 2px;
- }
  :global(.vtex-menu-2-x-styledLinkContent):hover{
 background-color: orangered;
-padding-left: 5px;
+padding: 5px;
 color: #ffff;
-transition: 0.4s;
-
+transition: 0.3s;
  }
  /*menu                 menu-items header*/
 /*  :global(.vtex-store-drawer-0-x-closeIconContainer--header__desktop-menu){
@@ -173,9 +168,9 @@ margin: 0px auto;
 
  } */
 
+
  :global(.vtex-menu-2-x-menuItem){
 position: relative;
-z-index: 2;
 
  } 
 /*  :global(.vtex-store-drawer-0-x-overlay--header__desktop-menu){
@@ -203,9 +198,8 @@ position: fixed;
 :global(.vtex-menu-2-x-submenu ){
   background-color: #f5f5f5;
   width: 560px;
-  height: 510px;
+  height: 550px;
   opacity: 90%;
- 
 }
 
  /*submenus acomodandolos en absoluto */

@@ -111,7 +111,6 @@ background-color: orangered;
 padding-left: 5px;
 color: #ffff;
 transition: 0.4s;
-
  }
  /*menu                 menu-items header*/
 /*  :global(.vtex-store-drawer-0-x-closeIconContainer--header__desktop-menu){
@@ -199,6 +198,7 @@ position: fixed;
  }
 :global(.vtex-menu-2-x-submenuWrapper){
   padding-top: 0 ;
+
 }
 :global(.vtex-menu-2-x-submenu ){
   background-color: #f5f5f5;
