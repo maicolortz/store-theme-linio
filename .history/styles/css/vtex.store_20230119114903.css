@@ -1,0 +1,342 @@
+ :global(.vtex-store__template) {
+   --primary-color      : #0c2340;
+   --primary-color-rgba : rgba(12, 35, 64, 0.502);
+   --secondary-color    : #e56a54;
+ }
+ /*slider home-categoria*/
+ :global(.vtex-store-components-3-x-imageElement--slider-imagen__categorias){
+  object-fit: cover;
+  height: 300px;
+ }
+ @media (max-width: 1024px) {
+  :global(.vtex-store-components-3-x-imageElement--slider-imagen__categorias){
+    object-fit: cover;
+    height: 230px;
+   }
+ }
+
+ /*slider home tecnologia  para inicio de año*/
+/* :global(.vtex-store-components-3-x-imageElement--home__section-tecnologia-fin-de-año-one){
+  height: 200px;
+} */
+
+@media (max-width: 780px) {
+  
+  :global(.vtex-store-components-3-x-imageElement--home__banner-falabella){
+    object-fit: cover;
+    height: 160px;
+  }
+  :global(.vtex-store-components-3-x-imageElement--home__banner-app){
+    object-fit: cover;
+    height: 160px;
+  
+  }
+  /*section de tecnologia de fin de año*/
+  :global(.vtex-store-components-3-x-imageElement--home__section--tecnologia-one){
+    display: flex;
+    height: 160px;
+    object-fit: cover;
+  }
+  :global(.vtex-store-components-3-x-imageElement--home__section--belleza-salud-one){
+    display: flex;
+    height: 160px;
+    object-fit: cover;
+  }
+ }
+ @media (min-width: 780px) {
+ :global(.vtex-store-components-3-x-imageElement--home__section--tecnologia-one){
+  display: flex;
+  height: 20vw;
+  max-height: 220px;
+  object-fit: cover;
+}
+:global(.vtex-store-components-3-x-imageElement--home__section--belleza-salud-one){
+  display: flex;
+  height: 20vw;
+  max-height: 220px;
+  object-fit: cover;
+}
+
+ }
+
+ :global(.vtex-store-components-3-x-imageElement--home__section-ofertas_2_one){
+  object-fit: cover;
+  height: 150px;
+
+}
+ @media (min-width: 640px) {
+ :global(.vtex-store-components-3-x-imageElement--home__section-ofertas_2_one){
+  object-fit: cover;
+  height: 15vw;
+  max-height: 180px;
+}
+ }
+
+/* :global(.vtex-flex-layout-0-x-flexRowContent--home__section__tecnologia--images_dos){
+display: flex;
+  flex-direction: row;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--home__section__belleza-salud--images_dos){
+  display: flex;
+  flex-direction: row;
+} */
+
+:global(.vtex-store-header-2-x-headerRowBackground--flex-layout-header){
+  
+  background-color:   #3d3d3d;
+} 
+:global(.vtex-store-header-2-x-headerRowContainer--flex-layout-header){
+  
+  max-width: 1180px;
+  border: 1px solid #e56a54;
+  
+  
+  margin: 0 auto;
+}
+/*logo mobile */
+:global(.vtex-store-drawer-0-x-openIconContainer--header__mobile-menu){
+  color: #ffff;
+}
+ :global(.vtex-menu-2-x-styledLinkContent--submenu-departament-tiendas-oficiales){
+  display: flex;
+  
+ }
+ 
+ /*          menu items   */
+ :global(.vtex-menu-2-x-styledLinkContent){
+  padding-top: 2px;
+ }
+ :global(.vtex-menu-2-x-styledLinkContent):hover{
+background-color: orangered;
+padding-left: 5px;
+color: #ffff;
+transition: 0.4s;
+
+ }
+ /*menu                 menu-items header*/
+/*  :global(.vtex-store-drawer-0-x-closeIconContainer--header__desktop-menu){
+  background-color: #f5f5f5;
+ } */
+ /*iconos en blanco*/
+ :global(.vtex-store-drawer-0-x-openIconContainer){
+color:#ffff;
+
+ }
+ /*logo movil*/
+ :global(.vtex-store-components-3-x-logoContainer){
+margin-right: 40px;
+padding: 0%;  
+  
+  
+ }
+/*megamenu  centrado*/
+ :global(.vtex-mega-menu-2-x-menuContainerNav){
+ max-width: 1180px;
+
+ }
+
+:global(.vtex-store-drawer-0-x-drawerContent--header__desktop-menu ){
+max-height: max-content !important;
+}
+
+ /*menu-items*/
+/*  :global(.vtex-menu-2-x-submenuWrapper){
+position: absolute;
+left: 50%;
+z-index: initial;
+ } */
+/*  :global(.vtex-store-drawer-0-x-drawer--header__desktop-menu){
+  max-width: 1180px !important;
+  display: flex;
+  align-items: center;
+max-height: fit-content;
+ } */
+ /* :global(.vtex-menu-2-x-submenuWrapper--isOpen){
+  position: absolute;
+ } */
+/*  :global(.vtex-store-drawer-0-x-drawerContent--header__desktop-menu){
+margin: 0px auto;
+ } */
+/*  :global(.vtex-menu-2-x-submenuWrapper--isOpen){
+  position: absolute;
+  left: 250px;
+  top: -356px;
+ } */
+
+
+/*  :global(.vtex-menu-2-x-submenu){
+
+  position: absolute;
+
+  top: 10%;
+  right: -250px;
+
+ } */
+
+ :global(.vtex-menu-2-x-menuItem){
+position: relative;
+z-index: 2;
+
+ } 
+/*  :global(.vtex-store-drawer-0-x-overlay--header__desktop-menu){
+  display: flex;
+  justify-content: center;
+ } */
+ :global(.vtex-store-drawer-0-x-drawer--header__desktop-menu){  
+/*   position: fixed; */
+position: fixed;
+ left: max(0px,calc((100% - 1180px) / 2));
+ /*(100% - 1180px) / 2 */
+  top:65px;
+  margin: 0 auto;
+  height: 600px;
+  max-width: 800px!important ;
+ }
+
+ :global(.vtex-menu-2-x-styledLinkContainer--submenu-departament-tiendas-oficiales){
+  padding: 0%;
+ }
+:global(.vtex-menu-2-x-submenuWrapper){
+  padding-top: 0 ;
+}
+:global(.vtex-menu-2-x-submenu ){
+  background-color: #f5f5f5;
+  width: 450px;
+  height: 510px;
+  opacity: 90%;
+ 
+}
+
+ /*submenus acomodandolos en absoluto */
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-belleza){
+  position: absolute;
+  top: -340px;
+  right: -4px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-solo-hoy){
+  position: absolute;
+  top: 0px;
+  right: -3px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-camaras){
+  position: absolute;
+  top: -425px;
+  left: 236px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-tiendas-oficiales){
+  position: absolute;
+  top: -28px;
+  left: 236px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-celulares){
+  position: absolute;
+  top: -57px;
+  left: 237px;
+  
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-tv-audio){
+  
+  left: 236px;
+  position: absolute;
+  top: -85px;
+
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-computacion){
+  left: 237px;
+  position: absolute;
+  top: -113px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-videojuegos){
+  left: 237px;
+  position: absolute;
+  top: -141px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-electrodomesticos){
+  left: 237px;
+  position: absolute;
+  top: -171px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-hogar){
+  left: 236px;
+  position: absolute;
+  top: -199px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-ferreteria){
+  left: 237px;
+  position: absolute;
+  top: -226px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-moda){
+  position: absolute;
+  top: -255px;
+  left: 236px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-supermercado){
+  position: absolute;
+  top: -285px;
+  left: 237px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-deportes){
+  position: absolute;
+  top: -312px;
+  left: 236px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-salud){
+  position: absolute;
+  top: -369px;
+  left: 238px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-juguetes){
+  position: absolute;
+  top: -397px;
+  left: 236px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-internacionales){
+  position: absolute;
+  top: -453px;
+  left: 236px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-mas){
+  position: absolute;
+  top: -482px;
+  left: 237px;
+}
+:global(.vtex-menu-2-x-submenuContainer--submenu-departament-falabella){
+  position: absolute;
+  top: -510px;
+  left: 237px;
+}
+/**/
+/*******************************menu items secciones*/
+:global(.vtex-menu-2-x-styledLinkContent--categoria-item ){
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+/*header iconos */
+:global(.vtex-login-2-x-label ){
+  color: #ffff;
+}
+:global(.vtex-login-2-x-profileIcon--login){
+  color: #ffff;
+}
+:global(.vtex-minicart-2-x-cartIcon--minicart){
+color: #ffff;
+}
+/* -------------------------------------*/
+/*---------pading cambiarlo a 0 para que se muestre toda la pantalla cuando sus dimensiones son menores a 1180px*/
+/* :globa(.vtex-store-components-3-x-container){
+  padding: 0%;
+} */
+
+/******mis pedidos*/
+:global(.vtex-flex-layout-0-x-flexRowContent--mis-pedidos){
+  width: 150px;
+  gap: 5px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--button-cart):first-child{
+background-color: #e56a54;
+}

@@ -1,0 +1,55 @@
+{
+    "product-summary.shelf#demo1": {
+        "title": " product summary demo 1",
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "stack-layout#prodsum",
+           /*  "product-rating-inline", */
+           "product-summary-price",
+           "product-summary-space",
+           "flex-layout.row#button-cart"
+        ]
+    },
+    "stack-layout#prodsum": {
+        "title": " stack demo 1"
+    },
+    "product-summary-image": {
+        "title": " image demo 1",
+        "props": {
+            "showBadge": false,
+            "height": 220
+          }
+    },
+    "product-summary-name": {
+        "title": " stack summary-name1"
+    },
+    "product-rating-inline": {
+        "title": " stack demo 1"
+    },
+    "product-summary-space": {
+        "title": " stack summary space"
+    },
+    "product-summary-price": {
+        "title": " summary price 1"
+    },
+    //boton de carro
+    "add-to-cart-button": {
+        "title": " summary button buy1",
+        "props":{"text":"agregar producto "}
+    },
+    "list-context.product-list#demo1": {
+        "blocks": [
+            "product-summary.shelf#demo1"
+        ],
+        "children": [
+            "slider-layout#demo-products"
+        ]
+    },
+    "slider-layout#demo-products": {
+        "title": " slider productos",
+        "props":{
+            "blockClass":"slider vitrina"
+        }
+    }
+}
