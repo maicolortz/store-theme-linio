@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#apps-dowload":{
+        "children":[
+            "image#app01","image#app02","image#app03"
+        ]
+      
+    },
+    "image#app01":{
+        "props": {
+            "src": "/assets/img/footer/apps/app01.png",
+            "height": 40
+          }
+    }
+}

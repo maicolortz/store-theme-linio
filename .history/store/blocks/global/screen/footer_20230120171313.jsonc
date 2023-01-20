@@ -1,0 +1,6 @@
+{
+    "footer":{
+        "title":"footer bloque principal",
+        "blocks": ["footer-layout.desktop","responsive-layout.phone#footer", "footer-layout.mobile"]
+    }
+}

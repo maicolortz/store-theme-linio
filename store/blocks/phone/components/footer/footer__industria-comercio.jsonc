@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#industria-comercio": {
+        "children": [
+            "image#industria"
+        ],
+        "props": {
+            "blockClass": "flex-row-industria"
+        }
+    },
+    "image#industria": {
+        "props": {
+            "src": "assets/img/footer/industria-comercio.png"
+        }
+    }
+}

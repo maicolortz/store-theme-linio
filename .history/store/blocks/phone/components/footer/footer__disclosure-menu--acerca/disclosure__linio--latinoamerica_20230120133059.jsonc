@@ -1,0 +1,87 @@
+{
+    "disclosure-layout#linio__latinoamerica": {
+        "title": "layout linio__latinoamerica",
+        "children": [
+            "disclosure-trigger#linio__latinoamerica",
+            "disclosure-content#linio__latinoamerica"
+        ]
+       
+    },
+    "disclosure-trigger#linio__latinoamerica": {
+        "title": "text linio__latinoamerica",
+        "children": [
+            "rich-text#linio__latinoamerica"
+        ]
+    },
+    "disclosure-content#linio__latinoamerica": {
+        "title": "text linio__latinoamerica",
+        "children": [
+            "menu#linio__latinoamerica"
+        ]
+    },
+    "rich-text#linio__latinoamerica": {
+        "title": "texto acerca",
+        "props": {
+            "text": "LINIO LATINOAMERICA"
+        }
+    },
+    "menu#linio__latinoamerica": {
+        "title": "menu acerca",
+        "children": [
+            "flex-layout.col#container-menu-servicio"
+        ],
+        "props": {
+            "orientacion": "vertical"
+        }
+    },
+    "flex-layout.col#container-menu-latinoamerica": {
+        "title": "container menu latinoamerica",
+        "children": [
+            "menu-item#Colombia",
+            "menu-item#Chile",
+            "menu-item#Mexico",
+            "menu-item#Peru"
+        ],
+        "props":{"blockClass":"contenedor-menu-items"}
+    },
+    "menu-item#Chile": {
+        "title": "chile",
+        "props": {
+            "id": "menu-chile",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "chile",
+                "text": "Chile"
+            }
+        }
+    },
+    "menu-item#Mexico": {
+        "title": "mexico",
+        "props": {
+            "id": "menu-mexico",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "mexico",
+                "text": "Mexico"
+            }
+        }
+    },
+    "menu-item#Peru": {
+        "title": "peru",
+        "props": {
+            "id": "menu-peru",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "peru",
+                "text": "Peru"
+            }
+        }
+    }
+    
+}

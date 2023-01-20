@@ -1,0 +1,15 @@
+{
+    "disclosure-layout-group#group": {
+        "title":"layout gruop",
+        "children": [
+            "disclosure-layout#acerca__linio",
+            "disclosure-layout#servicio__cliente",
+            "disclosure-layout#linio__latinoamerica",
+            "disclosure-layout#novedades"
+        ]
+    }
+
+   
+    /////////////disclosure layout servicio__cliente  
+   
+}

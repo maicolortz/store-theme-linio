@@ -1,0 +1,100 @@
+{
+    "disclosure-layout#novedades": {
+        "title": "layout novedades",
+        "children": [
+            "disclosure-trigger#novedades",
+            "disclosure-content#novedades"
+        ]
+    },
+    "disclosure-trigger#novedades": {
+        "title": "text novedades",
+        "children": [
+            "rich-text#novedades"
+        ]
+    },
+    "disclosure-content#novedades": {
+        "title": "text novedades",
+        "children": [
+            "menu#novedades"
+        ]
+    },
+    "rich-text#novedades": {
+        "title": "texto acerca",
+        "props": {
+            "text": "NOVEDADES"
+        }
+    },
+    "menu#novedades": {
+        "title": "menu acerca",
+        "children": [
+            "flex-layout.col#container-menu-novedades"
+        ],
+        "props": {
+            "orientacion": "vertical"
+        }
+    },
+    "flex-layout.col#container-menu-novedades": {
+        "title": "container menu novedades",
+        "children": [
+            "menu-item#Cyberlunes",
+            "menu-item#Phone",
+            "menu-item#Solo-hoy",
+            "menu-item#Despensa"
+        ],
+        "props": {
+            "blockClass": "contenedor-menu-items"
+        }
+    },
+    "menu-item#Cyberlunes": {
+        "title": "Cyberlunes",
+        "props": {
+            "id": "menu-Cyberlunes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "cyberlunes",
+                "text": "Cyberlunes"
+            }
+        }
+    },
+    "menu-item#Phone": {
+        "title": "phone",
+        "props": {
+            "id": "menu-phone",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "phone",
+                "text": "!Phone"
+            }
+        }
+    },
+    "menu-item#Solo-hoy": {
+        "title": "solo-hoy",
+        "props": {
+            "id": "menu-solo-hoy",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "solo-hoy",
+                "text": "Solo Hoy Ofertas"
+            }
+        }
+    },
+    "menu-item#Despensa": {
+        "title": "despensa",
+        "props": {
+            "id": "menu-despensa",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "despensa",
+                "text": "Despensas, vinos y gourmet"
+            }
+        }
+    }
+}
