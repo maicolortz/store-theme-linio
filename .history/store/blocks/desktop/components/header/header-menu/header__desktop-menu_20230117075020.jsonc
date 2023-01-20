@@ -1,0 +1,87 @@
+{
+  "flex-layout.row#4-desktop": {
+    "children": [
+      "flex-layout.col#trigger-mega-menu"
+    ]
+  },
+  "flex-layout.row#mega-menu": {
+    "children": [
+      "mega-menu#desktop"
+    ]
+  },
+  "mega-menu#desktop": {
+    "props": {
+      "openOnly": "horizontal"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "mega-menu-trigger-btn"
+    ]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
+    }
+  },
+
+
+
+  //menu con menu-items
+  //
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "sortSubcategories": "name"
+    }
+  },
+
+  "drawer#header__mobile-menu": {
+    "title": "menu header ",
+    "children": [
+      "menu#header__menu"
+    ],
+    "props": {
+      "blockClass": "header__desktop-menu"
+    }
+    /* ,
+        "blocks": [
+          "drawer-trigger"
+        ] */
+  },
+
+  
+  "menu#header__menu": {
+    "title": "menu header",
+    "children": [
+      "menu-item#departament-solo-hoy",
+      "menu-item#departament-tiendas-oficiales",
+      "menu-item#departament-celulares-accesorios",
+      "menu-item#departament-tv-audio-video",
+      "menu-item#departament-computacion",
+      "menu-item#departament-consolas-videojuegos",
+      "menu-item#departament-electrodomesticos",
+      "menu-item#departament-hogar",
+      "menu-item#departament-ferreteria-automotriz",
+      "menu-item#departament-moda-accesorios",
+      "menu-item#departament-supermercado-mascotas",
+      "menu-item#departament-deportes",
+      "menu-item#departament-belleza",
+      "menu-item#departament-salud-bienestar",
+      "menu-item#departament-juguetes-niños-bebes",
+      "menu-item#departament-camaras-lentes",
+      "menu-item#departament-productos-internacionales",
+      "menu-item#departament-mas",
+      "menu-item#departament-grupo-falabella"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

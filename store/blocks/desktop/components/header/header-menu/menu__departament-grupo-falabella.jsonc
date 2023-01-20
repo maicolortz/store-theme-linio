@@ -1,0 +1,31 @@
+{
+
+    "menu-item#departament-grupo-falabella":{
+         
+        "props": {
+            "id": "departament-grupo-falabella",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "GRUPO-FALABELLA",
+                "text": "Grupo Falabella"
+            }
+        },
+        "blocks": [
+            "submenu#departament-falabella"
+        ]
+       
+    },
+    "submenu#departament-falabella": {
+        "children": [
+            "menu#departament-tiendas-oficiales"
+        ],
+        "props": {
+            
+            "blockClass": "submenu-departament-falabella"
+        }
+    }
+    
+}

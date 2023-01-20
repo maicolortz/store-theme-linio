@@ -1,0 +1,13 @@
+.slideChildrenContainer{
+    border: 1px solid gainsboro;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.186);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* box-shadow: 10px 10px 3px #D8D8D8;
+
+	transition: height .4s; */
+.sliderTrack{
+    gap: 10px;
+}

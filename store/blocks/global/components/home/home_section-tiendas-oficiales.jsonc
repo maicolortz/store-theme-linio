@@ -19,15 +19,16 @@
         "props": {
             "rowGap": 6,
             "colGap": 2,
-            "marginTop": 8
+            "marginTop": 8,
+            "blockClass": "row title tiendas oficiales"
         }
     },
     "rich-text#section__tienda-oficial-titulo": {
         "title": "title tienda-oficial ",
         "props": {
-            "text": "##### TIENDAS OFICIALES",
+            "text": "**TIENDAS OFICIALES**",
             "blockClass": "titulo-tiendas-oficiales",
-            "font": "t-heading-5"
+            "font": "t-heading-6"
            
         }
     },

@@ -1,0 +1,54 @@
+{
+  "header-row#1-desktop__midle": {
+    "title": "flex header desktop",
+    "children": [
+      "flex-layout.row#mega-menu",
+      "flex-layout.row#4-desktop",
+      "drawer#header__mobile-menu",
+      "logo#desktop",
+      "header-spacer",
+      "search-bar#header__midle",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "fullWidth": true,
+      "sticky": true,
+      "blockClass": "flex-layout-header"
+    }
+  },
+  "search-bar#header__midle": {
+    "title":"search bar",
+    "props": {
+      "placeholder": "Busca productos ",
+      "maxWidth": "400"
+    },
+    "blocks": [
+      "autocomplete-result-list"
+    ]
+  },
+  "autocomplete-result-list":{
+"blocks":["product-summary"]
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Iniciar sesion",
+      "showIconProfile": true
+    }
+  },
+  "minicart": {},
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/header/logo__header.png",
+      "width": 100,
+      "height": 50
+    }
+  }
+}

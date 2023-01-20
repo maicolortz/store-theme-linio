@@ -1,0 +1,20 @@
+{
+
+    "menu-item#departament-electrodomesticos":{
+         
+        "props": {
+            "id": "departament-electrodomesticos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "ELECTRODOMESTICOS",
+                "text": "Electrodomesticos"
+            }
+        },
+        "blocks": ["submenu#departament-tiendas-oficiales"]
+
+    }
+    
+}

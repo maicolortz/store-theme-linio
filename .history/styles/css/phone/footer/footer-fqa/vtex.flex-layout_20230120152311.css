@@ -1,0 +1,6 @@
+.flexRowContent--flex-row-apps-dowload{
+    display: flex;
+}
+.flexRowContent--flex-row-apps-dowload :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 200px;
+}

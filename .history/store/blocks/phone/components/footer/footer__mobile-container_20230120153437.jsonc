@@ -1,0 +1,24 @@
+{
+
+    "flex-layout.row#footer-mobile": {
+        "title":"footer mobile",
+        "children": ["flex-layout.col#footer-mobile-container"
+         
+    ]
+   
+},
+"flex-layout.col#footer-mobile-container":{
+  "title":"footer mobile container",
+      "children":[ "newsletter-form",
+      "disclosure-layout#acerca__linio",
+      "disclosure-layout#servicio__cliente",
+      "disclosure-layout#linio__latinoamerica",
+      "disclosure-layout#novedades",
+      "flex-layout.row#social-networks",
+      "flex-layout.row#apps-download",
+      "flex-layout.row#industria-comercio"
+      /* "disclosure-layout-group#group" */]
+}
+
+
+}

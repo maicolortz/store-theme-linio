@@ -1,0 +1,31 @@
+{
+
+    "menu-item#departament-camaras-lentes":{
+         
+        "props": {
+            "id": "departament-camaras-lentes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "CAMARAS-LENTES",
+                "text": "Camaras y Lentes"
+            }
+        },
+        "blocks": [
+            "submenu#departament-tiendas-camaras"
+        ]
+       
+    },
+    "submenu#departament-tiendas-camaras": {
+        "children": [
+            "menu#departament-tiendas-oficiales"
+        ],
+        "props": {
+            
+            "blockClass": "submenu-departament-camaras"
+        }
+    }
+    
+}

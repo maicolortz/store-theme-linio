@@ -35,7 +35,8 @@
     "rich-text#section__belleza-salud-titulo": {
         "title": "title belleza-salud ",
         "props": {
-            "text": "#### BELLEZA-SALUD Y BIENESTAR",
+            "text": " **BELLEZA, SALUD Y BIENESTAR**",
+           "font": "t-heading-6",
             "blockClass": "titulo-belleza-salud"
         }
     },

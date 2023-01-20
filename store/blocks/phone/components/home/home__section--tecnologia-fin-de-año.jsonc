@@ -37,7 +37,9 @@
     "rich-text#section__tecnologia-titulo": {
         "title": "title tecnologia ",
         "props": {
-            "text": "#### TECNOLOGIA PARA INICIO DE AÑO",
+          
+            "text": "**TECNOLOGIA PARA INICIO DE AÑO**",
+            "font": "t-heading-6",
             "blockClass": "titulo-tecnologia"
         }
     },

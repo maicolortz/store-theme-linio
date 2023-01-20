@@ -1,0 +1,17 @@
+{
+
+    "flex-layout.row#footer-mobile": {
+        "title":"footer mobile",
+        "children": ["flex-layout.col#footer-mobile-container"
+         
+    ]
+   
+},
+"flex-layout.col#footer-mobile-container":{
+  "title":"footer mobile container",
+      "children":[ "newsletter-form",
+      "disclosure-layout-group#group"]
+}
+
+
+}
