@@ -1,0 +1,19 @@
+{
+    "header-row#2-desktop__section-links_": {
+        "children": [
+        "rich-text#link"
+        ],
+        "props": {
+          "fullWidth": true,
+          "sticky": true,
+          "blockClass": "flex-layout-header"
+        }
+      },
+      "rich-text#link":{
+      "title": "texto prueba",
+      "props": {
+        "text": "solo hoy",
+        "textColor": "c-on-emphasis"
+      }
+      }
+}

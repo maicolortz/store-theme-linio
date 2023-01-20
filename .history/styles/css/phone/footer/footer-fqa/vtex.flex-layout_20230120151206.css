@@ -1,0 +1,7 @@
+.flexRowContent--flex-row-apps-dowload{
+    display: flex;
+}
+.flexRowContent--flex-row-apps-dowload:nth-child(1n):nth-child(1n){
+    height: 40px;
+    width: 200px;
+}

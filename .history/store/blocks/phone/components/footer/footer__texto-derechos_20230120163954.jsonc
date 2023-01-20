@@ -1,0 +1,11 @@
+{
+    "flex-layout.row#texto-derechos-reservados":{
+        "children":[ "rich-text#derechos-reservados"]
+    },
+    "rich-text#derechos-reservados":{
+        "props":{
+            "text":""
+        }
+    }
+
+}

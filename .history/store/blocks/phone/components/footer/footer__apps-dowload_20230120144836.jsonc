@@ -1,0 +1,27 @@
+{
+    "flex-layout.col#apps-dowload":{
+    "children":["flex-layout.row#apps-download"]    
+    },
+    "flex-layout.row#apps-download":{
+
+        "children":[
+            "image#app01","image#app02","image#app03"
+        ]
+    },
+    "image#app01":{
+        "props": {
+            "src": "/assets/img/footer/apps/app01.png",
+          }
+    },
+    "image#app02":{
+        "props": {
+            "src": "assets/img/footer/apps/app01.png",
+            "height": 40
+          }
+    },"image#app03":{
+        "props": {
+            "src": "assets/img/footer/apps/app02.png",
+            "height": 40
+          }
+    }
+}

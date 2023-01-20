@@ -1,0 +1,7 @@
+{
+    "header-layout.mobile":{
+        "title": "container header mobile",
+        "children": [
+          "header-row#1-phone__section-main"]
+    }
+}

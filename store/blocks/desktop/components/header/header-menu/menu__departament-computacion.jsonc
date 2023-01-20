@@ -1,0 +1,29 @@
+{
+    "menu-item#departament-computacion":{
+         
+        "props": {
+            "id": "departament-computacion",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "COMPUTACION",
+                "text": "Computacion"
+            }
+        },
+        "blocks": [
+            "submenu#departament-computacion"
+        ]
+       
+    },
+    "submenu#departament-computacion": {
+        "children": [
+            "menu#departament-tiendas-oficiales"
+        ],
+        "props": {
+            
+            "blockClass": "submenu-departament-computacion"
+        }
+    }
+}

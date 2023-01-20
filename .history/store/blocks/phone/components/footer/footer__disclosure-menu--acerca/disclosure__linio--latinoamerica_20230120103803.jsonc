@@ -1,0 +1,9 @@
+ {            "disclosure-layout#linio__latinoamerica":{
+        "title":"layout about",
+        "children": [
+            "disclosure-trigger#about",
+            "disclosure-content#about"
+        ]
+    }
+    
+}

@@ -1,0 +1,11 @@
+{
+    "social-networks": {
+        "props": {
+          "socialNetworks": [
+            { "url": "#", "name": "Facebook" },
+            { "url": "#", "name": "Twitter" },
+            { "url": "#", "name": "Youtube" }
+          ]
+        }
+      }
+}

@@ -1,0 +1,31 @@
+{"flex-layout.row#footer-desktop": {
+    "title":"footer desktop",
+    "children": [
+      "flex-layout.row#footer__container--desktop"
+
+
+    ]
+  },
+  "flex-layout.row#footer__container--desktop":{
+    "children":["flex-layout.col#footer__acerca-de-nosotros","flex-layout.col#footer__acerca-de-nosotros","flex-layout.col#footer__acerca-de-nosotros"]
+  },
+  "flex-layout.col#footer__acerca-de-nosotros":{
+    "children":"menu#"
+  },
+  
+  "social-networks": {
+    "title":"social networks",
+    "props": {
+      "socialNetworks": [
+        { "url": "https://facebook.com/foo", "name": "Facebook" },
+        { "url": "https://twitter.com/foo", "name": "Twitter" }
+      ]
+    }
+  },
+  "accepted-payment-methods": {
+    "title":"payment methods",
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  }
+}

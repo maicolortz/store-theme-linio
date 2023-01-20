@@ -1,0 +1,30 @@
+{
+    "menu-item#departament-belleza": {
+        "title":"menu-item departament-belleza",
+        "props": {
+            "id": "departament-belleza",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "BELLEZA",
+                "text": "Belleza"
+            },
+            "blockClass": "menu-departament-belleza Container"
+        },
+        "blocks": [
+            "submenu#departament-tiendas-oficiales2"
+        ]
+       
+    },
+    "submenu#departament-tiendas-oficiales2": {
+        "children": [
+            "menu#departament-tiendas-oficiales"
+        ],
+        "props": {
+            
+            "blockClass": "submenu-departament-belleza"
+        }
+    }
+}

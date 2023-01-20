@@ -1,0 +1,11 @@
+{
+     ///////////////minicart
+
+  "minicart.v2#minicart":{
+    "props":{
+      "showIconProfile":true,
+      "quantityDisplay":"always",
+      "variation":"popup"
+    }
+  }
+}

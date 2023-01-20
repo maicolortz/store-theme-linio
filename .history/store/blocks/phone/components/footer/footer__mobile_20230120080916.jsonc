@@ -1,0 +1,11 @@
+{
+
+    "flex-layout.row#footer-mobile": {
+        "title":"footer mobile",
+        "children": [
+      "disclosure-layout-group#group"
+    ]
+}
+
+
+}

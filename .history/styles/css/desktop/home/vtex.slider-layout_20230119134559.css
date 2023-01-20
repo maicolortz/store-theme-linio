@@ -1,0 +1,9 @@
+.slideChildrenContainer{
+    border: 1px solid gainsboro;
+    height: 81.4%;
+}
+
+
+.sliderTrack{
+    gap: 5px;
+}

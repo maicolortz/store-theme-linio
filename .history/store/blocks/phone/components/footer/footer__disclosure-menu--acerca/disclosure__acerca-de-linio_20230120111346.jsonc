@@ -1,0 +1,254 @@
+{
+    "disclosure-layout#acerca__linio": {
+        "title": "layout about",
+        "children": [
+            "disclosure-trigger#about",
+            "disclosure-content#about"
+        ]
+    },
+    "disclosure-trigger#about": {
+        "title": "text about",
+        "children": [
+            "rich-text#about"
+        ]
+    },
+    "disclosure-content#about": {
+        "title": "text about",
+        "children": [
+            "menu#about"
+        ]
+    },
+    "rich-text#about": {
+        "title": "texto acerca",
+        "props": {
+            "text": "ACERCA DE LINIO"
+        }
+    },
+    "menu#about": {
+        "title": "menu acerca",
+        "children": [
+            "flex-layout.col#container-menu"
+        ],
+        "props": {
+            "orientacion": "vertical"
+        }
+    },
+    "flex-layout.col#container-menu": {
+        "title": "container menu",
+        "children": [
+            "menu-item#quienes-somos",
+            "menu-item#responsabilidad",
+            "menu-item#terminos"
+        ]
+    },
+    "menu-item#quienes-somos": {
+        "title": "quienes somos",
+        "props": {
+            "id": "menu-quienes-somos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "quienes somos",
+                "text": "Quienes Somos"
+            }
+        }
+    },
+    "menu-item#responsabilidad": {
+        "title": "quienes somos",
+        "props": {
+            "id": "menu-quienes-somos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "quienes somos",
+                "text": "Quienes Somos"
+            }
+        }
+    },
+    "menu-item#terminos": {
+        "title": "terminos",
+        "props": {
+            "id": "menu-terminos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "terminos",
+                "text": "Terminos de Uso"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Ventas-Corporativas": {
+        "title": "Ventas Corporativas ",
+        "props": {
+            "id": "Ventas-Corporativas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Ventas Corporativas",
+                "text": "Ventas Corporativas"
+            }
+        }
+    },
+    "menu-item#Programas-de-Lealtad": {
+        "title": "Programas de Lealtad",
+        "props": {
+            "id": "menu-Programas-de-Lealtad",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Programas-de-Lealtad",
+                "text": "Programas de Lealtad"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    "menu-item#Protección-de-Propiedad-Intelectual": {
+        "title": "Protección de Propiedad Intelectual",
+        "props": {
+            "id": "menu-Protección de Propiedad Intelectual",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Protección de Propiedad Intelectual",
+                "text": "Protección de Propiedad Intelectual"
+            }
+        }
+    },
+    
+
+}

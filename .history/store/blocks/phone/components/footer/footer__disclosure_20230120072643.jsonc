@@ -1,0 +1,28 @@
+{
+    "disclosure-layout#simple": {
+        "children": [
+            "disclosure-trigger#simple",
+            "disclosure-content#simple"
+        ]
+    },
+    "disclosure-trigger#simple": {
+        "children": [
+            "rich-text#question"
+        ]
+    },
+    "disclosure-content#simple": {
+        "children": [
+            "rich-text#answer"
+        ]
+    },
+    "rich-text#question": {
+        "props": {
+            "text": "How can I change my shipping address?"
+        }
+    },
+    "rich-text#answer": {
+        "props": {
+            "text": "Call us at the number (212) 1234-1234"
+        }
+    }
+}

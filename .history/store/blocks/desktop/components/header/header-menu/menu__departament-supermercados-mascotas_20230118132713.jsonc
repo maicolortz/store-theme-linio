@@ -1,0 +1,31 @@
+{
+
+    "menu-item#departament-supermercado-mascotas":{
+         
+        "props": {
+            "id": "departament-supermercado-mascotas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "SUPERMERCADO-MASCOTAS",
+                "text": "Supermercados /n y Mascotas"
+            }
+        },
+        "blocks": [
+            "submenu#departament-supermercado"
+        ]
+       
+    },
+    "submenu#departament-supermercado": {
+        "children": [
+            "menu#departament-tiendas-oficiales"
+        ],
+        "props": {
+            
+            "blockClass": "submenu-departament-supermercado"
+        }
+    }
+    
+}

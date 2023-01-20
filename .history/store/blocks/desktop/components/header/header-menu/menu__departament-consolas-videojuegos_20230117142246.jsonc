@@ -1,0 +1,31 @@
+{
+
+    "menu-item#departament-consolas-videojuegos":{
+         
+        "props": {
+            "id": "departament-consolas-videojuegos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "CONSOLAS-VIDEOJUEGOS",
+                "text": "Consolas y Videojuegos"
+            }
+        },
+        "blocks": [
+            "submenu#departament-videojuegos"
+        ]
+       
+    },
+    "submenu#departament-videojuegos": {
+        "children": [
+            "menu#departament-tiendas-oficiales"
+        ],
+        "props": {
+            
+            "blockClass": "submenu-departament-videojuegos"
+        }
+    }
+    
+}

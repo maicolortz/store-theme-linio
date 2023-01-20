@@ -1,0 +1,79 @@
+{
+    "disclosure-layout-group#group": {
+        "children": [
+            "disclosure-layout#about",
+            "disclosure-layout#servicio__cliente"
+        ]
+    },
+    ///layout about
+    "disclosure-layout#about": {
+        "children": [
+            "disclosure-trigger#about",
+            "disclosure-content#about"
+        ]
+    },
+    "disclosure-trigger#about": {
+        "children": [
+            "rich-text#about"
+        ]
+    },
+    "disclosure-content#about": {
+        "children": [
+            "menu#about"
+        ]
+    },
+    "rich-text#about": {
+        "props": {
+            "text": "Acerca de nosotros"
+        }
+    },
+    "menu#about": {
+        "children": [
+            "menu-item#quienes-somos",
+            "menu-item#quienes-somos",
+            "menu-item#quienes-somos"
+        ],
+        "props": {
+            "orientacion": "vertical"
+        }
+    },
+    "menu-item#quienes-somos": {
+        "props": {
+            "id": "menu-quienes-somos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "quienes somos",
+                "text": "Quienes Somos"
+            }
+        }
+    },
+    /////////////disclosure layout servicio__cliente  
+    "disclosure-layout#servicio__cliente": {
+        "children": [
+            "disclosure-trigger#about",
+            "disclosure-content#about"
+        ]
+    },
+    "disclosure-trigger#servicio__cliente": {
+        "children": [
+            "rich-text#question1"
+        ]
+    },
+    "disclosure-content#servicio__cliente": {
+        "children": [
+            "rich-text#answer1"
+        ]
+    },
+    "rich-text#question2": {
+        "props": {
+            "text": "How can I track my order?"
+        }
+    },
+    "rich-text#answer2": {
+        "props": {
+            "text": "After logging into your account, you can find this info at the link Orders."
+        }
+    }
+}

@@ -5,8 +5,7 @@
         ],
         "props": {
             "rowGap": 6,
-            "colGap": 4,
-            "width": "70%",
+            "colGap": 2,
             "marginTop": 8
         }
     },
@@ -29,7 +28,8 @@
     "rich-text#home__banner-app--title": {
         "title": "title app ",
         "props": {
-            "text": "## Descarga la app",
+            "text": "**DESCARGA LA APP**",
+            "font": "t-heading-6",
             "blockClass": "section__2--title"
         }
     },

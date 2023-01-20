@@ -1,0 +1,31 @@
+{
+
+    "menu-item#departament-mas":{
+         
+        "props": {
+            "id": "departament-mas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "0 0 16 16",
+                "noFollow": true,
+                "tagTitle": "MAS",
+                "text": "Mas"
+            }
+        },
+        "blocks": [
+            "submenu#departament-mas"
+        ]
+       
+    },
+    "submenu#departament-mas": {
+        "children": [
+            "menu#departament-tiendas-oficiales"
+        ],
+        "props": {
+            
+            "blockClass": "submenu-departament-mas"
+        }
+    }
+    
+}

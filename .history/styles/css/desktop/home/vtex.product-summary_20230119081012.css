@@ -1,0 +1,16 @@
+.productBrand{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.sellingPrice{
+font-size: 1.4rem;
+color: #ea2840;
+font-weight: bold;
+}
+.nameContainer{
+    padding: 0%;
+    min-height:50px ;
+}
+.priceContainer{
+    padding: 0%;
+}

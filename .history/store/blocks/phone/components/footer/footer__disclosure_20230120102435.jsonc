@@ -1,0 +1,83 @@
+{
+    "disclosure-layout-group#group": {
+        "title":"layout gruop",
+        "children": [
+            "disclosure-layout#about",
+            "disclosure-layout#servicio__cliente"
+        ]
+    },
+    ///layout about
+    "disclosure-layout#about": {
+        "title":"layout about",
+        "children": [
+            "disclosure-trigger#about",
+            "disclosure-content#about"
+        ]
+    },
+    "disclosure-trigger#about": {
+        "title":"text about",
+        "children": [
+            "rich-text#about"
+        ]
+    },
+    "disclosure-content#about": {
+        "title":"text about",
+        "children": [
+            "menu#about"
+        ]
+    },
+    "rich-text#about": {
+        "props": {
+            "text": "ACERCA DE LINIO"
+        }
+    },
+    "menu#about": {
+        "children": [
+            "menu-item#quienes-somos",
+            "menu-item#responsabilidad",
+            "menu-item#terminos"
+        ],
+        "props": {
+            "orientacion": "vertical"
+        }
+    },
+    "menu-item#quienes-somos": {
+        "props": {
+            "id": "menu-quienes-somos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "quienes somos",
+                "text": "Quienes Somos"
+            }
+        }
+    },
+    /////////////disclosure layout servicio__cliente  
+    "disclosure-layout#servicio__cliente": {
+        "children": [
+            "disclosure-trigger#servicio__cliente",
+            "disclosure-content#servicio__cliente"
+        ]
+    },
+    "disclosure-trigger#servicio__cliente": {
+        "children": [
+            "rich-text#question2"
+        ]
+    },
+    "disclosure-content#servicio__cliente": {
+        "children": [
+            "menu#about"
+        ]
+    },
+    "rich-text#question2": {
+        "props": {
+            "text": "How can I track my order?"
+        }
+    },
+    "rich-text#answer2": {
+        "props": {
+            "text": "After logging into your account, you can find this info at the link Orders."
+        }
+    }
+}
