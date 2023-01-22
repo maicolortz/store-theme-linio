@@ -1,0 +1,7 @@
+.newsletterForm--newsletter-footer-tablet :global(.vtex-flex-layout-0-x-flexRowContent){
+gap: 10px !important;
+}
+
+.newsletterForm--newsletter-footer-tablet :global(.vtex-rich-text-0-x-container){
+padding-top: 6px!important;
+}

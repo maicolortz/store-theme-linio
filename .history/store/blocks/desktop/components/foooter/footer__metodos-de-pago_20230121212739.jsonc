@@ -1,0 +1,116 @@
+{
+    "flex-layout.row#metodos-pago-desktop":{
+        "title":"metodos de pago flex",
+        "children":["flex-layout.col#visa",
+        "flex-layout.col#American-Express",
+        "flex-layout.col#PSE",
+        "flex-layout.col#Pago-contra-entrega",
+        "flex-layout.col#MasterCard",
+        "flex-layout.col#Tarjetas-Codensa",
+        "flex-layout.col#Efecty"]
+    },
+    "flex-layout.col#visa":{
+        "title":"metodos de pago visa",
+        
+        "children":["image#visa","rich-text#visa"]
+    },
+
+    "flex-layout.col#American-Express":{
+        "title":"metodos de pago american",
+
+        "children":["image#American-Express","rich-text#American-Express"]
+    },
+
+    "flex-layout.col#PSE":{
+        "title":"metodos de pago pse",
+
+        "children":["image#PSE","rich-text#PSE"]
+    },
+
+    "flex-layout.col#Pago-contra-entrega":{
+        "title":"metodos de pago contra-entrega",
+
+        "children":["image#contra-entrega","rich-text#contra-entrega"]
+    },
+
+    "flex-layout.col#MasterCard":{
+        "title":"metodos de pago Mastercard",
+
+        "children":["image#MasterCard","rich-text#MasterCard"]
+    },
+
+    "flex-layout.col#Tarjetas-Codensa":{
+        "children":["image#Tarjetas-Codensa","rich-text#Tarjetas-Codensa"]
+    },
+
+    "flex-layout.col#Efecty":{
+        "children":["image#Efecty","rich-text#Efecty"]
+    },
+    "image#visa":{
+        "props":{
+
+        }
+    },"rich-text#visa":{
+        "props":{
+
+        }
+    },
+    "image#American-Express":{
+        "props":{
+
+        }
+    },"rich-text#American-Express":{
+        "props":{
+
+        }
+    },
+    "image#PSE":{
+        "props":{
+
+        }
+    },"rich-text#PSE":{
+        "props":{
+
+        }
+    },
+    "image#contra-entrega":{
+        "props":{
+
+        }
+    },"rich-text#contra-entrega":{
+        "props":{
+
+        }
+    },
+    "image#MasterCard":{
+        "props":{
+
+        }
+    },"rich-text#MasterCard":{
+        "props":{
+
+        }
+    },
+    "image#Tarjetas-Codensa":{
+        "props":{
+
+        }
+    },"rich-text#Tarjetas-Codensa":{
+        "title":"texto pago codensa",
+        "props":{
+            "text":"Tarjetas Codensa"
+        }
+    },
+    "image#Efecty":{
+        "props":{
+
+        }
+    },"rich-text#Efecty":{
+        "title":"texto pago efecty",
+        "props":{
+            "text":"Efecty"
+        }
+    }
+
+   
+}

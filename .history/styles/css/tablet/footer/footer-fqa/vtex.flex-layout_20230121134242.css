@@ -1,0 +1,8 @@
+.flexRowContent--section-3-columnas-tablet :global(.vtex-menu-2-x-styledLinkContainer){
+    margin: 0px;
+    padding-bottom: 0.4rem;
+    opacity: 90%;
+}
+.flexRowContent--section-3-columnas-tablet:global(.vtex-menu-2-x-styledLinkContent){
+    white-space: break-spaces;
+}

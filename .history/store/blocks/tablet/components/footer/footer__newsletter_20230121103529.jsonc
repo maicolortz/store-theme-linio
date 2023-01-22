@@ -1,0 +1,26 @@
+{
+    "newsletter-form#tablet": {
+        "title": "newsletter",
+        "children": [
+            "rich-text#Suscribete-tablet",
+            "newsletter-input-email#tablet",
+            "newsletter-checkbox-confirmation",
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass": "newsletter-footer-tablet"
+        }
+    },
+    "flex-layout.row#"
+    "rich-text#Suscribete-tablet":{
+        "props":{
+            "text":"SUSCRIBETE A NUESTRO NEWSLETTER"
+        }
+    },
+    "newsletter-input-email#tablet": {
+        "props": {
+            "placeholderText": "Suscribete con tu email"
+           
+        }
+    }
+}

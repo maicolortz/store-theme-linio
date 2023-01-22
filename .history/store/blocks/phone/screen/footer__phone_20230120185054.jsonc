@@ -1,0 +1,6 @@
+{
+  
+  "responsive-layout.phone":{
+    "children":["flex-layout.row#footer-mobile"]
+  }
+}

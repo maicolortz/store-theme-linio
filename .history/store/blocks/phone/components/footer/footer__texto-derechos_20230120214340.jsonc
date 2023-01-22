@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#texto-derechos-reservados":{
+        "children":[ "rich-text#derechos-reservados"]
+    },
+    "rich-text#derechos-reservados":{
+        "props":{
+            "text":"© 2023 Linio Colombia | Todos los derechos reservados. Falabella.com S.A.S. NIT 900.499.362-8. Teléfono (571) 4842220. Dirección: Calle 99 #14-49 Piso 9, Bogotá Colombia. E-mail de notificaciones judiciales: notificaciones.judiciales@falabella.com"
+        , "blockClass":"texto-footer-derechos"    
+        }
+
+    }
+
+}

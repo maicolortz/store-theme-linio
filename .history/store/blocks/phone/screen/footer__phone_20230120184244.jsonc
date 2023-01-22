@@ -1,0 +1,12 @@
+{
+  "footer-layout.mobile": {
+    "title": "footer mobile",
+    "children": [
+      "responsive-layout.phone"
+      
+    ]
+  },
+  "responsive-layout.phone":{
+    "children":["flex-layout.row#footer-mobile"]
+  }
+}

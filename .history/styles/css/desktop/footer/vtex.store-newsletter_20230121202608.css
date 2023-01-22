@@ -1,0 +1,3 @@
+.newsletterForm--newsletter-footer-tablet :global(.vtex-flex-layout-0-x-flexRowContent){
+gap: 20px !important;
+}

@@ -1,0 +1,19 @@
+{
+  "newsletter-form": {
+    "title": "newsletter",
+    "children": [
+      "newsletter-input-email",
+      "newsletter-checkbox-confirmation",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-email": {
+
+  },
+  "newsletter-checkbox-confirmation":{
+    
+  },
+  "newsletter-submit": {
+
+  }
+}
