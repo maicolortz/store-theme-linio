@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#social-networks-tablet":{
+        "title":"networks-tablet",
+        "children":["flex-layout.col#social-networks-tablet"]
+    },
+    "flex-layout.col#social-networks-tablet":{
+        "title":"networks-col-tablet",
+
+        "children":["rich-text#siguenos", "social-networks"],
+        "props":{
+            "blockClass":"social-network-tablet"
+        }
+    }
+}

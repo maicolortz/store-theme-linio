@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#footer__section-3":{
+        "children":[
+        
+        "flex-layout.col#footer__acerca-de-nosotros",
+        "flex-layout.col#footer__servicio-cliente",
+         "flex-layout.col#footer__latinoamerica",
+         "flex-layout.col#footer__novedades",
+        "flex-layout.col#columna2__section3--footer"
+        ],
+        "props":{
+          "blockClass":"section-3-columnas-tablet"}
+    },
+    "flex-layout.col#columna2__section3--footer":{
+        "children":["flex-layout.row#social-networks",
+        "flex-layout.row#apps-download",
+        "flex-layout.row#industria-comercio"]
+    }
+
+  
+  /* "flex-layout.col#b-de-nosotros":{
+    "title":"footer col acerca",
+    "children":["menu#about"]
+  } */
+    
+}

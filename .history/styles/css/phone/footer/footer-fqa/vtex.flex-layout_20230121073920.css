@@ -1,0 +1,58 @@
+.flexRowContent--flex-row-apps-dowload{
+    display: flex;
+    flex-wrap: wrap !important;
+}
+.flexRowContent--flex-row-apps-dowload :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 125px !important;
+    height: 36px ;
+    margin: 5px;
+}
+.flexColChild--grupo-disclosure{
+    height: 100%;
+}
+/* .flexColChild--grupo-disclosure:global(.vtex-disclosure-layout-1-x-trigger){
+}
+.flexColChild--grupo-disclosur{
+    border-bottom: 1px solid #808080b3;
+} */
+
+.flexColChild--grupo-disclosure :global(.vtex-disclosure-layout-1-x-trigger){
+border-bottom: 0px solid dimgray;
+border: 0px;
+font-size: 0.8rem;
+border-bottom:  1px solid #808080b3;
+}
+.flexColChild--grupo-disclosure :global(.vtex-disclosure-layout-1-x-trigger):first-child{
+    font-size: 0.8rem;
+}
+.flexRowContent--metodos-pago{
+    display: flex;
+    padding: 30px 0px;
+    margin-top: 20px;
+    border-top:1px  solid #808080b3;
+    border-bottom:1px  solid #808080b3;
+    opacity: 90%;
+}
+.flexRowContent--metodos-pago :global(.vtex-rich-text-0-x-paragraph) {
+    line-height: 2;
+    font-size: 0.8rem;
+}
+.flexCol--contenedor-menu-items :global(.vtex-menu-2-x-styledLink){
+    font-size: 0.8rem;
+    color: 808080b3;
+}
+
+.flexCol--contenedor-menu-items :global(.vtex-menu-2-x-styledLink):hover{
+
+background-color: rgba(255, 222, 173, 0);
+}
+.flexRowContent--flex-social-networks{
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+}
+.flexRowContent--flex-social-networks :global(.vtex-rich-text-0-x-container){
+
+    width: fit-content;
+    align-items: center;
+}

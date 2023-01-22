@@ -1,0 +1,10 @@
+{
+    "footer-layout.mobile": {
+        "title": "footer mobile",
+        "children": [
+          "responsive-layout.phone#footer-main",
+          "responsive-layout.tablet#footer-main"
+          
+        ]
+      }
+}

@@ -1,0 +1,17 @@
+.flexRowContent--flex-metodos-pago-desktop :global(.vtex-rich-text-0-x-paragraph){
+
+color: #3f3f40;
+font-size: 0.8rem;
+line-height: 1.4;
+opacity: 80%;
+}
+.flexRowContent--flex-metodos-pago-desktop :global(.vtex-flex-layout-0-x-flexCol){
+    display: flex;
+    flex-direction: row;
+}
+
+.vtex-flex-layout-0-x-flexRow--flex-metodos-pago-desktop{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #3f3f40;
+}    

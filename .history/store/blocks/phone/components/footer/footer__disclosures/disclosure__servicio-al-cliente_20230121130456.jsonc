@@ -1,0 +1,201 @@
+{
+    "disclosure-layout#servicio__cliente": {
+        "title": "layout servicio__cliente",
+        "children": [
+            "disclosure-trigger#servicio__cliente",
+            "disclosure-content#servicio__cliente"
+        ]
+       
+    },
+    "disclosure-trigger#servicio__cliente": {
+        "title": "text servicio__cliente",
+        "children": [
+            "rich-text#servicio__cliente"
+        ]
+    },
+    "disclosure-content#servicio__cliente": {
+        "title": "text servicio__cliente",
+        "children": [
+            "menu#servicio__cliente"
+        ]
+    },
+    "rich-text#servicio__cliente": {
+        "title": "texto acerca",
+        "props": {
+            "text": "SERVICIO AL CLIENTE"
+        }
+    },
+    "menu#servicio__cliente": {
+        "title": "menu acerca",
+        "children": [
+            "flex-layout.col#container-menu-servicio"
+        ],
+        "props": {
+            "orientacion": "vertical"
+        }
+    },
+    "flex-layout.col#container-menu-servicio": {
+        "title": "container menu servicio al cliente",
+        "children": [
+            "menu-item#preguntas-frecuentes",
+            "menu-item#aplicar-mi-garantia",
+            "menu-item#estado-de-mi-recoleccion",
+            "menu-item#Autorización-para-el-Tratamiento-de-Datos-Personales",
+            "menu-item#politica-tratamiento",
+            "menu-item#Terminos-condiciones",
+            "menu-item#Politica-ventas",
+            "menu-item#Legales",
+            "menu-item#Peticiones-quejas",
+            "menu-item#sic-gov",
+            "menu-item#Como-cuidamos-tus-datos"
+        ],
+        "props":{"blockClass":"contenedor-menu-items"}
+    },
+    "menu-item#preguntas-frecuentes": {
+        "title": "preguntas frecuentes",
+        "props": {
+            "id": "menu-preguntas-frecuentes",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "preguntas frecuentes",
+                "text": "Preguntas Frecuentes"
+            }
+        }
+    },
+    "menu-item#aplicar-mi-garantia": {
+        "title": "Aplicar-mi-garantia",
+        "props": {
+            "id": "menu-Aplicar-mi-garantia",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Aplicar-mi-garantia",
+                "text": "Aplicar mi garantia"
+            }
+        }
+    },
+    "menu-item#estado-de-mi-recoleccion": {
+        "title": "estado-de-mi-recoleccion",
+        "props": {
+            "id": "menu-estado-de-mi-recoleccion",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "estado-de-mi-recoleccion",
+                "text": "Estado-de-mi-recoleccion de Uso"
+            }
+        }
+    },
+    "menu-item#Autorización-para-el-Tratamiento-de-Datos-Personales": {
+        "title": "Autorización-para-el-Tratamiento-de-Datos-Personales",
+        "props": {
+            "id": "menu-Autorización-para-el-Tratamiento-de-Datos-Personales",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Autorización-para-el-Tratamiento-de-Datos-Personales",
+                "text": "Autorización para el \nTratamiento de Datos\n Personales"
+            }
+        }
+    },
+    "menu-item#politica-tratamiento": {
+        "title": "Politica de tratamiento de datos personales ",
+        "props": {
+            "id": "politica-tratamiento",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Politica de tratamiento de datos personales",
+                "text": "Politica de tratamiento de datos personales"
+            }
+        }
+    },
+    "menu-item#Terminos-condiciones": {
+        "title": "Terminos-condiciones",
+        "props": {
+            "id": "Terminos-condiciones",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Terminos-condiciones",
+                "text": "Terminos y condiciones"
+            }
+        }
+    },
+    "menu-item#Politica-ventas": {
+        "title": "Politica-ventas",
+        "props": {
+            "id": "menu-Politica-ventas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Politica-ventas",
+                "text": "Politica de venta de productos internacionales"
+            }
+        }
+    },
+    "menu-item#Legales": {
+        "title": "Legales",
+        "props": {
+            "id": "menu-Legales",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Legales",
+                "text": "Legales"
+            }
+        }
+    },
+    "menu-item#Peticiones-quejas": {
+        "title": "Peticiones-quejas",
+        "props": {
+            "id": "menu-Peticiones-quejas",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Peticiones-quejas",
+                "text": "Peticiones, quejas o reclamos"
+            }
+        }
+    },
+    "menu-item#sic-gov": {
+        "title": "sic-gov",
+        "props": {
+            "id": "menu-sic-gov",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "sic-gov",
+                "text": "www.sic.gov.co"
+            }
+        }
+    },
+    "menu-item#Como-cuidamos-tus-datos": {
+        "title": "Como-cuidamos-tus-datos",
+        "props": {
+            "id": "Como-cuidamos-tus-datos",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "tagTitle": "Como-cuidamos-tus-datos",
+                "text": "¿ Como cuidamos tus datos ?"
+            }
+        }
+    }
+    
+    
+    
+
+}
