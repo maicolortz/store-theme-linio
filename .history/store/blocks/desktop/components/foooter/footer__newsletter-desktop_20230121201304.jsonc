@@ -1,0 +1,25 @@
+{
+    
+        "newsletter-form#desktop": {
+            "title": "newsletter desktop",
+            "children": [
+                "flex-layout.row#newsletter__container-desktop"
+            ],
+            "props": {
+                "blockClass": "newsletter-footer-tablet"
+            }
+        },
+        "flex-layout.row#newsletter__container-desktop":{
+            "title":"newsletter desktop ",
+            "children":["rich-text#Suscribete-tablet","flex-layout.col#newsletter__section2-desktop", "newsletter-submit"]
+        },
+        "flex-layout.col#newsletter__section2-desktop":{
+            "title":"newsletter seccion 2 desktop",
+            "children":[
+                "newsletter-input-email#tablet",
+                "newsletter-checkbox-confirmation"
+               ]
+        }
+       
+    
+}

@@ -1,0 +1,29 @@
+{"flex-layout.row#footer-desktop": {
+    "title":"footer desktop",
+    "children": [
+      "flex-layout.row#footer__container--desktop"
+
+
+    ]
+  },
+  "flex-layout.row#footer__container--desktop":{
+    "title":"footer container desktop",
+    "children":["flex-layout.col#footer__acerca-de-nosotros","flex-layout.col#footer__servicio-cliente", "flex-layout.col#footer__latinoamerica","flex-layout.col#footer__novedades"]
+  },
+  "flex-layout.col#footer__acerca-de-nosotros":{
+    "title":"footer col acerca",
+    "children":["rich-text#about","menu#about"]
+  },
+  "flex-layout.col#footer__servicio-cliente":{
+    "title":"footer col acerca",
+    "children":["rich-text#servicio__cliente","menu#servicio__cliente"]
+  },
+  "flex-layout.col#footer__latinoamerica":{
+    "title":"footer col acerca",
+    "children":[ "rich-text#linio__latinoamerica","menu#linio__latinoamerica"]
+},
+"flex-layout.col#footer__novedades":{
+  "title":"footer col acerca",
+  "children":[ "rich-text#novedades","menu#novedades"]
+}
+}

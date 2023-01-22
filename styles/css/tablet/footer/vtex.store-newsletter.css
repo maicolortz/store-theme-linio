@@ -1,0 +1,4 @@
+.newsletterForm--newsletter-footer-tablet :global(.vtex-rich-text-0-x-paragraph){
+    font-weight: 600;
+    margin: 0 auto;
+}

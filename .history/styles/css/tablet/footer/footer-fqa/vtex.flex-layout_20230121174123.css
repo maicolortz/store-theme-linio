@@ -1,0 +1,38 @@
+.flexRowContent--section-3-columnas-tablet :global(.vtex-menu-2-x-styledLinkContainer){
+    margin: 0px;
+    padding-bottom: 0.4rem;
+    opacity: 90%;
+}
+.flexRowContent--section-3-columnas-tablet .vtex-menu-2-x-styledLinkContent{
+    white-space: break-spaces;
+}
+.flexRowContent--section-3-columnas-tablet :global(.vtex-rich-text-0-x-paragraph){
+    color: #333;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.flexRowContent--section-3-columnas-tablet :global(.vtex-menu-2-x-styledLinkContent){
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.flexColChild--social-network-tablet :global(.vtex-store-footer-2-x-socialNetworksContainer){
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;    
+
+}
+.flexCol--columna2-section3-footer{
+    padding-top: 30px;
+    padding-left: 10px;
+    border-left: 1px solid;
+    border: 1px solid #ccc;
+    border-color: transparent transparent transparent #ccc;
+}
+.flexRowContent--section-3-columnas-tablet{
+    
+}

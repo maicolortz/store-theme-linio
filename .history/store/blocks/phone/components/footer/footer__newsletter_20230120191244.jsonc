@@ -1,0 +1,10 @@
+{
+"newsletter-form": {
+  "title":"newsletter",
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
+  }
+}

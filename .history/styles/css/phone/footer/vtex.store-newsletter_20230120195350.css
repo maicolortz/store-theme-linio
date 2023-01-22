@@ -1,0 +1,7 @@
+.vtex-input__label{
+    font-size: 2rem;
+}
+.newsletterForm--newsletter-footer :global(.vtex-input__label){
+    font-size: 1.2rem;
+    text-align: center;
+}

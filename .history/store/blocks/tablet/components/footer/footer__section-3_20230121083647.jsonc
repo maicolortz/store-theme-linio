@@ -1,0 +1,10 @@
+{
+    "flex-layout.row#footer__section-3":{
+        "children":["flex-layout.row#container__disclosure",
+   
+        "flex-layout.row#social-networks",
+        "flex-layout.row#apps-download",
+        "flex-layout.row#industria-comercio"]
+    }
+    
+}
