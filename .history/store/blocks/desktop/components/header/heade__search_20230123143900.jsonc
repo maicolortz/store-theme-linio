@@ -1,0 +1,96 @@
+{
+    "store.search":{
+        "title":"store search",
+        "blocks":["search-result-layout"	],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "default"
+            }
+         }
+
+    },"store.search#category":{
+        "title":"store search category",
+
+        "blocks":["search-result-layout#departament"],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+         }
+
+    },"store.search#subcategory":{
+        "title":"store search subcategory",
+
+        "blocks":["search-result-layout"],
+
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+         }
+    },"store.search#brand":{
+        "title":"store search brand" ,
+
+        "blocks":["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+         }
+
+
+    } ,
+    
+    "product-summary.shelf#search-departament": {
+        "children": [
+          "product-summary-image"/*,
+          "product-summary-name",
+         "product-list-price",
+         "product-selling-price" ,
+
+          "product-summary-attachment-list",
+          "product-summary-space",
+          "product-summary-column#1" */
+        ]
+      },
+/* s */
+    "search-result-layout":{
+        "title":"store search",
+
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop":{
+        "title":"store search desktop",
+
+        "children":["rich-text#desktop-search"]
+    },
+    "search-result-layout.mobile":{
+        "title":"store search mobile",
+
+        "children":["rich-text#mobile-search"]
+        
+    },
+    "rich-text#desktop-search":{
+        "title":"texto search desktop",
+        
+        "props":{
+            "text":"estamos en desktop"
+        }
+    },
+    "rich-text#mobile-search":{
+        "title":"texto search mobile",
+
+        "props":{
+            "text":"estamos en mobile"
+        }
+    }
+
+}

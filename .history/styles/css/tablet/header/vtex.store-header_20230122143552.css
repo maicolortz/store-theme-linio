@@ -1,0 +1,6 @@
+.headerRowContainer--flex-tablet .vtex-login-2-x-container{
+    background-color: aqua;
+}
+.headerRowContainer--flex-tablet :global(.vtex-login-2-x-container){
+    border-right: 1px solid #eee;
+}

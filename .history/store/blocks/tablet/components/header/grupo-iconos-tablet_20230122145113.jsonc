@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#grupo-iconos-header":{
+        "title":"grupo iconos header",
+    "children":[ "login",
+    "image#pedidos",
+    "minicart.v2#minicart"],
+    "props":{
+        "blockClass":"grupo-iconos",
+        "colGap":5
+    }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "header-row#1-tablet-container":{
+        "title":"container tablet",
+        "children":[   "drawer#header__desktop-menu",
+        "logo#desktop",
+     
+        "search-bar#header__midle",
+        "login",
+        "image#pedidos",
+        "minicart.v2#minicart",
+        "overlay-trigger"],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "flex-layout-header"
+          }
+    }
+}

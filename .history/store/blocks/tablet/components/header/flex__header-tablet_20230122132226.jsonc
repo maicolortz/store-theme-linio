@@ -1,0 +1,7 @@
+{
+    "flex-layout.row#header-tablet":{
+        "title":"header tablet ",
+        "children":["header-row#1-desktop__midle"]
+    }
+
+}

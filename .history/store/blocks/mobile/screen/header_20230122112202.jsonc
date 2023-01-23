@@ -1,0 +1,8 @@
+{
+    "header-layout.mobile":{
+        "title": "container header mobile",
+        "children": [  "responsive-layout.phone#header-phone",
+        "responsive-layout.tablet#header-tablet",
+          "header-row#1-phone__section-main"]
+    }
+}

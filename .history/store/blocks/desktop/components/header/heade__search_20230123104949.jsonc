@@ -1,0 +1,47 @@
+{
+    "store.search":{
+        "blocks":["search-result-layout"	]
+
+    },"store.search#departament":{
+        "blocks":["search-result-layout"]
+        
+
+    },"store.search#category":{
+        "blocks":["search-result-layout"]
+
+
+    },"store.search#subcategory":{
+        "blocks":["search-result-layout"]
+
+
+    },"store.search#brand":{
+        "blocks":["search-result-layout"]
+
+
+    } ,
+    "search-result-layout":{
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop":{
+        "children":["rich-text#desktop-search"]
+    },
+    "search-result-layout.mobile":{
+        "children":["rich-text#mobile-search"]
+        
+    },
+    "rich-text#desktop-search":{
+        "props":{
+            "text":"estamos en desktop"
+        }
+    },
+    "rich-text#mobile-search":{
+        "props":{
+            "text":"estamos en mobile"
+        }
+    }
+
+}

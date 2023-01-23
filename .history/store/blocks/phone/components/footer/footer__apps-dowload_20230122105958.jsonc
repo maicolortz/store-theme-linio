@@ -1,0 +1,28 @@
+{
+   
+    "flex-layout.row#apps-download":{
+        "title":"apps download",
+        "children":[
+            "image#app01","image#app02","image#app03"
+        ],
+        "props":{"blockClass":"flex-row-apps-dowload"}
+       
+    },
+    "image#app01":{
+        "title":"imagen dowload1",
+        "props": {
+            "src": "assets/img/footer/apps/app01.png"
+          }
+    },
+    "image#app02":{
+        "title":"imagen dowload2",
+        "props": {
+            "src": "assets/img/footer/apps/app02.png"
+          }
+    },"image#app03":{
+        "title":"imagen dowload3",
+        "props": {
+            "src": "assets/img/footer/apps/app03.png"
+          }
+    }
+}

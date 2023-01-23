@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#minicart-texto":{
+        "title":"minicart + texto",
+        "children":["rich-text#carrito","minicart.v2#minicart" ]
+    },
+    "rich-text#carrito":{
+        "title":"texto carrito minicart",
+        "props":{
+            "text":"carrito"
+        }
+
+    }
+}

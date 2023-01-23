@@ -35,7 +35,9 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "iconLabel": "Iniciar sesion",
-      "showIconProfile": true
+      "showIconProfile": false,
+      "optionsTitle":"Iniciar sesion"
+
     }
   },
   "minicart": {},
