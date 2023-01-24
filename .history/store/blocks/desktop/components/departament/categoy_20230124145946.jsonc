@@ -1,0 +1,21 @@
+{
+    "store.search#category": {
+        "blocks": ["search-result-layout#category"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "skip",
+                "maxItemsPerPage": 12,
+                "hideUnavailableItems": true
+            }
+        }
+    },
+    "search-result-layout#category": {
+        "title": "store search departament",
+        "blocks": [
+            "search-result-layout.desktop#departament",
+            "search-result-layout.mobile#departament",
+            "search-not-found-layout"
+        ]
+    }
+}

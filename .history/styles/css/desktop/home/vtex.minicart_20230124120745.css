@@ -1,0 +1,13 @@
+.popupContentContainer{
+border-radius: 20px;
+}
+.popupChildrenContainer{
+    border-radius: 20px;
+}
+
+.minicartCheckoutButton .vtex-button{
+
+    background: none;
+    color: orangered;
+    border: 0px;
+}
