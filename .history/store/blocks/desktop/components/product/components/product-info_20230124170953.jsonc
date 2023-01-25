@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#product__info": {
+        "title": "info general del producto",
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data"
+        ]
+    },
+    "flex-layout.col#product__info--image": {
+        "title": "imagenes de producto",
+        "children": [
+            "product-images"
+        ]
+    },
+    "flex-layout.col#product__info--data": {
+        "title": "data de producto",
+        "children": [
+            " product-name",
+            "product-price",
+            "product-quantity"
+        ]
+    }
+}

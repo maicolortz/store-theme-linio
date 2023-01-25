@@ -1,0 +1,28 @@
+.container--layout {
+    margin: 0px auto;
+  max-width: 1180px;
+  gap: 20px;
+}
+  .searchResultContainer{
+    background-color: #f6f6f6;
+    padding-bottom: 200px;
+  }
+  .galleryItem--normal :global(.vtex-product-summary-2-x-containerNormal){
+    background-color: whitesmoke;
+  }
+
+  .filtersWrapper{
+    display: flex;
+    font-weight: 700;
+    height: 50px;
+    justify-content: space-around; 
+  }
+  .filterContent{
+    background-color: white;
+    box-shadow:10px ;
+    position: relative;
+    z-index: 1;
+  }
+  .sidebar{
+    width: calc(100% - 14px);
+  }

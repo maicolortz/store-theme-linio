@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#product__info": {
+        "title": "info general del producto",
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data"
+        ]
+    },
+    "flex-layout.col#product__info--image": {
+        "title": "imagenes de producto",
+        "children": [
+            "product-images#product__info--mensaje"
+        ]
+    },
+    "product-images#product__info--mensaje":{
+        "title":"imagenes",
+        "props":{
+            /* "aspectRatio":"4:3",
+            "displayThumbnailsArrows":true */
+            "zoomMode":"open-modal"
+        }
+    },
+
+    "flex-layout.col#product__info--data": {
+        "title": "data de producto",
+        "children": [
+            "vtex.store-components:product-name",
+            "product-price",
+            "product-quantity",
+            "vtex.store-components:product-brand",
+            "product-rating-inline",
+            "rich-text#product__promo-info",
+            "product-add-to-list-button",
+
+            "product-details"
+        ]
+    },
+    "rich-text#product__promo-info":{
+        "title":"texto promo",
+        "props":{
+            "text":" "
+        }
+    } 
+}

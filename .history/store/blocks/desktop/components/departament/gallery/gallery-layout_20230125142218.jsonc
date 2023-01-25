@@ -1,0 +1,23 @@
+{
+    "gallery-layout-switcher": {
+        "title": "layout galery",
+        "children": [
+          "gallery-layout-option#grid__two-columns",
+          "gallery-layout-option#grid__one-column"
+        ]
+      },
+      "gallery-layout-option#grid__two-columns": {
+        "title": "gallery two columns",
+        "props": {
+          "name": "grid-two-columns",
+          "blockClass": "grid__selector--two-columns"
+        }
+      },
+      "gallery-layout-option#grid__one-column": {
+        "title": "gallery one columns",
+        "props": {
+          "name": "grid-one-column",
+          "blockClass": "grid__selector--one-column"
+        }
+      }
+}
