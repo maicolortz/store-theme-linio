@@ -1,0 +1,7 @@
+.flexRowContent--product-info-store{
+    gap: 80px !important;
+    padding: 20px;
+}
+.flexRowContent--flex-row-quantity .vtex-button{
+    height: 40px;
+}

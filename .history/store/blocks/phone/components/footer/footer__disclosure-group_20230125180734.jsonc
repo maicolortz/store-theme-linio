@@ -1,0 +1,32 @@
+{
+    //no se esta usando 
+    /* "disclosure-layout-group#group": {
+        "title":"layout gruop",
+        "children": [
+            "disclosure-layout#acerca__linio",
+            "disclosure-layout#servicio__cliente",
+            "disclosure-layout#linio__latinoamerica",
+            "disclosure-layout#novedades"
+        ]
+    } */
+    "flex-layout.row#container__disclosure":{
+        "title":"layout gruop",
+        "children":["flex-layout.col#container__disclosure"]
+        
+    },
+    "flex-layout.col#container__disclosure":{
+        "title":"layout gruop",
+        "children": [
+            "disclosure-layout#acerca__linio",
+            "disclosure-layout#servicio__cliente",
+            "disclosure-layout#linio__latinoamerica",
+            "disclosure-layout#novedades"
+        ],
+        "props":{
+            "blockClass":"grupo-disclosure"
+        }
+    }
+   
+    /////////////disclosure layout servicio__cliente  
+   
+}

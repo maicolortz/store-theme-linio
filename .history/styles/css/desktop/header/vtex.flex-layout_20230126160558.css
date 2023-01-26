@@ -1,0 +1,29 @@
+.flexRow--flex-departament-results  :global(.vtex-product-summary-2-x-element){
+gap: 20px;
+}
+
+.flexRow--flex-departament-results  :global(.vtex-product-summary-2-x-element) :global(.vtex-product-price-1-x-sellingPrice){
+    font-size: 1.5rem;
+    font-weight: 600;
+    }
+   
+.flexRowContent--flex-section-filters{
+
+    display: flex;
+    background-color: white;
+    border: 1px solid #3f3f3f47;
+    font-weight: 700;
+    height: 50px;
+    justify-content: space-around;
+
+}
+.flexRowContent--store-product{
+    max-width: 1180px;
+    margin: 0px auto;
+}
+.flexColChild--contenedor-menu-departament-results :global(.vtex-menu-2-x-menuItem--isClosed){
+    border-bottom: 1px solid #7777 ;
+}
+.flexColChild--contenedor-menu-departament-results :global(.vtex-menu-2-x-styledLinkContainer){
+    margin-left: 0px;
+}

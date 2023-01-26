@@ -1,0 +1,51 @@
+{
+    "flex-layout.col#section__disclosures":{
+        "title":"section disclosures",
+        "children":["disclosure-layout#caracteristicas__destacadas",
+        "disclosure-layout#detalle__producto",
+        "disclosure-layout#reseñas__producto"]
+    },
+    "disclosure-layout#caracteristicas__destacadas":{
+        "title": "layout about",
+        "children": [
+            "disclosure-trigger#about",
+            "disclosure-content#about"
+        ]
+    },
+        "disclosure-layout#detalle__producto":{
+            "title": "layout about",
+            "children": [
+                "disclosure-trigger#about",
+                "disclosure-content#about"
+            ]
+
+        },
+        "disclosure-layout#reseñas__producto":{
+            "title": "layout about",
+            "children": [
+                "disclosure-trigger#about",
+                "disclosure-content#about"
+            ]
+
+        },
+       
+        "disclosure-trigger#about": {
+            "title": "text about",
+            "children": [
+                "rich-text#about"
+            ]
+        },
+        "disclosure-content#about": {
+            "title": "text about",
+            "children": [
+                "menu#about"
+            ]
+        },
+        "rich-text#about": {
+            "title": "texto acerca",
+            "props": {
+                "text": "ACERCA DE LINIO"
+            }
+        }
+
+}

@@ -1,0 +1,32 @@
+{
+    "disclosure-layout#shipping": {
+        "title": "layout shipping",
+        "children": [
+            "disclosure-trigger#shipping",
+            "disclosure-content#shipping"
+        ]
+       
+    },
+    "disclosure-trigger#shipping": {
+        "title": "text shipping",
+        "children": [
+            "rich-text#shipping"
+        ],
+        "props":{
+            "blockClass":"shipping"
+        }
+    },
+    "disclosure-content#shipping": {
+        "title": "text shipping",
+        "children": [
+            "shipping-simulator"
+        ]
+    },
+    "rich-text#shipping": {
+        "title": "texto shipping",
+        "props": {
+            "text": "Calcular envio a otra direccion",
+            "color":"orangered"
+        }
+    }
+}

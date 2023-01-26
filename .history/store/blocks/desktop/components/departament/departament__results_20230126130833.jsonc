@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#departament__results": {
+        "title": "departament results",
+        "children": [
+         "flex-layout.col#menu__categorias",
+          "search-content#phone"
+        ],
+        "props": {
+          "blockClass": "flex-departament-results"
+        }
+      },
+      "flex-layout.col#menu__categorias":{
+        "title":"menu categorias",
+        "props":{
+            "width":"20%",
+            "blockClass":"menu__categorias"
+        }
+      },
+     
+      "search-content#phone": {
+        "title": " search phone ",
+        "blocks": [
+          "gallery#search",
+          "not-found"
+        ]
+      }
+}

@@ -1,0 +1,134 @@
+{
+    "flex-layout.col#section__disclosures":{
+        "title":"section disclosures",
+        "children":["disclosure-layout#caracteristicas__destacadas",
+        "disclosure-layout#detalle__producto",
+        "disclosure-layout#reseñas__producto"],
+        "props":{
+            "width":"60%"
+        }
+    },
+    "disclosure-layout#caracteristicas__destacadas":{
+        "title": "layout caracteristicas__destacadas",
+        "children": [
+         
+            "disclosure-trigger#caracteristicas__destacadas",
+            "disclosure-content#caracteristicas__destacadas"
+        ]
+    },
+    
+        "disclosure-layout#detalle__producto":{
+            "title": "layout detalle__producto",
+            "children": [
+                "disclosure-trigger#detalle__producto",
+                "disclosure-content#detalle__producto"
+            ]
+
+        },
+        "disclosure-layout#reseñas__producto":{
+            "title": "layout reseñas__producto",
+            "children": [
+                "disclosure-trigger#reseñas__producto",
+                "disclosure-content#reseñas__producto"
+            ]
+
+        },
+        //-------disclosure trigers--------
+        "disclosure-trigger#caracteristicas__destacadas": {
+            "title": "text caracteristicas__destacadas",
+            "children": [
+                "rich-text#caracteristicas__destacadas",
+                "disclosure-state-indicator"
+            ]
+        },
+        "disclosure-trigger#detalle__producto": {
+            "title": "text detalle__producto",
+            "children": [
+                "rich-text#detalle__producto",
+                "disclosure-state-indicator"
+            ]
+        },
+        
+
+        "disclosure-trigger#reseñas__producto": {
+            "title": "text reseñas__producto",
+            "children": [
+                "rich-text#reseñas__producto",
+                "disclosure-state-indicator"
+            ]
+        },
+        ///-------------------------disclosure content
+        "disclosure-content#caracteristicas__destacadas": {
+            "title": "text caracteristicas__destacadas",
+            "children": [
+                "flex-layout.row#product-description"
+            ],
+            "props":{
+                "blockClass":"product-description"
+            }
+        },
+        "flex-layout.row#product-description":{
+            "title":"flex product-description",
+       
+        "children":[ "product-description"]
+        },
+        "disclosure-content#detalle__producto": {
+            "title": "text detalle__producto",
+            "children": [
+                "flex-layout.row#product-description"
+            ]
+        },
+        "disclosure-content#reseñas__producto": {
+            "title": "text reseñas__producto",
+            "children": [
+                "product-reviews"
+            ]
+        },
+
+        //------------------------------------
+
+        "rich-text#detalle__producto": {
+            "title": "texto detalle__producto",
+            "props": {
+                "text": "**Detalle de producto**",
+                "font":"t-heading-6"
+            }
+        },
+        "rich-text#reseñas__producto": {
+            "title": "texto reseñas__producto",
+            "props": {
+                "text": "**Reseñas del producto**",
+                "font":"t-heading-6"
+            }
+        },
+        "rich-text#caracteristicas__destacadas": {
+            "title": "texto caracteristicas__destacadas",
+            "props": {
+                "text": "**Caracteristicas destacadas**",
+                "font":"t-heading-6"
+            }
+        },
+        //----------------------disclosure state indicator
+        "disclosure-state-indicator": {
+            "title": "disclosure state indicator",
+
+            "props": {
+              "Show": "icon-caret#down",
+              "Hide": "icon-caret#up"
+            }
+          },
+          "icon-caret#down": {
+            "title":"icono down",
+            "props": {
+              "orientation": "down"
+            }
+          },
+          "icon-caret#up":{
+            "title":"icono up",
+
+            "props": {
+                "orientation": "up"
+              }
+          }
+
+}

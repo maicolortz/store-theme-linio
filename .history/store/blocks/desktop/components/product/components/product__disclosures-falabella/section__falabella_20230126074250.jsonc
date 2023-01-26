@@ -1,0 +1,8 @@
+{
+    
+    "flex-layout.col#section__falabella":{
+        "title":"section falabella",
+        "children":["flex-layout.row#banner__cmr",
+        "flex-layout.row#universo__productos", "flex-layout.row#enviado__vendido", "flex-layout.row#proteccion__comprador"]
+    }
+}

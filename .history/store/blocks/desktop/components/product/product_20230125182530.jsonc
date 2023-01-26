@@ -1,0 +1,27 @@
+{
+    "store.product": {
+        "children": [
+            "flex-layout.row#cotnainer__store-product"
+        ]
+    },
+    "flex-layout.row#cotnainer__store-product": {
+        "title": "contenedor-row store product",
+        "children": [
+            "flex-layout.col#cotnainer__store-product"
+        ],
+        "props": {
+            "blockClass": "store-product"
+        }
+    },
+    "flex-layout.col#cotnainer__store-product": {
+        "title": "contenedor-row store product",
+        "children": [
+            "flex-layout.row#product__breadcrumb",
+            "flex-layout.row#product__info",
+            "flex-layout.row#product__tabs"
+        ]
+    }
+   
+
+   
+}

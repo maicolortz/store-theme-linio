@@ -1,0 +1,10 @@
+{
+    "flex-layout.row#product__brand":{
+        "title":"flex product brand",
+        "children":["rich-text#product__brand", "vtex.store-components:product-brand"]
+
+    },
+    "vtex.store-components:product-brand":{
+
+    }
+}

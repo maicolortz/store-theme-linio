@@ -1,0 +1,89 @@
+{
+    "flex-layout.row#product__info": {
+        "title": "info general del producto",
+        "children": [
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data"
+        ],
+        "props":{
+            "blockClass":"product-info-store"
+        }
+    },
+    ///***+info mensaje
+    "flex-layout.col#product__info--image": {
+        "title": "imagenes de producto",
+        "children": [
+            "product-images#product__info--mensaje"
+        ],
+        "props":{
+            "width":"60%",
+            "blockClass":"product__info--image"
+        }
+    },
+    "product-images#product__info--mensaje":{
+        "title":"imagenes",
+        "props":{
+            /* "aspectRatio":"4:3",
+            "displayThumbnailsArrows":true */
+            "zoomMode":"open-modal",
+            "blockClass":"product__info--mensaje"
+
+        }
+    },
+////--------------------------------info data
+    "flex-layout.col#product__info--data": {
+        "title": "data de producto",
+        "children": [
+            "share",
+            "vtex.store-components:product-name",
+            "flex-layout.row#product__brand",
+            "product-price",
+            "disclosure-layout#shipping",
+            "flex-layout.row#add-cart__quantity"
+           
+/*             "vtex.store-components:product-brand",
+            "product-rating-inline", */
+           /*  "rich-text#product__promo-info", */
+            /* "product-add-to-list-button", */
+           /*  "product-description", */
+           /*  "product-details" */
+        ],
+        "props":{
+            "width":"35%"
+        }
+    },
+  
+
+    //contenedor flex  add-cart__quantity
+    "flex-layout.row#add-cart__quantity":{
+        "title":"contenedor add-car y cantidad",
+        "children":[ "product-summary-quantity#info__data--product",
+        "add-to-cart-button#product__info--data"],
+        "props":{
+                "blockClass":"flex-row-quantity"
+        }
+    },
+    "add-to-cart-button#product__info--data":{
+        "title":"button add to cart",
+        "props":{
+            "width":"70%",
+            "text":"añadir al carrito"
+        }
+    },
+
+    "product-summary-quantity#info__data--product":{
+        "title":"product sumary quantity",
+        "props":{
+            "selectorType":"dropdown",
+            "size":"regular",
+            "showLabel":false
+        }
+    },
+    //---------------------------------------
+    "rich-text#product__promo-info":{
+        "title":"texto promo",
+        "props":{
+            "text":" "
+        }
+    } 
+}

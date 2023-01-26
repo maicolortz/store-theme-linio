@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#product__disclosures-falabella":{
+        "title":"disclosures falabella",
+        "children":["flex-layout.col#section__disclosures",
+        "flex-layout.col#section__falabella"]
+    },
+    "flex-layout.col#section__disclosures":{
+        "title":"section disclosures",
+        "children":["disclosure-layout#caracteristicas__destacadas",
+        "disclosure-layout#detalle__producto",
+        "disclosure-layout#reseñas__producto"]
+    },
+        "flex-layout.col#section__falabella":{
+            "title":"section falabella",
+            "children":["flex-layout.row#banner__cmr",
+            "flex-layout.row#universo__productos", "flex-layout.row#enviado__vendido", "flex-layout.row#proteccion__comprador"]
+        }
+}
