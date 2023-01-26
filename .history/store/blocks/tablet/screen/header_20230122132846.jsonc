@@ -1,6 +1,0 @@
-{
-    "responsive-layout.tablet#header-tablet":{
-        "title":"header tablet",
-        "children":[ "header-row#1-tablet-container"]
-    }
-}

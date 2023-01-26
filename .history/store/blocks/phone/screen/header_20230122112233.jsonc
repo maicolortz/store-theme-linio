@@ -1,6 +1,0 @@
-{
-  
-    "responsive-layout.phone#header-phone":{
-      "children":[  "header-row#1-phone__section-main"]
-    }
-  }

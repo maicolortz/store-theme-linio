@@ -1,9 +1,0 @@
-.headerRowContainer--flex-tablet .vtex-login-2-x-container{
-    background-color: aqua;
-}
-.headerRowContainer--flex-tablet :global(.vtex-login-2-x-container):first-child {
-    border-right: 1px solid rgba(238, 238, 238, 0.317);
-}
-.headerRowContainer--flex-tablet :global(.vtex-minicart-2-x-minicartContainer) :global(.vtex-button){
-    border-left: 1px solid rgba(238, 238, 238, 0.317);
-}

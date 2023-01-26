@@ -1,8 +1,0 @@
-.flexRow--flex-departament-results  :global(.vtex-product-summary-2-x-element){
-gap: 20px;
-}
-
-.flexRow--flex-departament-results  :global(.vtex-product-summary-2-x-element) :global(.vtex-product-price-1-x-sellingPrice){
-    font-size: 18.4px;
-    }
-   

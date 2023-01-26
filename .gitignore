@@ -24,7 +24,9 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
+//se debe omitir la de historia
+//
+.history
 # App specific
 node_modules/
 docs/_book/

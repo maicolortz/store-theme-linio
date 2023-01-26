@@ -1,9 +1,0 @@
-{
-    "flex-layout.row#product__info": {
-        "title": "info general del producto",
-        "children": [
-            "flex-layout.col#product__info--image",
-            "flex-layout.col#product__info--data"
-        ]
-    }
-}

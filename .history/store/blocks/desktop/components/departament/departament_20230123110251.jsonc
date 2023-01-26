@@ -1,9 +1,0 @@
-{
-    "store.search#departament":{
-        "title":"store search departament",
-
-        "blocks":["search-result-layout"]
-        
-
-    }
-}
