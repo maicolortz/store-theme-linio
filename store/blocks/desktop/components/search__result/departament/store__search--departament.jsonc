@@ -26,21 +26,28 @@
       "thresholdForFacetSearch": 10,
       "showProductsCount": true,
       "showFacetQuantity": true,
-      "blockClass": "search-result-desktop"
+      "blockClass": "search-result-desktop",
+      "hiddenFacets": {"priceRange":"true"}
     }
   },
   ///////search result mobile
   "search-result-layout.mobile#departament": {
     "title": "store search mobile",
     "children": [
-      "responsive-layout.tablet#departament",
-      "responsive-layout.phone#departament"
+      /* "responsive-layout.tablet#departament",
+      "responsive-layout.phone#departament" */
+      "flex-layout.row#departament__breadcrumb",
+      "flex-layout.row#filters-and-gallery-switch-tablet",
+      "search-content#phone"
     ],
     "props": {
       "preventRouteChange": true,
       "thresholdForFacetSearch": 10,
       "showProductsCount": true,
-      "showFacetQuantity": true
+      "showFacetQuantity": true,
+      "blockClass": "search-result-mobile",
+
+      "hiddenFacets": {"priceRange":"true"}
     }
   },
   "responsive-layout.tablet#departament": {
@@ -64,6 +71,9 @@
     "title": "seccion de filtros",
     "children": [
       "filter-navigator.v3",
+      "image#cmr-largo",
+      "image#envio-express",
+      "order-by.v2",
       "gallery-layout-switcher#departament"
     ],
     "props": {
@@ -73,11 +83,41 @@
   "flex-layout.row#filters-and-gallery-switch-tablet": {
     "title": "seccion de filtros phone",
     "children": [
-      "filter-navigator.v3#tablet",
-      "gallery-layout-switcher#departament"
+      "gallery-layout-switcher#departament",
+      "order-by.v2#mobile",
+      "filter-navigator.v3#tablet"
     ],
     "props": {
       "blockClass": "flex-section-filters"
+    }
+  },
+  //------------------------------------------------filters componentes--
+  "toggle-layout": {
+    "title":"toogle layout",
+    "children": [
+      "rich-text#title",
+      "info-card#example"
+      ]
+  },
+  "info-card#example":{
+    "title":"info-card example"
+  },
+  "rich-text#title":{
+    "title":"texto",
+    "props":{
+      "text":"texto mucahchos"
+    }
+  },
+  "image#cmr-largo":{
+    "title":"imagen cmr largo",
+    "props":{
+      "src":"assets/img/swich/cmr-largo.png"
+    }
+  },
+  "image#envio-express":{
+    "title":"imagen express largo",
+    "props":{
+      "src":"assets/img/swich/envio-express.png"
     }
   },
   "filter-navigator.v3": {
@@ -93,18 +133,28 @@
       "appliedFiltersOverview": "show",
       "totalProductsOnMobile": "show",
       "updateOnFilterSelectionOnMobile": true,
-      "width": "90%" /* ,
+      "width": "50%",
+      "height":"100%"
+       /* ,
                  "priceRangeLayout": "inputAndSlider" */
     }
   },
-  "filter-navigator.v3#tablet": {
-    "title": "filter navigator tablet",
-    "props": {
-        "blockClass": "filter__navigator--tablet",
-        "fullWidthOnMobile": true,
-        "layout": "desktop"
-    }
+  
+
+"order-by.v2": {
+  "title": "ordenamiento por",
+  "props": {
+    "blockClass": "opcion-ordenamiento",
+    "width":"20%",
+    "layout":"desktop",
+    "showOrderTitle":false,
+    "hiddenOptions":["OrderByTopSaleDESC","OrderByCollection","OrderByNameASC","OrderByNameDESC","OrderByBestDiscountDESC","OrderByReleaseDateDESC","OrderByTopSaleDESC"]
+
+  }
 },
+
+
+
     //********************************************---------
     "flex-layout.row#departament__breadcrumb": {
       "title": "store bradcrumb departament",

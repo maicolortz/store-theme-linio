@@ -27,6 +27,7 @@ $RECYCLE.BIN/
 //se debe omitir la de historia
 //
 .history
+
 # App specific
 node_modules/
 docs/_book/

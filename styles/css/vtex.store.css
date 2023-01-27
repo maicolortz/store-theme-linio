@@ -390,3 +390,13 @@ visibility: hidden;
   flex-direction: row !important;
     gap: 20px;
     }
+:global(.vtex-search-result-3-x-galleryLayoutSwitcher){
+  justify-content: center;
+} 
+:global(.vtex-product-summary-2-x-price_installmentContainer){
+
+  text-align: start;
+}
+:global(.vtex-store-components-3-x-logoImage){
+  max-width: max-content!important;
+}

@@ -1,0 +1,20 @@
+
+.orderByText--opcion-ordenamiento{
+
+ color:    #3f3f40
+}
+.orderByButton--opcion-ordenamiento{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.orderByButton--opcion-ordenamiento-mobile{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.container--layout--search-result-mobile :global(.vtex-flex-layout-0-x-flexRowContent--flex-section-filters) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    height: 100%;
+    align-items: center;
+    border-right: 1px solid #aaa;
+    }

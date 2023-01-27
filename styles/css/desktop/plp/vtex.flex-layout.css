@@ -1,0 +1,6 @@
+.flexRowContent--flex-departament-results{
+    gap: 20px;
+}
+.flexColChild--summary-departament :global(.vtex-product-summary-2-x-productBrand ){
+    font-weight: 200;
+}

@@ -58,7 +58,8 @@
     "vtex.search": "2.x",
     "vtex.product-price": "1.x",
     "vtex.product-availability": "0.x",
-    "vtex.css-handles": "0.x"
+    "vtex.css-handles": "0.x",
+    "vtex.toggle-layout": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",

@@ -23,22 +23,28 @@
     "gallery-layout-switcher#departament": {
         "title": "gallery layout switch",
         "children": [
-            /*
-            * For accessibility purposes, it is fundamental to define the layout options following the same ordering used to declare them in step 2.
-            */
+          
             "gallery-layout-option#grid",
             "gallery-layout-option#list"
         ]
     },
+
+
     "gallery-layout-option#grid": {
         "title": "gallery grid",
         "props": {
             "name": "grid"
         },
         "children": [
-            "icon-grid",
+          "icon#option__grid",
             "responsive-layout.desktop#textOptionGrid"
         ]
+    },
+    "icon#option__grid":{
+      "props":{
+        "id": "grid__view",
+        "size":40
+      }
     },
     "gallery-layout-option#list": {
         "title": "gallery list",
@@ -46,9 +52,15 @@
             "name": "list"
         },
         "children": [
-            "icon-inline-grid",
+            "icon#option__list",
             "responsive-layout.desktop#textOptionList"
         ]
+    },
+    "icon#option__list":{
+      "props":{
+        "id":"hpa-hamburguer-menu",
+        "size":26
+      }
     },
     "responsive-layout.desktop#textOptionGrid": {
       "title":"responsive option grid"

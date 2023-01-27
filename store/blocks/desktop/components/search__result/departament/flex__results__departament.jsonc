@@ -12,7 +12,7 @@
   "flex-layout.col#menu__categorias": {
     "title": "menu categorias",
     "props": {
-      "width": "25%",
+      "width": "20%",
       "blockClass": "menu__categorias"
     },
     "children": [

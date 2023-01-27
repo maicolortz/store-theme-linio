@@ -10,11 +10,14 @@
   .galleryItem--normal :global(.vtex-product-summary-2-x-containerNormal){
     background-color: whitesmoke;
   }
-
+  .filterTitleSpan{
+    color: #333
+  }
   .filtersWrapper{
     display: flex;
     font-weight: 700;
     height: 50px;
+    font-size: 14px;
     justify-content: space-around; 
   }
   .filterContent{

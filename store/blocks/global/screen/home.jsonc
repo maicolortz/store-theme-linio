@@ -22,7 +22,7 @@
       "flex-layout.row#home__section-ofertas",
       "list-context.product-list",
       "flex-layout.row#home__section-categorias",
-      "flex-layout.row#vitrina__search",
+      "flex-layout.row#vitrina__list-context",
       /* "list-context.product-list#productos.search-result", */
       "flex-layout.row#home__section-tecnologia-fin",
       "flex-layout.row#vitrina__list-context",
