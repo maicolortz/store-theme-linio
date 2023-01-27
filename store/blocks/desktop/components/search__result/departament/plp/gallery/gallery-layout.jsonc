@@ -41,6 +41,7 @@
         ]
     },
     "icon#option__grid":{
+      "title": "gallery grid",
       "props":{
         "id": "grid__view",
         "size":40
@@ -57,6 +58,8 @@
         ]
     },
     "icon#option__list":{
+      "title": "icon list ",
+
       "props":{
         "id":"hpa-hamburguer-menu",
         "size":26
