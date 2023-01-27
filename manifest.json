@@ -55,10 +55,16 @@
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.category-menu": "2.x",
-    "vtex.search": "2.x"
+    "vtex.search": "2.x",
+    "vtex.product-price": "1.x",
+    "vtex.product-availability": "0.x",
+    "vtex.css-handles": "0.x",
+    "vtex.toggle-layout": "0.x"
   },
   "peerDependencies": {
-    "vtex.mega-menu": "2.x"
+    "vtex.mega-menu": "2.x",
+    "vtex.wish-list": "1.x",
+    "vtex.questions-and-answers": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -370,3 +370,33 @@ visibility: hidden;
 :global(.vtex-store-drawer-0-x-closed ){
   visibility: hidden;
 }
+:global(.vtex-store-components-3-x-container){
+  padding-left: 0%;
+  padding-right: 0%;
+}
+:global(.vtex-store-components-3-x-logoImage){
+  margin-left: 0%;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer) :global(.vtex-button){
+  background:none;
+  border: 0px;
+  color: orangered;
+}
+:global(.vtex-product-summary-2-x-clearLink){
+  background-color: whitesmoke;
+}
+
+:global(.vtex-search-result-3-x-gallery--list) :global(.vtex-product-summary-2-x-element) {
+  flex-direction: row !important;
+    gap: 20px;
+    }
+:global(.vtex-search-result-3-x-galleryLayoutSwitcher){
+  justify-content: center;
+} 
+:global(.vtex-product-summary-2-x-price_installmentContainer){
+
+  text-align: start;
+}
+:global(.vtex-store-components-3-x-logoImage){
+  max-width: max-content!important;
+}

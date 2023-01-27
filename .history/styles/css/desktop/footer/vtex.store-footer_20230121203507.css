@@ -1,8 +1,0 @@
-/* Example desktop:
-.flexCol--footer__main--column2{
-    padding-bottom: 80px;
-} */
-.footerLayout :global(.vtex-flex-layout-0-x-flexRow){
-    max-width: 1180px;
-    margin: 0px auto;
-}

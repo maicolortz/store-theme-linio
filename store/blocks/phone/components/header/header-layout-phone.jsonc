@@ -11,7 +11,7 @@
         "props": {
             "fullWidth": true,
             "sticky": true,
-            "blockClass": "flex-layout-header"
+            "blockClass": ["flex-layout-header","flex-layout-header-phone"]
         }
     },
     "drawer#btn": {
@@ -23,7 +23,7 @@
             "drawer-header#my-drawer"
         ],
         "props":{
-            "blockClass":"button drawer mobile "
+            "blockClass":"button-drawer-mobile "
         }
 
     },
@@ -37,13 +37,21 @@
     },
     "drawer-header#my-drawer": {
         "title": "button drawer",
-        "children": [
+        "children": [  "login", "rich-text#mi-cuenta",
             "flex-layout.row#drawer-header"
+           
         ]
     },
+    "rich-text#mi-cuenta":{
+        "title":"texto mi cuenta",
+        "props":{"text":"Mi cuenta",
+    "verticalAlign":"middle","blockClass":"login-phone"}
+    },
+   
     "flex-layout.row#drawer-header": {
         "title": "flex header phone",
         "children": [
+            
             "flex-layout.col#mega-menu-go-back-btn",
             "flex-layout.col#spacer",
             "flex-layout.col#drawer-close-button"

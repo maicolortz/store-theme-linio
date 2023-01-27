@@ -1,0 +1,98 @@
+{
+    /* "gallery-layout-switcher": {
+        "title": "layout galery",
+        "children": [
+          "gallery-layout-option#grid__two-columns",
+          "gallery-layout-option#grid__one-column"
+        ]
+      },
+      "gallery-layout-option#grid__two-columns": {
+        "title": "gallery two columns",
+        "props": {
+          "name": "grid-two-columns",
+          "blockClass": "grid__selector--two-columns"
+        }
+      },
+      "gallery-layout-option#grid__one-column": {
+        "title": "gallery one columns",
+        "props": {
+          "name": "grid-one-column",
+          "blockClass": "grid__selector--one-column"
+        }
+      }, */
+    "gallery-layout-switcher#departament": {
+        "title": "gallery layout switch",
+        "children": [
+          
+            "gallery-layout-option#grid",
+            "gallery-layout-option#list"
+        ]
+    },
+
+
+    "gallery-layout-option#grid": {
+        "title": "gallery grid",
+        "props": {
+            "name": "grid"
+        },
+        "children": [
+          "icon#option__grid",
+            "responsive-layout.desktop#textOptionGrid"
+        ]
+    },
+    "icon#option__grid":{
+      "title": "gallery grid",
+      "props":{
+        "id": "grid__view",
+        "size":40
+      }
+    },
+    "gallery-layout-option#list": {
+        "title": "gallery list",
+        "props": {
+            "name": "list"
+        },
+        "children": [
+            "icon#option__list",
+            "responsive-layout.desktop#textOptionList"
+        ]
+    },
+    "icon#option__list":{
+      "title": "icon list ",
+
+      "props":{
+        "id":"hpa-hamburguer-menu",
+        "size":26
+      }
+    },
+    "responsive-layout.desktop#textOptionGrid": {
+      "title":"responsive option grid"
+        /*  "children": [
+          "rich-text#option-grid"
+        ] */
+    },
+    "responsive-layout.desktop#textOptionList": {
+      "title":"responsive option list"
+
+        /*  "children": [
+          "rich-text#option-list"
+        ] */
+    },
+    "rich-text#option-grid": {
+      "title":"texto option grid",
+        "props": {
+            "text": "Grid",
+            "textColor": "c-auto",
+            "blockClass": "layout-option"
+        }
+    },
+    "rich-text#option-list": {
+      "title":"texto option list",
+
+        "props": {
+            "text": "List",
+            "textColor": "c-auto",
+            "blockClass": "layout-option"
+        }
+    }
+}

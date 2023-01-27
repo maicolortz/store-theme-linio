@@ -1,0 +1,13 @@
+.flexRowContent--flex-section-filters{
+    display: flex;
+    background-color: white;
+    font-weight: 700;
+    height: 65px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.flexCol--summary-departament :global(.vtex-product-summary-2-x-nameContainer){
+    text-align: initial;
+}

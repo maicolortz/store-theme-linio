@@ -21,3 +21,18 @@ margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
+
+.flexRowContent--row-section-desktop-iconos :global(.vtex-flex-layout-0-x-flexCol){
+    display: flex;
+    flex-direction: row;
+    min-height: 40px;
+}
+.flexRowContent--row-section-desktop-iconos :global(.vtex-rich-text-0-x-container){
+    text-align: center;
+    align-items: center;
+    height: 100%;
+
+}
+.flexRow--minicart-footer{
+    box-shadow: none;
+}

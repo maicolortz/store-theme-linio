@@ -206,6 +206,7 @@
     },
     "active-border": {
       "action-primary": "#0c389f",
+      "action-orange":"#ff4500",
       "action-secondary": "#dbe9fd",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
