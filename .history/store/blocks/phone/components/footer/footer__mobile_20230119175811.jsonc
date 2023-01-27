@@ -1,9 +1,0 @@
-{
-
-    "flex-layout.row#footer-mobile": {
-        "children": [
-      "social-networks",
-      "accepted-payment-methods"
-    ]
-}
-}

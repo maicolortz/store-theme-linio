@@ -1,0 +1,15 @@
+.container :global(.vtex-button):hover{
+    background:none;
+
+} 
+.profile{
+    color: white;
+}
+.profile :hover{
+    opacity: 60%;
+}
+.profileIcon--login{
+
+    width: 31px;
+    height: 31px;
+}

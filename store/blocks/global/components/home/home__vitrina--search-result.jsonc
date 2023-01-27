@@ -8,12 +8,12 @@
       }
     },
     "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
+      "search-result-layout.desktop#2",
+      "search-result-layout.mobile#2",
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop": {
+  "search-result-layout.desktop#2": {
     "title":"search result mobile",
     "children": [
       "flex-layout.col#home__result"
@@ -22,7 +22,7 @@
   "rich-text#test":{
     "title":"text result"
   },
-  "search-result-layout.mobile": {
+  "search-result-layout.mobile#2": {
     "title":"search result mobile",
     "children": [
       "flex-layout.col#home__result"
@@ -59,12 +59,14 @@
       "product-summary-name",
       "stack-layout#prodsum",
      /*  "product-rating-inline", */
+     "product-selling-price",
      "product-summary-price",
      "product-summary-space",
      "flex-layout.row#button-cart"
       
   ]
 },
+
 "flex-layout.row#button-cart":{
   "children":["add-to-cart-button"],
   "props":{"blockClass":"button-cart"}
@@ -84,10 +86,29 @@
     "blockClass":"slider-vitrina"
 }
 },
+  "search-not-found-layout": {"title":"search result not found"},
 
+  "flex-layout.row#vitrina__search":{
+    "title":"row vitrina",
+    "children":["flex-layout.col#vitrina__Search"],
+    "props":{
+      "marginTop":8
+  }
 
-
-  "search-not-found-layout": {"title":"search result not found"}
+  },
+  "flex-layout.col#vitrina__Search":{
+    "title":"col vitrina search",
+    "children":["rich-text#recomendados__para-ti","list-context.product-list#productos.search-result"]
+  },
+  "rich-text#recomendados__para-ti":{
+    "title":"texto recomendados vitrinas",
+    "props":{
+      "text":"**RECOMENDADOS ESPECIALMENTE PARA TI**",
+      "font": "t-heading-6"
+    }
+  }
   
+ 
+
 
 }

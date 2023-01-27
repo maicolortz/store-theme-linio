@@ -1,6 +1,0 @@
-{
-    "responsive-layout.tablet#footer-main":{
-        "title":"responsive footer tablet",
-        "children":["flex-layout.row#footer-tablet"]
-    }
-}

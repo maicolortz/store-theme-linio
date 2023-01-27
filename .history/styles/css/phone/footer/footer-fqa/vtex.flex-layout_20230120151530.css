@@ -1,6 +1,0 @@
-.flexRowContent--flex-row-apps-dowload{
-    display: flex;
-}
-.flexRowContent--flex-row-apps-dowload:first-child(){
-    width: 200px;
-}

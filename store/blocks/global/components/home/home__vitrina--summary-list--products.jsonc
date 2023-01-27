@@ -8,6 +8,7 @@
            /*  "product-rating-inline", */
            "product-summary-price",
            "product-summary-space",
+         
            "flex-layout.row#button-cart"
         ]
     },
@@ -22,7 +23,10 @@
           }
     },
     "product-summary-name": {
-        "title": " stack summary-name1"
+        "title": " stack summary-name1",
+        "props":{
+            "tag":"h3"
+        }
     },
     "product-rating-inline": {
         "title": " stack demo 1"
@@ -51,5 +55,24 @@
         "props":{
             "blockClass":"slider-vitrina"
         }
-    }
+    },"flex-layout.row#vitrina__list-context":{
+        "title":"row vitrina",
+        "children":[ "flex-layout.col#vitrina__list-context"],
+        "props":{
+            "marginTop":8
+        }
+    
+      },
+      "flex-layout.col#vitrina__list-context":{
+        "title":"col vitrina list-context",
+        "children":[ "rich-text#destacados__para-ti", "list-context.product-list#demo1"]
+      },
+    
+    "rich-text#destacados__para-ti":{
+        "title":"texto destacados vitrinas",
+        "props":{
+          "text":"**PRODUCTOS DESTACADOS PARA TI**",
+          "font": "t-heading-6"
+        }
+      }
 }

@@ -42,7 +42,7 @@
     }
   },
     /////////////drawer header
-  "drawer#header__mobile-menu": {
+  "drawer#header__desktop-menu": {
     "title": "menu header ",
     "children": [
       "flex-layout.row#menu-item"

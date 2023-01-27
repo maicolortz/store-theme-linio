@@ -1,6 +1,0 @@
-{
-  
-  "responsive-layout.phone#footer-main":{
-    "children":["flex-layout.row#footer-mobile"]
-  }
-}

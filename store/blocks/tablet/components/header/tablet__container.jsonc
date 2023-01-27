@@ -1,0 +1,15 @@
+{
+    "header-row#1-tablet-container":{
+        "title":"container tablet",
+        "children":[   "drawer#header__desktop-menu",
+        "logo#desktop",
+        "header-spacer",
+        "search-bar#header__midle",
+        "flex-layout.row#grupo-iconos-header",
+        "overlay-trigger"],
+        "props": {
+            "fullWidth": true,
+            "blockClass":[ "flex-layout-header","flex-tablet"]
+          }
+    }
+}

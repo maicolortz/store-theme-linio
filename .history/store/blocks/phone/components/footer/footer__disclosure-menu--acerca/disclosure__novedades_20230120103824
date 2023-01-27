@@ -1,9 +1,0 @@
- {           "disclosure-layout#novedades": {
-        "title":"layout about",
-        "children": [
-            "disclosure-trigger#about",
-            "disclosure-content#about"
-        ]
-    }
-   
-}

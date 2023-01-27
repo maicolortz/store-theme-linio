@@ -1,7 +1,0 @@
-.flexRowContent--flex-row-apps-dowload{
-    display: flex;
-    flex-wrap: nowrap;
-}
-.flexRowContent--flex-row-apps-dowload:nth-child(){
-    height: 200px;
-}
