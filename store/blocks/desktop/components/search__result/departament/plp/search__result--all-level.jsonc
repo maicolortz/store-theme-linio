@@ -2,7 +2,7 @@
     "store.search": {
         "title": "store search",
         "blocks": [
-            "search-result-layout"
+            "search-result-layout#departament"
         ],
         "props": {
             "context": {
@@ -10,8 +10,9 @@
                 "simulationBehavior": "default"
             }
         }
-    }, /* "store.search#category": {
-        "blocks": ["search-result-layout#category"],
+    }, "store.search#category": {
+        "title":"categoria search",
+        "blocks": ["search-result-layout#departament"],
         "props": {
             "context": {
                 "skusFilter": "ALL",
@@ -20,7 +21,7 @@
                 "hideUnavailableItems": true
             }
         }
-    }, */
+    },
     "store.search#subcategory": {
         "title": "store search subcategoria",
         "blocks": [

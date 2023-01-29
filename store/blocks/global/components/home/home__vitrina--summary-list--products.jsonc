@@ -72,7 +72,9 @@
         "title":"texto destacados vitrinas",
         "props":{
           "text":"**PRODUCTOS DESTACADOS PARA TI**",
-          "font": "t-heading-6"
+          "font": "t-heading-6",
+          "blockClass":"texto-vitrinas"
+
         }
       }
 }

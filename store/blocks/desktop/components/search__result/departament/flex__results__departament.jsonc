@@ -9,6 +9,7 @@
       "blockClass": "flex-departament-results"
     }
   },
+  //--------------menu categorias
   "flex-layout.col#menu__categorias": {
     "title": "menu categorias",
     "props": {

@@ -28,8 +28,6 @@
             "gallery-layout-option#list"
         ]
     },
-
-
     "gallery-layout-option#grid": {
         "title": "gallery grid",
         "props": {

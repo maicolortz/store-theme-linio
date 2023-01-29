@@ -12,6 +12,7 @@
       "flex-layout.row#pedidos",
       "flex-layout.row#minicart-texto",
       "overlay-trigger"
+
      /*  "icon#truck" */
       
     ],
@@ -21,6 +22,9 @@
       "blockClass": ["flex-layout-header","desktop-header"]
     }
   },
+
+
+
   ///////pedidos
   "flex-layout.row#pedidos": {
     "title":"flex pedidos",

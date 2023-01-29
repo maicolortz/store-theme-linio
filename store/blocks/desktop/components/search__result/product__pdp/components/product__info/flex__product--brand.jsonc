@@ -3,11 +3,14 @@
         "title":"flex product brand",
         "children":["flex-layout.col#brand-disponibles", "vtex.store-components:product-brand",    "product-rating-inline"  ],
         "props":{
-            "blockClass":"product-brand"
+            "blockClass":"product-brand",
+            
+            "preserveLayoutOnMobile":true
         }
 
     },
     "vtex.store-components:product-brand":{
+        "title":"marca de producto"
 
     },
     "flex-layout.col#brand-disponibles":{
