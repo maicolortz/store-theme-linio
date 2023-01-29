@@ -1,0 +1,59 @@
+.paragraph--banner--cmr{
+    color: #399624;
+    float: left;
+    font-size: .9rem;
+    line-height: 1.3rem;
+    width: 100%;
+}
+.paragraph--universo_-productos  {
+
+    font-family: 'Helvetica Neue', arial, sans-serif;
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 3px 3px 3px 8px;
+    text-align: left;
+} 
+.wrapper--wingerco {
+    text-decoration-line: underline;
+}
+.container--texto-vitrinas{
+    color: #333;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 18.4px;
+    margin-bottom: 0;
+}
+.strong--titulo-tecnologia{
+    color: #333;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 18.4px;
+    margin-bottom: 0;
+}
+.strong--titulo-tiendas-oficiales{
+    color: #333;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 18.4px;
+    margin-bottom: 0;
+}
+.strong--titulo-belleza-salud{
+    color: #333;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 18.4px;
+    margin-bottom: 0;
+}
+.strong--section__2--title{
+    color: #333;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 18.4px;
+    margin-bottom: 0;
+}
+.container--banner--cmr{
+    align-items: center;
+}

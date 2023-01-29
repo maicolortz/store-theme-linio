@@ -11,7 +11,7 @@
 .flexRowContent--product-info-store  :global(.vtex-store-components-3-x-sellingPrice){
     font-size: 25px;
 }
-/* .flexRowContent--product-info-store :global(.vtex-button){
+/* .flexColChild--store-productlexRowContent--product-info-store :global(.vtex-button){
  
 } */
 .flexRowContent--flex-row-quantity  :global(.vtex-button){
@@ -21,10 +21,142 @@
 .flexRowContent--product-brand{
 align-items: baseline;
 flex-wrap: wrap;
+width: fit-content;
 }
 
-.flexColChild--contenedor-menu-departament-results :global(.vtex-menu-2-x-styledLinkContainer) {
-/*     margin-right: 1.5rem;
-    border-bottom: 1px solid #7777;
-    margin-left: 0px; */
-} 
+.flexRowContent--product-brand:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    justify-content: center;
+    width: fit-content!important;
+}
+
+.flexColChild--disclosures-pdp-container :global(.vtex-disclosure-layout-1-x-trigger--hidden) {
+        background: none;
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColChild--store-product-tablet :global(.vtex-disclosure-layout-1-x-trigger--hidden) {
+    background: none;
+border: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.flexColChild--disclosures-pdp-container :global(.vtex-disclosure-layout-1-x-trigger--visible) {
+color: orangered!important;
+background: none;
+border: 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+font-weight: 700;
+line-height: 20px;
+margin-bottom: 0;
+}
+.flexColChild--store-product-tablet :global(.vtex-disclosure-layout-1-x-trigger--visible) {
+    color: orangered!important;
+    background: none;
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial,Roboto,"-apple-system",Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0;
+    }
+.flexColChild--disclosures-pdp-container :global(.vtex-disclosure-layout-1-x-trigger--visible) :global(.vtex-rich-text-0-x-container){
+    color: orangered;
+}
+.flexColChild--store-product-tablet :global(.vtex-disclosure-layout-1-x-trigger--visible) :global(.vtex-rich-text-0-x-container){
+    color: orangered;
+}
+.flexCol--disclosures-pdp-container{
+    height: fit-content;
+}
+.flexColChild--store-product-tablet{
+    height: fit-content;
+
+}
+
+
+ .flexRowContent--flex-product-description :global(.vtex-store-components-3-x-productDescriptionContainer){
+
+    padding: 20px;
+    color: #666;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 8px;
+    padding-left: 0px;
+    margin-left: 8px;
+ }
+ .flexRowContent--product__disclosures-falabella{
+    justify-content: space-between;
+    gap: 80px;
+ }
+ .flexRow--banner-cmr{
+    border: 1px solid #399624;
+    border-radius: 3px;
+    color: #399624;
+    display: table;
+    margin: 12px 0;
+    padding: 8px 12px;
+    text-align: center;
+    width: 100%;
+    align-items: baseline;
+    display: flex;
+ }
+ .flexRow--banner-cmr:hover{
+    background-color: #399624;
+    cursor: pointer;
+}
+
+.flexRow--banner-cmr:hover :global(.vtex-rich-text-0-x-paragraph--banner--cmr){
+    color: white;
+}
+.flexRow--banner-cmr:hover :global(.vtex-store-components-3-x-imageElement--banner__cmr){
+    
+    filter: brightness(6.5);
+}
+
+ .flexRow--product__disclosures-falabella{
+    padding: 20px;
+ }
+
+ .flexRowContent--enviado__vendido{
+
+     margin-bottom: 16px;
+     padding-top: 12px;
+    }
+.flexRowContent--columna__enviado{
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.flexRowContent--seccion__falabella :global(.vtex-store-link-0-x-buttonLink){
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flexRowContent--seccion__falabella :global(.vtex-store-link-0-x-buttonLink):hover{
+    display: flex;
+    flex-direction: row-reverse;
+    color: orangered;
+}
+.flexCol--sectio__falabella_container{
+
+    height: fit-content;
+}
+.flexRow--proteccion__comprador{
+
+ border-top:    1px solid #3333
+}
+.flexRowContent--store-product{
+    padding-bottom: 100px;
+}
+.flexRowContent--banner-cmr :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+justify-content: flex-start;
+}

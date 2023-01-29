@@ -6,7 +6,8 @@
             "flex-layout.col#product__info--data"
         ],
         "props":{
-            "blockClass":"product-info-store"
+            "blockClass":"product-info-store",
+            "preserveLayoutOnMobile":true
         }
     },
     ///***+info mensaje
@@ -60,7 +61,8 @@
         "children":[ "product-summary-quantity#info__data--product",
         "add-to-cart-button#product__info--data"],
         "props":{
-                "blockClass":"flex-row-quantity"
+                "blockClass":"flex-row-quantity",
+                "preserveLayoutOnMobile":true
         }
     },
     "add-to-cart-button#product__info--data":{

@@ -2,3 +2,24 @@
     color: orange;
 
 }
+.review__title{
+    display: none;
+
+}
+h3{
+    display: none;
+}
+.graphBarContainer{
+
+    background-color: #eee;
+    border-radius: 10px;
+    display: inline-flex;
+    height: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: text-top;
+    width: calc(100% - 105px);
+}
+.inlineContainer{
+    padding-left: 20px;
+}
