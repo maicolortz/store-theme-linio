@@ -8,35 +8,220 @@
             "flex-layout.row#proteccion__comprador"
         ],
         "props": {
-            "width": "35%"
+            "width": "40%",
+            "blockClass":"sectio__falabella_container"
         }
     },
     /////--------banner cmr
     "flex-layout.row#banner__cmr": {
         "title": "row banner ",
         "children": [
-            "icon#cmr",
-            "rich-text#text__promocional"
-        ]
+            "image#banner__cmr",
+            "rich-text#banner__cmr"
+        ],
+        "props": {
+            "blockClass": "banner-cmr",
+            
+            "horizontalAlign":"left",
+            "preserveLayoutOnMobile":true,
+            "layout":"desktop"
+        }
     },
-    "icon#cmr": {
-        "title": "icono cmr",
-        "props": {}
+    "image#banner__cmr": {
+        "title": "imagen cmr",
+        "props": {
+            "src": "assets/img/iconos/cmr-2.svg",
+            "width": 80,
+            "blockClass": "banner__cmr",
+            "maxHeight":64
+        }
     },
-    "rich-text#text__promocional": {
-        "title": "texto promocional cmr",
-        "props": {}
+    "rich-text#banner__cmr": {
+        "title": "texto de banner cmr",
+        "props": {
+            "text": "¡Obtén $45.000 en tu primera compra! Solicita tu tarjeta de crédito Banco Falabella aquí.*. Aplican TYC.",
+            "blockClass": "banner--cmr",
+            "width":"80%"
+        }
     },
     //-------------banner universo__productos
     "flex-layout.row#universo__productos": {
-        "title": "row banner "
+        "title": "row banner ",
+        "children": [
+            "image#correo__volando",
+            "rich-text#universo__productos"
+        ],
+        "props": {
+            "blockClass": "universo-productos",
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "image#correo__volando": {
+        "title": "correo volando",
+        "props": {
+            "src": "assets/img/correo.jpg",
+            "blockClass": "banner__cmr",
+            "width": 35
+        }
+    },
+    "rich-text#universo__productos": {
+        "title": "correo volando",
+        "props": {
+            "text": "Un universo de productos y este ha sido **comprado 7 veces** en los últimos días",
+            "blockClass": "universo_-productos",
+            "width": "90%"
+        }
     },
     //--------------enviado-vendido
     "flex-layout.row#enviado__vendido": {
-        "title": "row banner "
+        "title": "row banner ",
+        "children": [
+            "flex-layout.col#enviado__vendido"
+        ],
+        "props": {
+            "blockClass": "enviado__vendido",
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "flex-layout.col#enviado__vendido": {
+        "title": "enviado__vendido",
+        "children": [
+            "rich-text#enviado__vendido",
+            "flex-layout.row#puntaje__vendedor"
+        ],
+        "props": {
+            "rowGap": 4,
+            "colGap": 4
+        }
+    },
+    "flex-layout.row#puntaje__vendedor": {
+        "title": "puntaje vendedor",
+        "children": [
+            "image#enviado__puntaje",
+            "rich-text#wingerco"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "columna__enviado",
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "image#enviado__puntaje": {
+        "title": "enviado__puntaje",
+        "props": {
+            "src": "assets/img/pdp/puntuacion.png",
+            "height": 34,
+            "blockClass": "image-puntaje"
+        }
+    },
+    "rich-text#enviado__vendido": {
+        "title": "texto enviado-vendido ",
+        "props": {
+            "text": "**Enviado y Vendido por:**",
+            "font": "t-heading-7"
+        }
+    },
+    "rich-text#wingerco": {
+        "title": "wingerco ",
+        "props": {
+            "text": "WINGERCO",
+            "blockClass": "wingerco"
+        }
     },
     //-----------proteccion comprador
     "flex-layout.row#proteccion__comprador": {
-        "title": "row banner "
+        "title": "proteccion al comprador",
+        "children": [
+            "flex-layout.col#proteccion__comprador"
+        ],
+        "props":{
+            "blockClass":"proteccion__comprador",
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "flex-layout.col#proteccion__comprador": {
+        "title": "columnas",
+        "children": [
+            "flex-layout.row#proteccion__comprador__section",
+            "flex-layout.row#Asesoria__telefonica__section",
+            "flex-layout.row#Descarga__app__section"
+        ]
+    },
+    "flex-layout.row#proteccion__comprador__section": {
+        "title": "columna proteccion comprador",
+        "children": [ "link#Protección al comprador"],
+        "props":{
+            "blockClass":"seccion__falabella",
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "flex-layout.row#Asesoria__telefonica__section": {
+        "title": "Asesoria__telefonica__section",
+        "children": ["link#Asesoria__telefonica"],
+        "props":{
+            "blockClass":"seccion__falabella",
+            "preserveLayoutOnMobile":true
+
+        }
+    },
+    "flex-layout.row#Descarga__app__section": {
+        "title": "Descarga__app__section",
+        "children": [ "link#Descarga__app"],
+        "props":{
+            "blockClass":"seccion__falabella",
+            "preserveLayoutOnMobile":true
+
+        }
+    },
+
+
+
+//-----------link proteccion al comprador
+    "link#Protección al comprador": {
+        "title": "proteccion al comprador",
+        "props": {
+            "label": "Protección al comprador",
+            "displayMode": "button" 
+        },
+        "children":["icon#garantia"]
+    },
+    "icon#garantia":{
+        "title":"icono garantia",
+        "props":{
+            "id":"garantia",
+            "size":40
+        }
+    },
+    "link#Asesoria__telefonica": {
+        "title": "asesoria telefonica",
+        "props": {
+            "label": "Asesoría telefónica: (1) 432-2505",
+            "displayMode": "button" 
+        },
+        "children":["icon#asesoria"]
+
+    },
+    "icon#asesoria":{
+        "title":"icono garantia",
+        "props":{
+            "id":"callcenter",
+            "size":40
+        }
+    },
+    "link#Descarga__app": {
+        "title": "descarga app",
+        "props": {
+            "label": "Descarga nuestra App",
+            "displayMode": "button" 
+        },
+        "children":["icon#phone"]
+
+    },
+    "icon#phone":{
+        "title":"icono phone",
+        "props":{
+            "id":"phone",
+            "size":40
+        }
     }
 }

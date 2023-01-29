@@ -38,3 +38,20 @@ gap: 20px;
     font-size: 12px;
     text-decoration: none;
 }
+.flexRowContent--universo-productos{
+    border-bottom: 1px solid #3333;
+    border-top: 1px solid #3333;
+    padding: 20px 16px 16px;
+    align-items: center;
+} 
+.flexRowContent--proteccion__comprador :global(.vtex-store-link-0-x-link){
+
+    background: none;
+    color: #666;
+    border: 0px;
+    text-transform: capitalize;
+    
+}
+.flexRowContent--proteccion__comprador :global(.vtex-store-link-0-x-label){
+text-align: initial;
+}

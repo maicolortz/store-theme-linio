@@ -7,7 +7,8 @@
             "disclosure-layout#reseñas__producto"
         ],
         "props": {
-            "width": "60%"
+            "width": "60%",
+            "blockClass":"disclosures-pdp-container"
         }
     },
     "disclosure-layout#caracteristicas__destacadas": {
@@ -15,21 +16,30 @@
         "children": [
             "disclosure-trigger#caracteristicas__destacadas",
             "disclosure-content#caracteristicas__destacadas"
-        ]
+        ],
+        "props":{
+            "blockClass":"disclosure-pdp"
+        }
     },
     "disclosure-layout#detalle__producto": {
         "title": "layout detalle__producto",
         "children": [
             "disclosure-trigger#detalle__producto",
             "disclosure-content#detalle__producto"
-        ]
+        ],
+        "props":{
+            "blockClass":"disclosure-pdp"
+        }
     },
     "disclosure-layout#reseñas__producto": {
         "title": "layout reseñas__producto",
         "children": [
             "disclosure-trigger#reseñas__producto",
             "disclosure-content#reseñas__producto"
-        ]
+        ],
+        "props":{
+            "blockClass":"disclosure-pdp"
+        }
     },
     //-------disclosure trigers--------
     "disclosure-trigger#caracteristicas__destacadas": {
@@ -67,21 +77,26 @@
         "title": "flex product-description",
         "children": [
             "product-description"
-        ]
+        ],
+        "props": {
+            "blockClass": "flex-product-description"
+        }
     },
+  
     "disclosure-content#detalle__producto": {
         "title": "text detalle__producto",
-        "children": [
-            "flex-layout.row#product-description"
+        "children": ["product-description","product-specification"  
+           
         ]
     },
+   
     "disclosure-content#reseñas__producto": {
         "title": "text reseñas__producto",
         "children": [
             "product-reviews"
         ]
     },
-    //------------------------------------
+    //------------------------------------texto disclosure
     "rich-text#detalle__producto": {
         "title": "texto detalle__producto",
         "props": {
@@ -103,6 +118,11 @@
             "font": "t-heading-6"
         }
     },
+    //-------------------product reviews---------
+    "product-reviews":{
+        "title":"reviews de productos"
+        
+    },
     //----------------------disclosure state indicator
     "disclosure-state-indicator": {
         "title": "disclosure state indicator",
@@ -122,5 +142,14 @@
         "props": {
             "orientation": "up"
         }
+    },
+    //-------------------------especificacion del producto-
+    "product-description":{
+        "title":"product-description",
+        "props": {
+            "title": "\n"
+        }
     }
+    
+    
 }
