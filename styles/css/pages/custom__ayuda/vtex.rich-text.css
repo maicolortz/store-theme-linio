@@ -1,0 +1,15 @@
+.paragraph--texto-ayuda--respuestas{
+    color: #9b9b9b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.paragraph--texto-ayuda--duda-relacion{
+    text-align: center;
+}
+.paragraph--texto-ayuda--duda-relacion{
+    line-height: 1.2;
+}
+.paragraph--texto-ayuda-en-caso-no-haya-ayuda{
+    text-align: center!important;
+}

@@ -55,3 +55,11 @@ gap: 20px;
 .flexRowContent--proteccion__comprador :global(.vtex-store-link-0-x-label){
 text-align: initial;
 }
+.flexRowContent--links-section-uno{
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+    width: max-content;
+    gap: 10px;
+    display: flex;
+}

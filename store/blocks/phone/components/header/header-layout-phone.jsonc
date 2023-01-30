@@ -6,7 +6,7 @@
             "logo#mobile",
             "search-bar",
             /*  "login", */
-            "minicart.v2#minicart"
+            "minicart.v2#minicart__page--custom"
         ],
         "props": {
             "fullWidth": true,
@@ -89,7 +89,7 @@
             "blockClass":"button drawer mobile mega menu "
         }
     },
-    /*  "minicart": {}, */
+ 
     "logo#mobile": {
         "title": "logo mobile",
         "props": {

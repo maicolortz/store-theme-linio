@@ -49,7 +49,7 @@
     },
     "icon#section1-home-tablet-app": {
         "title": "section 1 iconos app",
-        "props": {"id":"phone",
+        "props": {"id":"phone-2",
     "size":32}
     },
     "rich-text#section-iconos-texto-app": {
@@ -73,7 +73,7 @@
         }
     },
     "icon#section1-home-tablet-internacionales": {
-
+        "title":"icono tablet internacionales",
         "props": {"id":"vuelo",
         "size":32}
     },

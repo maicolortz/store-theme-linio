@@ -1,0 +1,15 @@
+{
+    
+    "minicart.v2#minicart__page--custom": {
+        "title": "minicart page custom",
+        "props": {
+            "showIconProfile": true,
+            "itemCountMode": "total",
+            "quantityDisplay": "always",
+            "variation": "link"
+        },
+        "children": [
+            "minicart-base-content"
+        ]
+    }
+}
