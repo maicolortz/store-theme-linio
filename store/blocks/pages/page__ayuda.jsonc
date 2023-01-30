@@ -1,0 +1,138 @@
+{
+  "store.custom#ayuda": {
+    "title": "custom ayuda ",
+    "blocks": [
+      "flex-layout.row#ayuda"
+    ]
+  },
+  "flex-layout.row#ayuda": {
+    "title": "titulo section ayuda",
+    "children": [
+
+      "flex-layout.col#ayuda"
+    ],
+    "props":{
+      "preserveLayoutOnMobile":true
+    }
+  },
+  "flex-layout.col#ayuda": {
+    "title": "flex columna ayuda",
+    "children": [
+      "responsive-layout.desktop#titulo_-ayuda",
+      "flex-layout.row#info__ayuda"
+    ]
+  },
+  "responsive-layout.desktop#titulo_-ayuda":{
+    "title":"titulo ayuda desktop",
+    "children":["flex-layout.row#titulo__ayuda"]
+  },
+
+  "flex-layout.row#titulo__ayuda": {
+    "title": "flex titulo ayuda",
+    "children": [
+      "rich-text#titulo__ayuda"
+      
+    ],
+    "props":{
+      "blockClass":"titulo_ayuda",
+        "preserveLayoutOnMobile":true
+    }
+  },
+  "rich-text#titulo__ayuda": {
+    "title": "texto titulo ayuda",
+    "props": {
+      "text": "**CENTRO DE AYUDA**",
+      "font":"t-heading-6"
+    }
+  },
+  "flex-layout.row#info__ayuda":{
+    "title":"flex info ayuda",
+    "children":[  "flex-layout.col#info__ayuda"],
+    "props":{
+      "blockClass":"info__ayuda",
+      "preserveLayoutOnMobile":true
+      
+    }
+  },
+
+  "flex-layout.col#info__ayuda": {
+    "title": "columna_info_ayuda",
+    "children": [
+      "rich-text#info__ayuda--renovado",
+      "rich-text#info__ayuda--respuestas",
+      "rich-text#info__ayuda--duda-relacion",
+      "flex-layout.row#info__ayuda--botones-si-no",
+      "rich-text#info__ayuda--en-caso-no-haya-ayuda"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"columna-info-ayuda"
+    }
+  },
+  "rich-text#info__ayuda--renovado": {
+    "title": "texto ayuda renovado",
+    "props": {
+      "blockClass": "texto-ayuda",
+      "text": "**Hemos renovado nuestro centro de Ayuda**",
+      "font":"t-heading-4"
+    }
+  },
+  "rich-text#info__ayuda--respuestas": {
+    "title": "texto ayuda renovado",
+    "props": {
+      "blockClass": "texto-ayuda--respuestas",
+      "text": "Podrás encontrar todas tus respuestas aquí",
+      "font":"t-heading-5"
+    }
+  },
+  "rich-text#info__ayuda--duda-relacion": {
+    "title": "texto ayuda renovado",
+    "props": {
+      "blockClass": "texto-ayuda--duda-relacion",
+      "text": "**¿Tu duda está <br/> relacionada con un <br/>pedido?**",
+      "font":"t-heading-6"
+    }
+  },
+  "rich-text#info__ayuda--en-caso-no-haya-ayuda": {
+    "title": "texto ayuda renovado",
+    "props": {
+      "blockClass": "texto-ayuda-en-caso-no-haya-ayuda",
+      "text": "No te preocupes, en caso de no conseguir tu respuesta todavía podrás contactarnos",
+      "font": "t-small"
+    }
+  },
+  "flex-layout.row#info__ayuda--botones-si-no": {
+    "title": "texto ayuda renovado",
+    "props": {
+      "blockClass": "texto-ayuda-botones",
+      "preserveLayoutOnMobile":true
+    },
+    "children": [
+      "link#info__ayuda--botones-si",
+      "link#info__ayuda--botones-no"
+    ]
+  },
+  "link#info__ayuda--botones-si": {
+    "title": "boton si",
+    "props": {
+      "displayMode": "button",
+      "label": "si",
+      "blockClass":"botton-si",
+
+      "buttonProps": {
+        "size": "small"
+      }
+    }
+  },
+  "link#info__ayuda--botones-no": {
+    "title": "boton no",
+    "props": {
+      "displayMode": "button",
+      "label": "no",
+      "blockClass":"botton-no",
+      "buttonProps": {
+        "size": "small"
+      }
+    }
+  }
+}

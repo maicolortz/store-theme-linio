@@ -4,7 +4,7 @@
         "children": [
             "login#tablet",
             "image#pedidos",
-            "minicart.v2#minicart"
+            "minicart.v2#minicart__page--custom"
         ],
         "props": {
             "blockClass": "grupo-iconos",

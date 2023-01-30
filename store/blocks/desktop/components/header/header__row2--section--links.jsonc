@@ -1,0 +1,86 @@
+{
+    "header-row#2-desktop__banner":{
+        "title":"header row 2 desktop",
+        "children":["flex-layout.row#links__section--uno"],
+        "props":{
+            "blockClass":"links-section-uno"
+        }
+    
+      },
+    "flex-layout.row#links__section--uno": {
+        "title": "section links home",
+        "children": [
+            "link#Solo__Hoy",
+            "link#Solo__para--Ti",
+            "link#Tiendas__Oficiales",
+            "link#Vende en Linio",
+            "link#Ayuda",
+            "link#Historial",
+            "link#Banco__Falabella",
+            "link#Falabella",
+            "link#Falabella",
+            "link#Ventas_Telefónicas"
+        ],
+        "props":{
+            "blockClass":"links-section-uno",
+            "colGap":3,
+            "colSizing":"auto"
+        }
+    },
+    "link#Solo__Hoy": {
+        "title": "link solo hoy",
+        "props":{
+            "label": "Solo hoy"
+        }
+    },
+    "link#Solo__para--Ti": {
+        "title": "link solo hoy",
+        "props":{
+            "label": "Solo para Ti"
+        }
+    },
+    "link#Tiendas__Oficiales": {
+        "title": "link tiendas oficiales",
+        "props":{
+            "label": "Tiendas Oficiales"
+        }
+    },
+    "link#Vende en Linio": {
+        "title": "link vende en linio",
+        "props":{
+            "label": "Vende en Linio"
+        }
+    },
+    "link#Ayuda": {
+        "title": "link ayuda",
+        "props":{
+            "label": "Ayuda",
+            "href":"/sp/preguntas-frecuentes"
+        }
+    },
+    "link#Historial": {
+        "title": "link solo hoy",
+        "props":{
+            "label": "Historial"
+        }
+    },
+    "link#Banco__Falabella": {
+        "title": "link solo hoy",
+        "props":{
+            "label": "Banco Falabella"
+        }
+    },
+    "link#Falabella": {
+        "title": "link solo hoy",
+        "props":{
+            "label": "Falabella"
+        }
+    },
+  
+    "link#Ventas_Telefónicas": {
+        "title": "link solo hoy",
+        "props":{
+            "label": "Ventas Telefonicas"
+        }
+    }
+}
