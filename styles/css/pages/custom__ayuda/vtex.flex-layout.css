@@ -1,0 +1,28 @@
+
+.flexCol--columna-info-ayuda{
+
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-bottom: 30px;
+    gap: 10px;
+}  
+.flexRow--titulo_ayuda{
+    padding-bottom: 22px;
+    padding-top: 45px;
+    border-bottom: 1px solid #eeee;
+}
+.flexRowContent--texto-ayuda-botones{
+    width: 290px;
+}
+.flexRowContent--texto-ayuda-botones :global(.vtex-store-link-0-x-buttonLink){
+
+    width: 131px;
+}
+
+.flexRow--texto-ayuda-botones{
+    margin-bottom: 30px;
+}
+.flexRowContent--info__ayuda :global(.vtex-rich-text-0-x-container){
+    text-align: center;
+}

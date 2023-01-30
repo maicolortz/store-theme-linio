@@ -1,0 +1,24 @@
+.headerRowContainer--links-section-uno{
+    max-width: 1180px;
+    margin: 0px auto;
+    background-color: #3d3d3d;
+    
+}
+.headerRowContainer--links-section-uno :global(.vtex-flex-layout-0-x-flexRow--links-section-uno){
+    margin: 0px auto;
+    width: 100%;
+}
+.headerRowContainer--links-section-uno :global(.vtex-flex-layout-0-x-flexRow--links-section-uno) :global(.vtex-store-link-0-x-link){
+    color: #dddd;
+    text-decoration: none;
+    font-size: small;
+}
+.headerRowContainer--links-section-uno :global(.vtex-flex-layout-0-x-flexRow--links-section-uno) :global(.vtex-store-link-0-x-link):hover{
+    color: rgba(139, 139, 139, 0.867);
+    text-decoration: none;
+    font-size: small;
+}
+.headerRowBackground{
+    background-color: #3d3d3d;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.867);;
+}

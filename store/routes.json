@@ -1,4 +1,5 @@
-{"store.home":{
-        "path":"/sobre"
+{"store.custom#ayuda":{
+    "title":"custom page minicart",
+        "path":"/sp/preguntas-frecuentes"
     }
 }

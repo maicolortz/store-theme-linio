@@ -39,7 +39,7 @@
     "rich-text#banner__cmr": {
         "title": "texto de banner cmr",
         "props": {
-            "text": "¡Obtén $45.000 en tu primera compra! Solicita tu tarjeta de crédito Banco Falabella aquí.*. Aplican TYC.",
+            "text": "¡Obtén $45.000 en tu primera compra! Solicita tu tarjeta de crédito Banco Falabella aquí. Aplican TYC.",
             "blockClass": "banner--cmr",
             "width":"80%"
         }
