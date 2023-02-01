@@ -1,0 +1,50 @@
+.departmentsTitle--mega-menu-mobile{
+
+}
+:global(.vtex-mega-menu-12-x-departmentsTitle--mega-menu-mobile){
+    display: none;
+
+} 
+:global(.vtex-mega-menu-2-x-styledLink--mega-menu-mobile){
+    color: #666;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+:global(.vtex-mega-menu-2-x-departmentsTitle--mega-menu-mobile ){
+    display: none !important;
+}
+:global(.vtex-mega-menu-2-x-menuItemVertical--mega-menu-mobile){
+
+    border: 0px;
+}
+
+:global(.vtex-mega-menu-2-x-styledLinkContainer--mega-menu-mobile){
+
+    padding-top: 8px;
+    border: 0px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+:global(.vtex-mega-menu-2-x-styledLink--mega-menu-mobile){
+
+    padding: 0px;
+    margin-bottom: 0px;
+}
+:global(.vtex-mega-menu-2-x-menuContainerVertical--mega-menu-mobile){
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+:global(.vtex-mega-menu-2-x-styledLinkText--mega-menu-mobile):hover{
+    color: orangered;
+}
+:global(.vtex-store-drawer-0-x-opened){
+    width: calc(100% - 55px)!important;
+    max-width: 1000px;
+    min-width: 280px;
+    pointer-events: auto;
+}

@@ -1,0 +1,55 @@
+.buttonLink--crear-cuenta{
+    border: 0px;
+    text-transform: capitalize;
+    background-color: orangered;
+}
+.buttonLink--inicio-sesion{
+    background: white;
+    color: orangered;
+    border: 1px solid orangered;
+    text-transform: capitalize;
+}
+.buttonLink--crear-cuenta:hover{
+    border: 0px;
+    text-transform: capitalize;
+    background-color: orangered!important;
+    text-decoration: underline;
+
+}
+.buttonLink--inicio-sesion:hover{
+    background: white;
+    color: orangered;
+    border: 1px solid orangered!important;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.buttonLink--categoria-cuenta{
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    border: 0px;
+    color: #333;
+    text-transform: capitalize;
+    background: none;
+    padding-left: 13px;
+    height: 100%;
+}
+.label--categoria-cuenta{
+
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: none;
+    width: 100%;
+    color: #666;
+}
+.buttonLink--categoria-cuenta:hover{
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    border: 0px;
+    color: orangered;
+    text-transform: capitalize;
+    background: none;
+    padding-left: 13px;
+    height: 100%;
+}
