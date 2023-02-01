@@ -63,3 +63,15 @@ padding-bottom: 5px;
     gap: 10px;
     display: flex;
 }
+
+.flexRow--botones-cuenta{
+
+    height: 100%;
+    background-color: #eee;
+    justify-content: center;
+    display: flex;
+    padding: 8px;
+}
+.flexRowContent--botones-cuenta{
+    gap: 11px;
+}

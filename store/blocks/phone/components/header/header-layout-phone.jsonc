@@ -11,7 +11,10 @@
         "props": {
             "fullWidth": true,
             "sticky": true,
-            "blockClass": ["flex-layout-header","flex-layout-header-phone"]
+            "blockClass": [
+                "flex-layout-header",
+                "flex-layout-header-phone"
+            ]
         }
     },
     "drawer#btn": {
@@ -22,36 +25,127 @@
         "blocks": [
             "drawer-header#my-drawer"
         ],
-        "props":{
-            "blockClass":"button-drawer-mobile "
+        "props": {
+            "blockClass": "button-drawer-mobile "
         }
-
     },
     "mega-menu#mobile": {
         "title": "mega menu mobile",
         "props": {
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
-            "openOnly": "vertical"
+            "openOnly": "vertical",
+            "blockClass": "mega-menu-mobile"
         }
     },
     "drawer-header#my-drawer": {
         "title": "button drawer",
-        "children": [  "login", "rich-text#mi-cuenta",
+        "children": [
+            "flex-layout.row#cuenta",
             "flex-layout.row#drawer-header"
-           
+        ],
+        "props": {
+            "blockClass": "drawer-megamenu-mobile"
+        }
+    },
+    "flex-layout.row#cuenta": {
+        "title": "iniciar sesion",
+        "children": [
+            "flex-layout.col#cuenta"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "cuenta-megamenu"
+        }
+    },
+    "flex-layout.col#cuenta": {
+        "title": "flex cuenta",
+        "children": [
+            "flex-layout.row#botones-cuenta",
+            "link#mi-cuenta",
+            "link#categorias-cuenta"
+        ],
+        "props":{
+            "blockClass":"columna-cuenta"
+        }
+    },
+    "link#categorias-cuenta": {
+        "title": "link mi cuenta",
+        "props": {
+            "displayMode": "button",
+            "label":"Categorias",
+            "blockClass":"categoria-cuenta"
+        },
+        "children": [
+            "icon#categoria-naranja"
         ]
     },
-    "rich-text#mi-cuenta":{
-        "title":"texto mi cuenta",
-        "props":{"text":"Mi cuenta",
-    "verticalAlign":"middle","blockClass":"login-phone"}
+    "icon#categoria-naranja":{
+        "title":"icono categoria naranja",
+        "props":{
+            "id":"grid__view",
+            "size":30
+        }
     },
-   
+
+    "link#mi-cuenta": {
+        "title": "link mi cuenta",
+        "props": {
+            "label": "Mi cuenta",
+            "displayMode": "button",
+            "blockClass":"categoria-cuenta"
+        },
+        "children": [
+            "icon#perfil-naranja"
+        ]
+    },
+    "icon#perfil-naranja": {
+        "title": "icono perfil",
+        "props": {
+            "id": "hpa-profile-naranja",
+            "size":30
+        }
+    },
+
+
+    "flex-layout.row#botones-cuenta": {
+        "title": "botones cuenta",
+        "children": [
+            "link#mobile-inicio-sesion",
+            "link#mobile-crear-cuenta"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "botones-cuenta"
+        }
+    },
+    "link#mobile-inicio-sesion": {
+        "title": "link mobile iniciar sesion",
+        "props": {
+            "displayMode": "button",
+            "label": "Iniciar sesion",
+            "blockClass": "inicio-sesion"
+        }
+    },
+    "link#mobile-crear-cuenta": {
+        "title": "mobile crear cuenta",
+        "props": {
+            "displayMode": "button",
+            "label": "Crear Cuenta",
+            "blockClass": "crear-cuenta"
+        }
+    },
+    "rich-text#mi-cuenta": {
+        "title": "texto mi cuenta",
+        "props": {
+            "text": "Mi cuenta",
+            "verticalAlign": "middle",
+            "blockClass": "login-phone"
+        }
+    },
     "flex-layout.row#drawer-header": {
         "title": "flex header phone",
         "children": [
-            
             "flex-layout.col#mega-menu-go-back-btn",
             "flex-layout.col#spacer",
             "flex-layout.col#drawer-close-button"
@@ -65,7 +159,7 @@
         }
     },
     "flex-layout.col#spacer": {
-        "title":"spacer "
+        "title": "spacer "
     },
     "flex-layout.col#drawer-close-button": {
         "title": "drawer close button",
@@ -86,17 +180,16 @@
             "verticalAlign": "middle",
             "horizontalAlign": "left",
             "paddingLeft": 4,
-            "blockClass":"button drawer mobile mega menu "
+            "blockClass": "button drawer mobile mega menu "
         }
     },
- 
     "logo#mobile": {
         "title": "logo mobile",
         "props": {
             "title": "Logo",
             "href": "/",
             "url": "assets/img/header/logo-mobile.svg",
-            "blockClass":"logo mobile"
+            "blockClass": "logo mobile"
         }
     }
 }
