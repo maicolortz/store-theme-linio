@@ -2,3 +2,22 @@
     font-weight: 600;
     text-transform: lowercase;
   }
+
+  .galleryItem--list :global(.vtex-product-summary-2-x-imageWrapper){
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+  .gallery--list :global(.vtex-store-components-3-x-sellingPrice){
+
+    text-align: initial;
+    font-size: 18px;
+  }
+  .galleryItem--grid :global(.vtex-store-components-3-x-sellingPrice){
+    text-align: center;
+    font-size: 18px;
+  }
+  .gallery--list,.gallery--grid :global(.vtex-product-summary-2-x-productBrand){
+    font-weight: 200;
+    text-transform: capitalize;
+    font-size: 18px!important;
+  }

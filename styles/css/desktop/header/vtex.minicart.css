@@ -6,3 +6,33 @@
     min-height: 99px;
     top: 100%;
 }
+.minicartCheckoutButton--button-minicart :global(.vtex-button__label){
+    text-transform: capitalize;
+
+}
+.minicartSummary--minicart-desktop{
+    padding-top: 0px;
+}
+.minicartSummary--minicart-desktop :global(.vtex-checkout-summary-0-x-price){
+    color:#ea2840
+}
+.minicartSummary--minicart-desktop :global(.vtex-checkout-summary-0-x-summaryItemLabel){
+    font-weight: 600;
+}
+
+.popupChildrenContainer--minicart-desktop .minicartTitle{
+ display: none;   
+}
+.minicartTitle{
+    display: none;
+}
+
+.minicartCheckoutButton--button-minicart{
+
+    border-top: 1px solid #3333;
+}
+
+.popupContentContainer--minicart-desktop{
+
+    border-radius: 8px;
+}

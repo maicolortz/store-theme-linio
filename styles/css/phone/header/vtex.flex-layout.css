@@ -40,3 +40,12 @@ color: antiquewhite;}
     height: 100%;
     display: flex;
 } */
+.flexRowContent--container .stretchChildrenWidth:nth-child(even){
+    overflow: hidden;
+} 
+.flexRowContent--container{
+    justify-content: flex-start;
+}
+.flexRowContent--minicart-footer:global(.vtex-checkout-summary-0-x-summaryItemContainer) :first-child{
+display: none;
+}

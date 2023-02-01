@@ -1,0 +1,4 @@
+.quantityDropdownContainer--cantidad-minicart :global(.vtex-dropdown__container){
+    height: fit-content;
+    padding: 1px;
+}

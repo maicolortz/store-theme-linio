@@ -4,3 +4,9 @@ width: 200px;
 .home__slider--ofertas{
 width: 100px;
 }
+.paginationDotsContainer--home__slider{
+    display: none;
+}
+.paginationDotsContainer--slider-vitrina{
+    display: none;
+}
