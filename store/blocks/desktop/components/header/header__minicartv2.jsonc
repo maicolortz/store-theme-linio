@@ -10,7 +10,8 @@
             "itemCountMode": "total",
             "quantityDisplay": "always",
             "variation": "popup",
-            "openOnHover":true
+            "openOnHover":true,
+            "blockClass":"minicart-desktop"
         },
         "children": [
             "minicart-base-content"
@@ -33,6 +34,7 @@
         ]
     },
     "product-list#minicart": {
+        "title":"list minicart",
         "blocks": [
             "product-list-content-mobile"
         ]
@@ -47,11 +49,12 @@
         "title": "minicar row mobile",
         "children": [
             "flex-layout.col#minicart__col--image",
-            "flex-layout.col#minicart__col--info",
-            "flex-layout.col#minicart__col--remove"
+            "flex-layout.col#minicart__col--info"
+           /*  "flex-layout.col#minicart__col--remove" */
         ],
         "props": {
-            "colSizing": "auto"
+            "colSizing": "auto",
+            "blockClass":"container"
         }
     },
     "flex-layout.col#minicart__col--image": {
@@ -65,15 +68,27 @@
         "children": [
             "vtex.product-list:product-name",
          
-            "quantity-selector#minicart",
-            "price"
-        ]
+            "price",
+            "quantity-selector#minicart"
+        ],
+        "props":{
+            "blockClass":"columna-info"
+        }
     },
+
+
     
         "quantity-selector#minicart": {
             "title": "selector minicart",
             "props": {
-                "mode": "stepper"
+               /*  "mode": "steeper", */
+                "blockClass":"cantidad-minicart"
+            }
+        },
+        "rich-text#cantidad":{
+            "title":"cantidad minicart",
+            "props":{
+                "text":"cantidad"
             }
         },
         "flex-layout.col#minicart__col--remove": {
@@ -99,13 +114,14 @@
             "props": {
                 "horizontalAlign": "center",
                 "verticalAlign": "middle",
-                "rowGap": 5
+                "rowGap": 5,
+                "blockClass":"minicart-vacio"
             }
         },
         "flex-layout.col#minicart-empty": {
             "title": "minicart footer",
             "children": [
-                "icon-cart#minicart__empty-icon",
+                /* "icon-cart#minicart__empty-icon", */
                 "rich-text#minicart-default-empty-state",
                 "rich-text#minicart-default-empty-state2",
                 "minicart-checkout-button"
@@ -144,11 +160,42 @@
         "flex-layout.col#minicart-footer": {
             "title": "minicart footer",
             "children": [
-                "minicart-summary",
-                "rich-text#promo",
+                "minicart-summary#example",
+                /* "minicart-summary", */
+                /* "rich-text#promo", */
                 "minicart-checkout-button"
             ]
         },
+        "minicart-summary#example":{
+            "title":"minicart summary",
+            "blocks": ["checkout-summary"],
+            "props":{
+                "blockClass":"minicart-desktop"
+            }
+        },
+        "checkout-summary": {
+            "title":"checkout summary",
+            "props": {
+              "title":"\n"
+
+            },
+            "children":["summary-totalizers"]
+          },
+          "checkout-summary.compact": {
+            "title":"checkout summary compact",
+            "props": {
+              "totalizersToShow": ["Items"]
+            }
+          },
+          "summary-totalizers": {
+            "title":"totales ",
+            "props": {
+              "showTotal": false,
+              "showDeliveryTotal": false,
+              "showOriginalTotal": false
+            }
+          },
+
         "rich-text#promo": {
             "title": "texto promo  minicart",
             "props": {
@@ -156,8 +203,11 @@
             }
         },
         "minicart-checkout-button": {
+            "title":"minicart checkout button",
             "props": {
-                "text": "ir al carrito"
+                "text": "ir al carrito",
+                "label":"ir al carrito",
+                "blockClass":"button-minicart"
             }
         }
     }

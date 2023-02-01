@@ -3,4 +3,6 @@
 }
 .flexColChild--summary-departament :global(.vtex-product-summary-2-x-productBrand ){
     font-weight: 200;
+    font-size: 18px;
+    text-transform: capitalize;
 }

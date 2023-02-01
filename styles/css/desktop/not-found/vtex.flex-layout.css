@@ -1,0 +1,26 @@
+.flexRowContent--contenedor-not-found .stretchChildrenWidth{
+width: fit-content!important;
+}
+   
+.flexRowContent--contenedor-not-found-phone :global(.vtex-flex-layout-0-x-flexCol){
+    justify-content: center;
+    align-items: center;
+}
+.flexRowContent--contenedor-not-found-phone :global(.vtex-rich-text-0-x-container){
+    text-align: center;
+}
+.flexRowContent--contenedor-not-found{
+    border-bottom: 1px solid #3333;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.flexCol--columna-not-found{
+    gap: 10px;
+}
+.flexRowContent--banner-not-found :global(.vtex-store-components-3-x-imageElement){
+
+    display: flex;
+    height: 88px;
+    object-fit: cover;
+}

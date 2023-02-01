@@ -3,7 +3,7 @@ gap: 20px;
 }
 
 .flexRow--flex-departament-results  :global(.vtex-product-summary-2-x-element) :global(.vtex-product-price-1-x-sellingPrice){
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 600;
     }
    
@@ -75,3 +75,24 @@ padding-bottom: 5px;
 .flexRowContent--botones-cuenta{
     gap: 11px;
 }
+.flexColChild--columna-info :global(.vtex-product-list-0-x-productName){
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+}
+.flexRowContent--minicart-vacio .flexColChild{
+padding: 0px;
+}
+.flexRowContent--minicart-vacio {
+    padding-left: 15px;
+
+}
+.flexRowContent--grupo-iconos :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    border-right: 1px solid #666;
+}
+.flexRowContent--grupo-iconos{
+    gap: 8px;
+}
+
