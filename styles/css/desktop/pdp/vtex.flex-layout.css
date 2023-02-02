@@ -160,3 +160,7 @@ margin-bottom: 0;
 .flexRowContent--banner-cmr :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
 justify-content: flex-start;
 }
+.flexCol--info-data-pdp :global(.vtex-store-components-3-x-productBrandName){
+    text-decoration: underline;
+    color: #3f3f40;
+}

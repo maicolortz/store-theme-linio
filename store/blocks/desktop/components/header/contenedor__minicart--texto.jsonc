@@ -1,7 +1,8 @@
 {
     "flex-layout.row#minicart-texto":{
         "title":"minicart + texto",
-        "children":["minicart.v2#minicart","rich-text#carrito" ]
+        "children":["minicart.v2#minicart","rich-text#carrito" ],
+        "props":{"blockClass":"minicart-desktop"}
     },
     "rich-text#carrito": {
         "title": "texto de pedidos",
@@ -10,7 +11,7 @@
           "textPosition": "CENTER",
           "text": "carrito",
           "textColor": "c-on-emphasis",
-          "blockClass": "help-message",
+          "blockClass": "texto-carrito",
           "font": "t-small"
         }
       }
