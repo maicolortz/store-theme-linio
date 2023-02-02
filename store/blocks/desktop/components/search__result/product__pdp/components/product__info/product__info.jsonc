@@ -41,17 +41,10 @@
             "disclosure-layout#shipping",
             "flex-layout.row#add-cart__quantity",
             "share"
-           
-/*             "vtex.store-components:product-brand",
-        
-           /*  "rich-text#product__promo-info", */
-            /* "product-add-to-list-button", */
-           /*  "product-description", */
-           /*  "product-details" */
-        ]
-        /* "props":{
-            "width":"35%"
-        } */
+        ],
+        "props":{
+            "blockClass":"info-data-pdp"
+        }
     },
   
 

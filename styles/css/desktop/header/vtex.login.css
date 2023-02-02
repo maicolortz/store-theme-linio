@@ -4,3 +4,6 @@
 .container{
     border-right: 0px;
 } 
+.profile{
+    text-transform: capitalize;
+}
