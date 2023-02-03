@@ -1,0 +1,13 @@
+{
+    "whatsapp-button":{
+        "title":"boton de whatsapp",
+        "props":{
+          "logo":"assets/img/iconos/whatsapp.png",
+         "phone":"7777777",
+         "message":"VTEX U RLZ",
+         "height":50,
+         "width":50
+        }
+    
+      }
+}
