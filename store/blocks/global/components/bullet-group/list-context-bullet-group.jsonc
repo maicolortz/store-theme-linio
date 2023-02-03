@@ -1,0 +1,14 @@
+{
+    "list-context.bullet-group":{
+        "title":"bullet group",
+        "props":{
+          "bullets":{
+            "image":"miimagen.png",
+            "titleBullet":"mi computador",
+            "link":{
+              "url":"/"
+            }
+          }
+        }
+      }
+}
