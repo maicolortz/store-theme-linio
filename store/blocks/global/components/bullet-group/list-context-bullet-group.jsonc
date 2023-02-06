@@ -1,14 +1,54 @@
 {
-    "list-context.bullet-group":{
+  "flex-layout.row#bullets":{
+    "title":"bullets row",
+    "children":["list-context.bullet-group"]
+  },
+  "list-context.bullet-group":{
         "title":"bullet group",
+        "children":["slider-layout#bullet-group"],
         "props":{
-          "bullets":{
-            "image":"miimagen.png",
+          "bullets":[{
+            "image":"assets/img/home/belleza-salud/belleza-salud2.jpeg",
             "titleBullet":"mi computador",
             "link":{
               "url":"/"
             }
-          }
+          },{
+            "image":"assets/img/home/belleza-salud/belleza-salud2.jpeg",
+            "titleBullet":"Ropa",
+            "link":{
+              "url":"/"
+            }
+          },{
+            "image":"assets/img/home/belleza-salud/belleza-salud2.jpeg",
+            "titleBullet":"Ropa",
+            "link":{
+              "url":"/"
+            }
+          },{
+            "image":"assets/img/home/belleza-salud/belleza-salud2.jpeg",
+            "titleBullet":"Ropa",
+            "link":{
+              "url":"/"
+            }
+          },{
+            "image":"assets/img/home/belleza-salud/belleza-salud2.jpeg",
+            "titleBullet":"Ropa",
+            "link":{
+              "url":"/"
+            }
+          }]
+        }
+      },
+      "slider-layout#bullet-group":{
+        "title":"slider bullet group",
+        "props":{
+          "itemsPerPage":{
+            "desktop":3,
+            "tablet":2,
+            "mobile":1
+          },
+          "infinite":true
         }
       }
 }
