@@ -34,12 +34,15 @@
       "flex-layout.row#home__banner-app",
       "flex-layout.row#home__section_informacion-linio",
       "whatsapp-button",
-      "list-context.bullet-group"
+      "flex-layout.row#bullets"
+      
         ],
     "props": {
       "blockClass":"home__global"
     }
   }
+  
+
   
   
 }
