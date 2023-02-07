@@ -1,0 +1,26 @@
+
+
+.container--modal-add-to-cart-info .headerContainer{
+
+    height: 19px;
+    border: 0px;
+
+}
+.container--modal-add-to-cart-info .closeIcon{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 2px;
+}
+.container--modal-add-to-cart-info{
+
+    height: fit-content;
+    max-width: 650px;
+    justify-content: center;
+    margin: auto;
+}
+.modal--modal-add-to-cart-info{
+    position: fixed;
+    inset: 0px;
+    z-index: 1300;
+    top: 384px;
+}

@@ -40,7 +40,8 @@
             "product-price",
             "disclosure-layout#shipping",
             "flex-layout.row#add-cart__quantity",
-            "share"
+            "share",
+            "modal-trigger#add-to-cart-info"
         ],
         "props":{
             "blockClass":"info-data-pdp"
