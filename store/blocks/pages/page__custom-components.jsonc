@@ -1,0 +1,30 @@
+{
+    "store.custom#custom__components": {
+        "title": "componentes custom",
+        "children": [
+            "flex-layout.row#custom__components--container"
+        ]
+    },
+    "flex-layout.row#custom__components--container":{
+        "title":"container custom components",
+        "children":["flex-layout.col#custom__components--container"],
+        "props":{
+            "blockClass":"container-custom"
+        }
+    },
+    "flex-layout.col#custom__components--container":{
+        "title":"container col custom components",
+        "children":["flex-layout.row#departmen-search"]
+    },
+
+    "flex-layout.row#departmen-search":{
+        "title":"flex row department search",
+        "children":["department-search"],
+        "props":{
+            "blockClass":"layout-department-search"
+        }
+    },
+    "department-search": {
+        "title": "search departament"
+    }
+}
