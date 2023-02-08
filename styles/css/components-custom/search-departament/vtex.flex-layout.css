@@ -1,0 +1,9 @@
+.flexRowContent--layout-department-search .select{
+    height: fit-content;
+    padding: 9px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+.flexRowContent--container-custom{
+    min-height:400px ;
+}
