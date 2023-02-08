@@ -14,7 +14,8 @@
     },
     "flex-layout.col#custom__components--container":{
         "title":"container col custom components",
-        "children":["flex-layout.row#departmen-search"]
+        "children":["flex-layout.row#departmen-search",
+    "pdf-reader"]
     },
 
     "flex-layout.row#departmen-search":{
@@ -26,5 +27,13 @@
     },
     "department-search": {
         "title": "search departament"
+    },
+    "pdf-reader":{
+        "title":"pdf reader",
+        "props":{
+            "pdfUrl":"assets/documents/codigo__limpio.pdf",
+            "width":500,
+            "height":700
+        }
     }
 }
