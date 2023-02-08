@@ -1,0 +1,15 @@
+.select{
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+
+}
+.options{
+
+}
+.container{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

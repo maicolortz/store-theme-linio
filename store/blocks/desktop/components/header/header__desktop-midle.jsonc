@@ -8,10 +8,10 @@
       "logo#desktop",
       "header-spacer",
       "search-bar#header__midle",
-      "login",
+      "login", 
       "flex-layout.row#pedidos",
       "flex-layout.row#minicart-texto",
-      "overlay-trigger"
+      "overlay-trigger" 
 
      /*  "icon#truck" */
       
