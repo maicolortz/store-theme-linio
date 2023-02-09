@@ -1,0 +1,59 @@
+{
+    "flex-layout.row#custom-grid":{
+        "title":"flex custom grid",
+        "children":["custom-grid"],
+        "props":{
+            "blockClass":"flex-custom-grid"
+        }
+    },
+
+    "custom-grid":{
+        "title":"custom grid",
+        "children":[
+            "rich-text#custom-grid-1",
+            "rich-text#custom-grid-2",
+            "rich-text#custom-grid-3",
+            "rich-text#custom-grid-4"
+
+        ]
+    },
+    "rich-text#custom-grid-1":{
+        "title":"text custom grid 1",
+        "props":{
+            "text":"Grilla Numero 1",
+            "font":"t-heading-5",
+            "textColor":"c-on-white-025",
+            "textPosition":"CENTER"
+        }
+    },
+    "rich-text#custom-grid-2":{
+        "title":"text custom grid 2",
+        "props":{
+            "text":"Grilla Numero 2",
+            "font":"t-heading-5",
+            "textColor":"c-on-white-025",
+            "textPosition":"CENTER"
+        }
+    },
+ 
+    "rich-text#custom-grid-3":{
+        "title":"text custom grid 3",
+        "props":{
+            "text":"Grilla Numero 3",
+            "font":"t-heading-5",
+            "textColor":"c-on-white-025",
+            "textPosition":"CENTER"
+        }
+    },
+    "rich-text#custom-grid-4":{
+        "title":"text custom grid 4",
+        "props":{
+            "text":"Grilla Numero 4",
+            "font":"t-heading-5",
+            "textColor":"c-on-white-025",
+            "textPosition":"CENTER"
+        }
+    }
+
+
+}
