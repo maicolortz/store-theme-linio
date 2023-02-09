@@ -17,8 +17,10 @@
     "flex-layout.col#custom__components--container": {
         "title": "container col custom components",
         "children": [
+            
             "flex-layout.row#departmen-search",
-            "flex-layout.row#components_section--2"
+            "flex-layout.row#components_section--2",
+            "flex-layout.row#custom-grid"
         ]
     },
     "flex-layout.row#components_section--2":{
