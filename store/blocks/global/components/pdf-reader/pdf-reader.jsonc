@@ -1,0 +1,10 @@
+{
+    "pdf-reader":{
+        "title":"pdf reader",
+        "props":{
+            "pdfUrl":"assets/documents/codigo__limpio.pdf",
+            "width":500,
+            "height":700
+        }
+    }
+}
