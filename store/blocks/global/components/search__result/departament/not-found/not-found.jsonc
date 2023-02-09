@@ -1,7 +1,22 @@
 {
+    "store.not-found":{
+        "title":"store not found",
+        "children":["search-not-found-layout"]
+    },
+    "store.not-found#search":{
+        "title":"store not found search",
+        "children":["search-not-found-layout"]
+    },
+    
+    "store.not-found#product":{
+    "title":"store not found product ",
+    "children":["search-not-found-layout"]
+
+    },
     "search-not-found-layout":{
         "title": "store search desktop",
         "children": [
+        
             "responsive-layout.phone#contenedor__not-found",
             "responsive-layout.tablet#contenedor__not-found",
             "responsive-layout.desktop#contenedor__not-found",
@@ -64,11 +79,13 @@
     },
     "flex-layout.row#lupa__texto":{
         "title":"lupa y texto",
-        "children":["icon#lupa-naranja","rich-text#not-found"],
+        "children":["icon#lupa-naranja","rich-text#not-found","breadcrumb.search"	],
         "props":{
             "blockClass":"lupa__texto"
         }
     },
+
+  
     "rich-text#not-found":{
         "title":"no encontrado",
         "props":{"text":"**Nuestro gurú de compras no encontró resultados para**",
