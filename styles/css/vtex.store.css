@@ -339,13 +339,17 @@ color: #ffff;
   transform: scale(1.1);
  
 }
+:global(.vtex-search-result-3-x-container--layout) :global(.vtex-product-summary-2-x-containerNormal):hover {
+transform: scale(1);
+}
+
 /*estoy buscando dentro del container de summary  la clase del button*/
 :global(.vtex-product-summary-2-x-containerNormal):hover :global(.vtex-flex-layout-0-x-flexRowContent--button-cart):first-child :first-child{
 visibility: visible;
 }
 /*clase del buton de compra*/
 
-:global(.vtex-flex-layout-0-x-flexRowContent--button-cart) :first-child{
+:global(.vtex-flex-layout-0-x-flexRowContent--button-cart) :global(.vtex-button){
 background-color: orangered;
 border: 0px;
 width: 90%;

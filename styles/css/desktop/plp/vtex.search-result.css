@@ -21,3 +21,6 @@
     text-transform: capitalize;
     font-size: 18px!important;
   }
+  .filter__container--title{
+    display: none;
+  }
