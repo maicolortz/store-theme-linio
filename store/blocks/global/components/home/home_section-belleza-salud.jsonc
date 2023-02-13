@@ -70,7 +70,9 @@
             "image#home__section--belleza-salud-three"
         ],
         "props": {
-            "blockClass": "home__section__belleza-salud--images_dos"
+            "blockClass": "home__section__belleza-salud--images_dos",
+            "preserveLayoutOnMobile":true
+
         }
     },
     "image#home__section--belleza-salud-two": {

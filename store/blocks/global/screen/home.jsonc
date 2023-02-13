@@ -32,6 +32,7 @@
       "flex-layout.row#home__section-belleza-salud",
       "flex-layout.row#home__banner-falabella",
       "flex-layout.row#home__banner-app",
+
       "flex-layout.row#home__section_informacion-linio",
       "whatsapp-button",
       "flex-layout.row#bullets"
@@ -41,8 +42,5 @@
       "blockClass":"home__global"
     }
   }
-  
 
-  
-  
 }
