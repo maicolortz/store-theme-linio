@@ -89,12 +89,11 @@ padding: 0px;
     padding-left: 15px;
 
 }
-.flexRowContent--grupo-iconos :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
-    border-right: 1px solid #666;
-}
-.flexRowContent--grupo-iconos{
+
+.flexRowContent--grupo-iconos {
     gap: 8px;
 }
+
 
 .flexRowContent--links-section-uno{
     padding-left: 48px;
@@ -102,4 +101,6 @@ padding: 0px;
 .flexRowContent--mis-pedidos :global(.vtex-rich-text-0-x-wrapper--help-message){
     text-transform: capitalize;
 }
-
+.flexRowContent--row-section-desktop-iconos  :global(.vtex-flex-layout-0-x-flexCol){
+    gap: 10px;
+} 
