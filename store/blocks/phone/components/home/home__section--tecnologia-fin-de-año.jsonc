@@ -8,7 +8,8 @@
             "rowGap": 2,
             "colGap": 2,
             "width": "70%",
-            "marginTop": 2
+            "marginTop": 2,
+            "preserveLayoutOnMobile":true
         }
     },
     "flex-layout.col#home__tecnologia-fin": {
@@ -61,7 +62,9 @@
     "flex-layout.row#home__section__tecnologia--images_dos":{
         "title": "Container images tecnologia dos",
         "children": ["image#home__section--tecnologia-two","image#home__section--tecnologia-three"],
-        "props": {"blockClass": "home__section__tecnologia--images_dos"}
+        "props": {"blockClass": "home__section__tecnologia--images_dos",
+        "preserveLayoutOnMobile":true
+    }
     },
     "image#home__section--tecnologia-two":{
         "title": "imagen tecnologia one",
