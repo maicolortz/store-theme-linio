@@ -10,3 +10,11 @@ width: 100px;
 .paginationDotsContainer--slider-vitrina{
     display: none;
 }
+
+.caretIcon--slider-vitrina{
+    background-color: white;
+    height: 16px;
+    width: 16px;
+    padding: 10px;
+    border-radius: 50%;
+}

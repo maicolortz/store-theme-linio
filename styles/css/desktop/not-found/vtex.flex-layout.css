@@ -30,3 +30,11 @@ display: none;
 .flexRowContent--lupa__texto  :global(.vtex-breadcrumb-1-x-container){
 padding: 0px;
 }
+.flexRowContent--lupa__texto  :global(.vtex-breadcrumb-1-x-link--1){
+
+    color: #333;
+    font-weight: 600;
+} 
+.flexRowContent--lupa__texto  :global(.vtex-breadcrumb-1-x-caretIcon){
+    display: none;
+}
