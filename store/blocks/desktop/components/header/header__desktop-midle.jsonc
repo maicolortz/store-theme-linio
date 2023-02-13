@@ -2,8 +2,7 @@
   "header-row#1-desktop__midle": {
     "title": "flex header desktop",
     "children": [
-      /* "flex-layout.row#mega-menu",
-      "flex-layout.row#4-desktop", */
+
       "drawer#header__desktop-menu",
       "logo#desktop",
       "header-spacer",
@@ -13,7 +12,6 @@
       "flex-layout.row#minicart-texto",
       "overlay-trigger" 
 
-     /*  "icon#truck" */
       
     ],
     "props": {
@@ -25,7 +23,6 @@
 
 
 
-  ///////pedidos
   "flex-layout.row#pedidos": {
     "title":"flex pedidos",
     "children": [
@@ -42,15 +39,10 @@
     "title":"imagen pedidos header",
     "props": {
       "src":"assets/img/iconos/truck40.svg",
-      "maxHeight": 40      
+      "maxHeight": 32      
     }
   },
- /*  "icon#truck":{
-    "props":{
-      "id":"hpa-search",
-      "size":40
-    }
-  }, */
+ 
   "rich-text#pedidos": {
     "title": "texto de pedidos",
     "props": {
@@ -62,20 +54,14 @@
       "font": "t-small"
     }
   },
-  /////////////////search bar
   "search-bar#header__midle": {
     "title": "search bar",
     "props": {
       "placeholder": "Busca productos ",
       "maxWidth": "400"
-    } /* ,
-    "blocks": [
-      "autocomplete-result-list"
-    ] */
+    } 
   },
-  /*   "autocomplete-result-list":{
-"blocks":["product-summary"]
-  }, */
+
   "icon#search-bar": {
     "title":"icono bar busqueda"
   },
@@ -94,7 +80,6 @@
   },
  
 
-  /////////////////////
   "logo#desktop": {
     "title":"logo desktop linio",
     "props": {
