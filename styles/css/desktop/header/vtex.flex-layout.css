@@ -96,3 +96,10 @@ padding: 0px;
     gap: 8px;
 }
 
+.flexRowContent--links-section-uno{
+    padding-left: 48px;
+}
+.flexRowContent--mis-pedidos :global(.vtex-rich-text-0-x-wrapper--help-message){
+    text-transform: capitalize;
+}
+

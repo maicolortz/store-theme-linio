@@ -1,0 +1,139 @@
+{
+    "store.product": {
+        "title":"store product",
+        "children": [
+            "responsive-layout.desktop#page__product",
+            "responsive-layout.tablet#page__product",
+            "responsive-layout.phone#page__product"
+   
+        ]
+    },
+    "responsive-layout.desktop#page__product":{
+        "title":"responsive page product",
+        "children":["flex-layout.row#cotnainer__store-product"]
+    },
+    "responsive-layout.tablet#page__product":{
+        "title":"responsive page product tablet",
+        "children":[ "flex-layout.row#cotnainer__store-product--tablet"]
+    },
+    "responsive-layout.phone#page__product":{
+        "title":"responsive page product phone",
+        "children":[ "flex-layout.row#cotnainer__store-product--tablet"]
+       
+    },
+    "flex-layout.row#cotnainer__store-product--phone":{
+        "title":"container store-rpoduct-phone"
+    },
+
+    "flex-layout.row#cotnainer__store-product--tablet": {
+        "title": "contenedor-row store product--tablet",
+        "children": [
+            "flex-layout.col#cotnainer__store-product--tablet"
+        ],
+        "props": {
+            "blockClass": "store-product",
+            "preserveLayoutOnMobile":true,
+            "layout":"desktop"
+        }
+    },
+    "flex-layout.col#cotnainer__store-product--tablet": {
+        "title": "contenedor-row store product--tablet",
+        "children": [
+            "flex-layout.row#product__breadcrumb",
+            "flex-layout.col#product__info--image",
+            "flex-layout.col#product__info--data",
+            "disclosure-layout#caracteristicas__destacadas",
+            "disclosure-layout#detalle__producto",
+            "disclosure-layout#reseñas__producto",
+            "flex-layout.row#banner__cmr",
+            "flex-layout.row#universo__productos",
+            "flex-layout.row#enviado__vendido",
+            "flex-layout.row#proteccion__comprador",
+           /*  "flex-layout.row#product__tabs" */
+           "flex-layout.row#vitrina__list-context--product",
+           "flex-layout.row#vitrina__list-context--promocionados"
+        ],
+        "props":{
+            "blockClass":"store-product-tablet",
+            "preserveLayoutOnMobile":true
+            
+        }
+    },
+
+    "flex-layout.row#cotnainer__store-product": {
+        "title": "contenedor-row store product",
+        "children": [
+            "flex-layout.col#cotnainer__store-product"
+        ],
+        "props": {
+            "blockClass": "store-product",
+            "preserveLayoutOnMobile":true,
+            "layout":"desktop"
+        }
+    },
+    "flex-layout.col#cotnainer__store-product": {
+        "title": "contenedor-row store product",
+        "children": [
+            "flex-layout.row#product__breadcrumb",
+            "flex-layout.row#product__info",
+           /*  "flex-layout.row#product__tabs" */
+           "flex-layout.row#product__disclosures-falabella",
+           "flex-layout.row#vitrina__list-context--product",
+           "flex-layout.row#vitrina__list-context--promocionados"
+        ]
+    },
+    //vitrina productos relacionados
+    "flex-layout.row#vitrina__list-context--product":{
+        "title":"row vitrina product",
+        "children":[ "flex-layout.col#vitrina__list-context--product"],
+        "props":{
+            "marginTop":8
+        }
+    
+      },
+      "flex-layout.col#vitrina__list-context--product":{
+        "title":"col vitrina list-context--product",
+        "children":[ "rich-text#productos__relacionados", "list-context.product-list#demo1"],
+        "props":{
+            "rowGap":7
+        }
+      },
+    
+    "rich-text#productos__relacionados":{
+        "title":"texto destacados vitrinas",
+        "props":{
+          "text":"**MEJORES PRODUCTOS RELACIONADOS**",
+          "font": "t-heading-6",
+          "blockClass":"texto-vitrinas"
+
+        }
+      },
+      //-----------productos promocionados
+      "flex-layout.row#vitrina__list-context--promocionados":{
+        "title":"row vitrina product",
+        "children":[ "flex-layout.col#vitrina__list-context--product--promocionados"],
+        "props":{
+            "marginTop":8
+        }
+    
+      },
+      "flex-layout.col#vitrina__list-context--product--promocionados":{
+        "title":"col vitrina list-context--product--promocionados",
+        "children":[ "rich-text#productos__promocionados", "list-context.product-list#demo1"],
+        "props":{
+            "rowGap":7,
+            "blockClass":"col-vitrinas"
+        }
+      },
+    
+      "rich-text#productos__promocionados":{
+        "title":"texto destacados vitrinas",
+        "props":{
+          "text":"**PRODUCTOS PROMOCIONADOS RELACIONADOS CON ESTE ARTÍCULO**",
+          "font": "t-heading-6",
+          "blockClass":"texto-vitrinas"
+
+         
+        }
+      }
+}

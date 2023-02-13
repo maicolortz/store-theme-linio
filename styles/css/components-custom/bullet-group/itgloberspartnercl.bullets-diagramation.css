@@ -1,0 +1,18 @@
+.bullet__item--image{
+width: 200px;
+}
+.bullet__item--title{
+    color: var(--main-text-color);
+}
+.bullet__item--title{
+    color: #333;
+}
+.bullet__item--price{
+    color: #ea2840;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+}
+.bullet__item{
+    margin-right: 10px;
+}

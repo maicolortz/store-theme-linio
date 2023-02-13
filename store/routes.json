@@ -1,5 +1,9 @@
 {"store.custom#ayuda":{
     "title":"custom page minicart",
         "path":"/sp/preguntas-frecuentes"
+    },
+    "store.custom#custom__components":{
+        "title":"custom page components custom",
+        "path":"/custom"
     }
 }

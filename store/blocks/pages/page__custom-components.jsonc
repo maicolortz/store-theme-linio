@@ -1,0 +1,31 @@
+{
+    "store.custom#custom__components": {
+        "title": "componentes custom",
+        "children": [
+            "flex-layout.row#custom__components--container"
+        ]
+    },
+    "flex-layout.row#custom__components--container": {
+        "title": "container custom components",
+        "children": [
+            "flex-layout.col#custom__components--container"
+        ],
+        "props": {
+            "blockClass": "container-custom"
+        }
+    },
+    "flex-layout.col#custom__components--container": {
+        "title": "container col custom components",
+        "children": [
+            
+            "flex-layout.row#departmen-search",
+            "flex-layout.row#components_section--2",
+            "flex-layout.row#custom-grid"
+        ]
+    },
+    "flex-layout.row#components_section--2":{
+        "title":"componentes section 2",
+        "children":[ "pdf-reader",
+        "quick-order"]
+    }
+}

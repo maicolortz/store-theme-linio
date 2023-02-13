@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#bullets": {
+    "title": "bullets row",
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "list-context.bullet-group": {
+    "title": "bullet group",
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet-group-recomendados/swich1.jpg",
+          "titleBullet": "Audifonos Bluetooth Lenovo HE05",
+          "price": 120000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group-recomendados/swich2.jpg",
+          "titleBullet": "Audifonos Lenovo HE05 BLUETTOH",
+          "price": 220000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group-recomendados/swich3.jpg",
+          "titleBullet": "PORTATIL HP 240 G8 INTEL CELERON N4020",
+          "price": 425000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group-recomendados/swich4.jpg",
+          "titleBullet": "Plancha Alisadora Aguacate Macadamia",
+          "price": 320000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group-recomendados/swich5.jpg",
+          "titleBullet": "Kit Pulidor De Uñas Electrico Drill",
+          "price": 780000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group-recomendados/swich6.jpg",
+          "titleBullet": "Plancha Alisadora Cabello 2094 Nano",
+          "price": 580000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group-recomendados/swich7.jpg",
+          "titleBullet": "Plancha Alisadora REMINGTON S7740",
+          "price": 320000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group-recomendados/swich8.jpg",
+          "titleBullet": "Plancha Alisadora REMINGTON S85510",
+          "price": 300020,
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }
+}

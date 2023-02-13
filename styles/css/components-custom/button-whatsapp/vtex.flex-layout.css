@@ -1,0 +1,4 @@
+.flexColChild--home__global :global(.vtex-flex-layout-whatsapp-button):hover{
+    transform: scale(1.2);
+
+}

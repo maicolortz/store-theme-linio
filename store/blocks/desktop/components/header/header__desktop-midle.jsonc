@@ -8,10 +8,10 @@
       "logo#desktop",
       "header-spacer",
       "search-bar#header__midle",
-      "login",
+      "login", 
       "flex-layout.row#pedidos",
       "flex-layout.row#minicart-texto",
-      "overlay-trigger"
+      "overlay-trigger" 
 
      /*  "icon#truck" */
       
@@ -36,8 +36,7 @@
       "preventVerticalStretch": true,
       "preventHorizontalStretch": true,
       "blockClass": "mis-pedidos",
-      "width": "100"
-    }
+      "width": "100"    }
   },
   "image#pedidos": {
     "title":"imagen pedidos header",

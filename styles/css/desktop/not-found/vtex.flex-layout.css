@@ -24,3 +24,9 @@ width: fit-content!important;
     height: 88px;
     object-fit: cover;
 }
+.flexRowContent--lupa__texto :global(.vtex-breadcrumb-1-x-homeIcon){
+display: none;
+}
+.flexRowContent--lupa__texto  :global(.vtex-breadcrumb-1-x-container){
+padding: 0px;
+}

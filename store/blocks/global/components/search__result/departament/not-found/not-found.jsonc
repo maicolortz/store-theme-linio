@@ -1,0 +1,131 @@
+{
+    "store.not-found":{
+        "title":"store not found",
+        "children":["search-not-found-layout"]
+    },
+    "store.not-found#search":{
+        "title":"store not found search",
+        "children":["search-not-found-layout"]
+    },
+    
+    "store.not-found#product":{
+    "title":"store not found product ",
+    "children":["search-not-found-layout"]
+
+    },
+    "search-not-found-layout":{
+        "title": "store search desktop",
+        "children": [
+        
+            "responsive-layout.phone#contenedor__not-found",
+            "responsive-layout.tablet#contenedor__not-found",
+            "responsive-layout.desktop#contenedor__not-found",
+
+            "flex-layout.row#vitrina__mientras-te-invitamos",
+            "flex-layout.row#home__section-categorias",
+            "flex-layout.row#banner-not-found"
+            
+        ]
+    } ,
+    //---------------mensaje not found
+    "responsive-layout.phone#contenedor__not-found":{
+        "title":"responsive not found en phone",
+        "children":[ "flex-layout.row#contenedor__not--found#phone"],
+        "props":{
+            "blockClass":"PHONE-NOT-FOUND"
+        }
+    },
+    "flex-layout.row#contenedor__not--found#phone":{
+        "title":"contenedor not found phone",
+        "children":[ 
+            "flex-layout.col#contenedor__not--found"],
+        "props":{
+            "blockClass":"contenedor-not-found-phone",
+            "colGap":3
+        }
+    },
+    "responsive-layout.tablet#contenedor__not-found":{
+        "title":"respnsive tablet not found",
+        "children":["flex-layout.row#contenedor__not--found"]
+    },
+    "responsive-layout.desktop#contenedor__not-found":{
+        "title":"respnsive tablet not found",
+        "children":["flex-layout.row#contenedor__not--found"]
+    },
+    "flex-layout.row#contenedor__not--found":{
+        "title":"contenedor not found",
+        "children":[ 
+            "flex-layout.col#contenedor__not--found"],
+        "props":{
+            "blockClass":"contenedor-not-found",
+            "colGap":3
+        }
+    },
+
+    "flex-layout.col#contenedor__not--found":{
+        "title":"contenedor columna not found",
+        "children":[ "flex-layout.row#lupa__texto",
+        "rich-text#not-found2"
+    ],
+    "props":{"blockClass":"columna-not-found"}
+    },
+    "icon#lupa-naranja":{
+        "title":"lupa naranja",
+        "props":{
+            "id":"lupa",
+            "size":14,
+            "blockClass":"icono-lupa"
+        }
+    },
+    "flex-layout.row#lupa__texto":{
+        "title":"lupa y texto",
+        "children":["icon#lupa-naranja","rich-text#not-found","breadcrumb.search"	],
+        "props":{
+            "blockClass":"lupa__texto"
+        }
+    },
+
+  
+    "rich-text#not-found":{
+        "title":"no encontrado",
+        "props":{"text":"**Nuestro gurú de compras no encontró resultados para**",
+        "font":{ "desktop":"t-body"}
+    }
+    },
+    "rich-text#not-found2":{
+        "title":"no encontrado2",
+        "props":{"blockClass":"texto2","text":"Te recomendamos verificar la ortografía o intentar con otra palabra.",
+        "font":{ "desktop":"t-body"}
+    }
+    },
+   
+   
+    //-----------------------
+    "flex-layout.row#vitrina__mientras-te-invitamos":{
+        "title":"flex row mientras te invitamos",
+        "children":["flex-layout.col#vitrina__mientras-te-invitamos"]
+    },
+    "flex-layout.col#vitrina__mientras-te-invitamos":{
+        "title":"flex col mientras te invitamos",
+        "children":["rich-text#mientras-te-invitamos","list-context.product-list#demo1"]
+    },
+    "rich-text#mientras-te-invitamos":{
+        "title":"texto mientras te invitamos",
+        "props":{
+           "text":"**MIENTRAS, TE INVITAMOS A REVISAR NUESTRAS MEJORES CATEGORÍAS Y DESCUENTOS**"
+        }
+    },
+    "flex-layout.row#banner-not-found":{
+        "title":"banner not found",
+        "children":["image#banner-not-found"],
+        "props":{"blockClass":"banner-not-found"}
+
+    },
+    "image#banner-not-found":{
+        "title":"image banner not found",
+        "props":{
+            "src":"assets/img/not-found/solox24h.jpeg"
+        }
+    }
+
+}
