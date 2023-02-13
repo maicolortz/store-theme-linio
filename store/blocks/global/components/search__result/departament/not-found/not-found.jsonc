@@ -79,16 +79,21 @@
     },
     "flex-layout.row#lupa__texto":{
         "title":"lupa y texto",
-        "children":["icon#lupa-naranja","rich-text#not-found","breadcrumb.search"	],
+        "children":["icon#lupa-naranja","rich-text#not-found","breadcrumb.search#not-found"	],
         "props":{
             "blockClass":"lupa__texto"
         }
     },
-
+    "breadcrumb.search#not-found":{
+        "title":"breadcrum search not found",
+        "props":{
+            "showOnMobile":true
+        }
+    },
   
     "rich-text#not-found":{
         "title":"no encontrado",
-        "props":{"text":"**Nuestro gurú de compras no encontró resultados para**",
+        "props":{"text":"**Nuestro gurú de compras no encontró resultados para :**",
         "font":{ "desktop":"t-body"}
     }
     },

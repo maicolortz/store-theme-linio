@@ -13,7 +13,7 @@
     font-size: 18px;
   }
   .galleryItem--grid :global(.vtex-store-components-3-x-sellingPrice){
-    text-align: center;
+    text-align: start;
     font-size: 18px;
   }
   .gallery--list,.gallery--grid :global(.vtex-product-summary-2-x-productBrand){
@@ -24,3 +24,12 @@
   .filter__container--title{
     display: none;
   }
+  .galleryItem--list  :global(.vtex-reviews-and-ratings-3-x-inlineContainer){
+    margin-left: auto;
+  }
+  .orderByText--opcion-ordenamiento-mobile{
+
+    color: #333;
+  }
+   
+

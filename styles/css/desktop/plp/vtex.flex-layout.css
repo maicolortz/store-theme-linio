@@ -6,3 +6,8 @@
     font-size: 18px;
     text-transform: capitalize;
 }
+.flexColChild--summary-departament {
+    height: 100%;
+    text-align: start;
+    padding-left: 8px;
+}

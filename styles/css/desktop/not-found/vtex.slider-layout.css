@@ -1,0 +1,9 @@
+.slideChildrenContainer--slider-vitrina :global(.vtex-product-summary-2-x-brandName){
+    color: #333;
+    font-weight: 700;
+    height: 37px;
+    line-height: 1.13rem;
+    font-size: 16px;
+    overflow: hidden;
+    padding-bottom: 4px;
+}
