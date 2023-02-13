@@ -4,3 +4,9 @@ width: 200px;
 .flexRowContent--grupo-iconos{
     align-items: center;
 }
+.flexRow--row-image-pedidos{
+    width: 70px;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+
+}

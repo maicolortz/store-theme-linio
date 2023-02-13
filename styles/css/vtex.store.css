@@ -333,6 +333,10 @@ color: #ffff;
 :global(.vtex-flex-layout-0-x-flexRowContent--mis-pedidos){
   width: 150px;
   gap: 5px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 0 2px 0 2px;
+  justify-content: center;
 }
 /*hover del container de cada slider de productos*/
 :global(.vtex-product-summary-2-x-containerNormal):hover {

@@ -3,7 +3,7 @@
         "title": "grupo iconos header",
         "children": [
             "login#tablet",
-            "image#pedidos",
+            "flex-layout.col#image-pedidos",        
             "minicart.v2#minicart__page--custom"
         ],
         "props": {
@@ -11,6 +11,17 @@
             "colGap": 6,
             "borderWidth": 2,
             "borderColor": "red"
+        }
+    },
+    "flex-layout.col#image-pedidos":{
+        "title":"col image pedidos",
+        "children":["flex-layout.row#image-pedidos"]
+    },
+    "flex-layout.row#image-pedidos":{
+        "title":"col image pedidos",
+        "children":["image#pedidos"],
+        "props":{
+            "blockClass":"row-image-pedidos"
         }
     },
     "login#tablet": {

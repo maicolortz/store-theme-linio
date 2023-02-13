@@ -1,12 +1,10 @@
 .popupContentContainer{
-border-radius: 20px;
+border-radius: 8px;
 }
 .popupChildrenContainer{
-    border-radius: 20px;
+    border-radius: 8px;
 }
-
 .minicartCheckoutButton :global(.vtex-button){
-
     background: none;
     color: orangered;
     border: 0px;
