@@ -1,0 +1,10 @@
+.container--layout :global(.vtex-product-summary-2-x-containerNormal):hover {
+    transform: scale(1);
+}
+.gallery--list :global(.vtex-product-summary-2-x-element) {
+    flex-direction: row !important;
+      gap: 20px;
+}
+.galleryLayoutSwitcher{
+    justify-content: center;
+} 
