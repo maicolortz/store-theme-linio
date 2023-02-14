@@ -1,0 +1,58 @@
+@media (max-width: 1024px) {
+    :global(.vtex-store-components-3-x-imageElement--slider-imagen__categorias){
+      object-fit: cover;
+      height: 230px;
+     }
+   }
+  @media (max-width: 780px) {
+    
+    :global(.vtex-store-components-3-x-imageElement--home__banner-falabella){
+      object-fit: cover;
+      height: 160px;
+    }
+    :global(.vtex-store-components-3-x-imageElement--home__banner-app){
+      object-fit: cover;
+      height: 160px;
+    
+    }
+    /*section de tecnologia de fin de año*/
+    :global(.vtex-store-components-3-x-imageElement--home__section--tecnologia-one){
+      display: flex;
+      height: 160px;
+      object-fit: cover;
+    }
+    :global(.vtex-store-components-3-x-imageElement--home__section--belleza-salud-one){
+      display: flex;
+      height: 160px;
+      object-fit: cover;
+    }
+   }
+   @media (min-width: 780px) {
+      :global(.vtex-store-components-3-x-imageElement--home__section--tecnologia-one){
+        display: flex;
+        height: 20vw;
+        max-height: 220px;
+        object-fit: cover;
+      }
+      :global(.vtex-store-components-3-x-imageElement--home__section--belleza-salud-one){
+        display: flex;
+        height: 20vw;
+        max-height: 220px;
+        object-fit: cover;
+      }
+  
+   }
+  
+   :global(.vtex-store-components-3-x-imageElement--home__section-ofertas_2_one){
+     object-fit: cover;
+    height: 150px;
+  
+  }
+  @media (min-width: 640px) {
+      :global(.vtex-store-components-3-x-imageElement--home__section-ofertas_2_one){
+        object-fit: cover;
+        height: 15vw;
+        max-height: 180px;
+      }
+   }
+  

@@ -2,3 +2,17 @@
 
     width: 100%;
 }
+.containerNormal:hover {
+    transform: scale(1.1);
+   
+}
+.containerNormal:hover :global(.vtex-flex-layout-0-x-flexRowContent--button-cart):first-child :first-child{
+    visibility: visible;
+}
+.clearLink{
+    background-color: whitesmoke;
+  }
+.price_installmentContainer{
+
+    text-align: start;
+}

@@ -21,13 +21,39 @@
 }
 
 .flexCol--home__global{
- 
     margin: 0px auto;
     max-width: 1180px;
-
-
 }
 
 .flexColChild--home__global{
 height: 80%;
 }
+.flexRowContent--mis-pedidos{
+    width: 150px;
+    gap: 5px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 0 2px 0 2px;
+    justify-content: center;
+}
+.flexRowContent--button-cart :global(.vtex-button){
+    background-color: orangered;
+    border: 0px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0%;
+    font-size: 0.8rem;
+    visibility: hidden;
+}
+.flexRowContent--button-cart{
+    width: 150px;
+    justify-content: center;
+}
+.flexColChild--contenedor-menu-items :global(.vtex-menu-2-x-styledLinkContainer){
+    padding-top: 0%;
+}
+.flexRowContent--minicart-footer :global(.vtex-button){
+    background:none;
+    border: 0px;
+    color: orangered;
+  }

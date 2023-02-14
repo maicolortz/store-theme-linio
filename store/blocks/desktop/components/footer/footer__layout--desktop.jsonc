@@ -11,13 +11,9 @@
     "children":[  "newsletter-form#desktop",
       "flex-layout.row#metodos-pago-desktop",
       "flex-layout.row#footer__section-3-desktop",
-      /* "flex-layout.row#container__disclosure",
-   
-      "flex-layout.row#social-networks",
-      "flex-layout.row#apps-download",
-      "flex-layout.row#industria-comercio", */
+     
       "flex-layout.row#texto-derechos-reservados"
-      /* "disclosure-layout-group#group" */]
+      ]
   },
 
 

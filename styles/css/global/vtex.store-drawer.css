@@ -1,0 +1,23 @@
+.openIconContainer--header__mobile-menu{
+    color: #ffff;
+}
+.openIconContainer{
+  color:#ffff;
+    
+}
+.drawer--header__desktop-menu{  
+    /*   position: fixed; */
+    position: fixed;
+    left: max(0px,calc((100% - 1180px) / 2));
+    /*(100% - 1180px) / 2 */
+     top:65px;
+     margin: 0 auto;
+     height: 600px;
+     max-width: 800px!important ;
+}
+.drawerContent--header__desktop-menu {
+    max-height: max-content !important;
+}
+.closed {
+    visibility: hidden;
+  }
