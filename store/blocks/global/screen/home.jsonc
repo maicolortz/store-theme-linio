@@ -35,8 +35,9 @@
 
       "flex-layout.row#home__section_informacion-linio",
       "whatsapp-button",
-      "flex-layout.row#bullets"
-      
+      "flex-layout.row#bullets",
+      "modal-trigger#first-discount"
+
         ],
     "props": {
       "blockClass":"home__global"
