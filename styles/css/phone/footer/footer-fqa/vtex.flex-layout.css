@@ -23,8 +23,19 @@ border: 0px;
 font-size: 0.8rem;
 border-bottom:  1px solid #808080b3;
 }
-.flexColChild--grupo-disclosure :global(.vtex-disclosure-layout-1-x-trigger):first-child{
-    font-size: 0.8rem;
+.flexColChild--grupo-disclosure :global(.vtex-disclosure-layout-1-x-trigger):first-child:first-child{
+  color: #333;
+  font-size: .8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 12px;
+}
+.flexColChild--grupo-disclosure :global(.vtex-disclosure-layout-1-x-trigger):first-child:first-child :global(.vtex-rich-text-0-x-container){
+
+  color: #333;
+  font-size: .8rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 .flexRowContent--metodos-pago{
     display: flex;
@@ -66,5 +77,5 @@ background-color: rgba(255, 222, 173, 0);
 }
 .flexRow--section-3-columnas-tablet :global(.vtex-flex-layout-0-x-flexColChild){
     height: fit-content !important;
-    
+
 }
