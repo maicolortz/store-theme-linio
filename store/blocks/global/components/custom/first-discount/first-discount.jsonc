@@ -1,27 +1,11 @@
-{
+ {
   "first-discount": {
-    "title": "popup de primer descuento"
-  },
-  "modal-trigger#first-discount": {
-    "title": "modal layout discount",
-    "children": [
-      "rich-text#first-discount",
-      "modal-layout#first-discount"
-    ],
-    "props": {
-      "trigger": "load"
+    "title": "popup de primer descuento",
+    "props":{
+      "logoSrc":"assets/img/header/logo__header.png",
+      "bannerSrc":"assets/img/bullet-group-recomendados/swich5.jpg",
+      "titleDiscount":"Ofertas increibles que no te puedes perder",
+      "discount":50
     }
-  },
-  "rich-text#first-discount": {
-    "title": "modal layout discount",
-    "props": {
-      "text": "Click me"
-    }
-  },
-  "modal-layout#first-discount": {
-    "title": "modal layout discount",
-    "children": [
-      "first-discount"
-    ]
   }
 }
