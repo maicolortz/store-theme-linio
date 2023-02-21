@@ -1,5 +1,5 @@
 {
-    
+
         "newsletter-form#desktop": {
             "title": "newsletter desktop",
             "children": [
@@ -20,6 +20,6 @@
                 "newsletter-checkbox-confirmation"
                ]
         }
-       
-    
+
+
 }
